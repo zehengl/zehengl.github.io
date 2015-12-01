@@ -3,7 +3,8 @@ title: Zeheng Li
 email: imzehengl@gmail.com
 
 description: > #
- Zeheng Li's Blog
+ A Blog for Zeheng Li, powered by Jekyll and Github.
+ Progarmming/Research bits and pieces.
 
 baseurl: ""
 
@@ -11,6 +12,16 @@ url: "https://zehengl.github.io/"
 
 twitter_username: zehengl
 
-github_username:  zehengl
+github_username: zehengl
+
+instagram_username: zehengl
+
+linkedin_username: zehengl
+
+wechat_username: zehengl
+
+skype_username: zehengl
+
+facebook_username: zli4u
 
 markdown: kramdown

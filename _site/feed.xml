@@ -2,16 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zeheng Li</title>
-    <description>Zeheng Li&#39;s Blog
+    <description>A Blog for Zeheng Li, powered by Jekyll and Github. Progarmming/Research bits and pieces.
 </description>
     <link>https://zehengl.github.io//</link>
     <atom:link href="https://zehengl.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Nov 2015 22:11:57 -0700</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2015 22:11:57 -0700</lastBuildDate>
+    <pubDate>Mon, 30 Nov 2015 23:19:43 -0700</pubDate>
+    <lastBuildDate>Mon, 30 Nov 2015 23:19:43 -0700</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
-        <title>Hello World Jekyll!</title>
+        <title>Update on 2015/11/30</title>
+        <description>&lt;p&gt;I intent to use this blog to keep track of programming/research notes, bits and pieces. Following is a changelist of updates made tonight.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add multiple urls for other web identities (Instagram, Facebook, Linkedin, Wechat, Skype)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Update the icons for urls, credits: Field 5 Agata Kuczmińska, &lt;a href=&quot;http://iconfindr.com/1GAZv4g&quot;&gt;from iconfindr&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Update site description&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Include comment section for each post, powered by Disqus, &lt;a href=&quot;https://publishers.disqus.com/engage?utm_source=zehengl&amp;amp;utm_medium=Disqus-Footer&quot;&gt;See here&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 30 Nov 2015 22:20:10 -0700</pubDate>
+        <link>https://zehengl.github.io//2015/11/30/update-on-2015-11-30.html</link>
+        <guid isPermaLink="true">https://zehengl.github.io//2015/11/30/update-on-2015-11-30.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello World, Jekyll</title>
         <description>&lt;p&gt;Play around with Jekyll&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Nov 2015 21:42:10 -0700</pubDate>
