@@ -31,7 +31,6 @@
             {% include icon-instagram.html username=site.instagram_username %}
           </li>
           {% endif %}
-
           
           {% if site.facebook_username %}
           <li>
@@ -42,6 +41,24 @@
           {% if site.linkedin_username %}
           <li>
             {% include icon-linkedin.html username=site.linkedin_username %}
+          </li>
+          {% endif %}
+
+          {% if site.weibo_username %}
+          <li>
+            {% include icon-weibo.html username=site.weibo_username %}
+          </li>
+          {% endif %}
+
+          {% if site.renren_username %}
+          <li>
+            {% include icon-renren.html username=site.renren_username %}
+          </li>
+          {% endif %}
+
+          {% if site.youtube_username %}
+          <li>
+            {% include icon-youtube.html username=site.youtube_username %}
           </li>
           {% endif %}
           
@@ -56,6 +73,16 @@
             {% include icon-skype.html username=site.skype_username %}
           </li>
           {% endif %}
+
+          {% if site.qq_username %}
+          <li>
+            {% include icon-qq.html username=site.qq_username %}
+          </li>
+          {% endif %}
+
+
+
+
 
         </ul>
       </div>
