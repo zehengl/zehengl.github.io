@@ -2,34 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zeheng Li</title>
-    <description>A Blog for Zeheng Li, powered by Jekyll and Github. Progarmming/Research bits and pieces.
+    <description>A Blog for Zeheng Li, powered by Jekyll, Disqus, Google Analytics, and Github. Progarmming/Research bits and pieces.
 </description>
     <link>https://zehengl.github.io//</link>
     <atom:link href="https://zehengl.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Dec 2015 19:29:38 -0700</pubDate>
-    <lastBuildDate>Tue, 01 Dec 2015 19:29:38 -0700</lastBuildDate>
+    <pubDate>Sun, 06 Dec 2015 21:33:12 -0700</pubDate>
+    <lastBuildDate>Sun, 06 Dec 2015 21:33:12 -0700</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
-        <title>Update on 2015/11/30</title>
-        <description>&lt;p&gt;I intent to use this blog to keep track of programming/research notes, bits and pieces. Following is a changelist of updates made tonight.&lt;/p&gt;
+        <title>Agile Scrum Note 01</title>
+        <description>&lt;p&gt;I am working on an Agile Scrum certificate. Reading notes are as follows.&lt;/p&gt;
+
+&lt;h1 id=&quot;traditional-development&quot;&gt;Traditional Development&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Add multiple urls for other web identities (Instagram, Facebook, Linkedin, Wechat, Skype)&lt;/p&gt;
+    &lt;p&gt;Analysis&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Update the icons for urls, credits: Field 5 Agata Kuczmińska, &lt;a href=&quot;http://iconfindr.com/1GAZv4g&quot;&gt;from iconfindr&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;Design&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Coding&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Testing&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Deploy&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;logically sound but assumes predictability, diffcult to react to unforeseen changes&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;agile-manifesto&quot;&gt;Agile Manifesto&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Individuals and interactions over processes and tools&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Working software over comprehensive documentation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Customer collaboration over contract negotiation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Responding to change over following a plan&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;principles-behind-the-agile-manifesto&quot;&gt;Principles behind the Agile Manifesto&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Our highest priority is to satisfy the customer through early and continuous delivery of valuable software&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Business people and developers must work together daily during the project&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The most efficient and effective method of conveying information to and within a development team is face- to-face conversation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Working software is the primary measure of progress&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Agile processes promote sustainable development. Sponsors, developers, and users should be able to maintain a constant pace indefinitely&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Continuous attention to tech. excellence and good design enhances agility&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Simplicity (the art of maximizing the amount of work not done)is essential&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The best architectures, requirements, and designs emerge from self-organizing teams&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;apm-agile-project-management-framework&quot;&gt;APM (Agile Project Management) Framework&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Envision&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Determine the product vision and project scope, the project community, and how the team will work together&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Speculate&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Develop a feature-based release, milestone, and iteration plan to deliver on the vision&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Explore&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Deliver tested features in a short timeframe, constantly seeking to reduce the risk and uncertainty of the project&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Adapt&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Review the delivered results, the current situation, and the team’s performance, and adapt as necessary&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Close&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Conclude the project, pass along key learning’s, and celebrate&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;scrum&quot;&gt;Scrum&lt;/h1&gt;
+
+&lt;p&gt;a methodology for software development that adheres to Agile principles of &lt;em&gt;iterative&lt;/em&gt; and &lt;em&gt;incremental&lt;/em&gt; development&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Dec 2015 00:00:00 -0700</pubDate>
+        <link>https://zehengl.github.io//2015/12/06/agile-scrum-notes-01.html</link>
+        <guid isPermaLink="true">https://zehengl.github.io//2015/12/06/agile-scrum-notes-01.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Site Maintenance I</title>
+        <description>&lt;p&gt;I intent to use this blog to keep track of programming/research notes, bits and pieces.&lt;/p&gt;
+
+&lt;p&gt;Following is a changelist of updates made tonight.&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Update site description&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Include comment section for each post, powered by Disqus, &lt;a href=&quot;https://publishers.disqus.com/engage?utm_source=zehengl&amp;amp;utm_medium=Disqus-Footer&quot;&gt;See here&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;Add more urls for other web identities (Instagram, Facebook, Linkedin, Wechat, Skype, QQ, Sina Weibo, Renren)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Update the icons for urls, credits: Field 5 Agata Kuczmińska, &lt;a href=&quot;http://iconfindr.com/1GAZv4g&quot;&gt;See iconfindr&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Include comment section for each post, powered by Disqus, &lt;a href=&quot;https://publishers.disqus.com/engage?utm_source=zehengl&amp;amp;utm_medium=Disqus-Footer&quot;&gt;See Disqus&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Include site analytics, &lt;a href=&quot;https://www.google.ca/analytics/&quot;&gt;See Google Analytics&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 30 Nov 2015 22:20:10 -0700</pubDate>
+        <pubDate>Mon, 30 Nov 2015 00:00:00 -0700</pubDate>
         <link>https://zehengl.github.io//2015/11/30/update-on-2015-11-30.html</link>
         <guid isPermaLink="true">https://zehengl.github.io//2015/11/30/update-on-2015-11-30.html</guid>
         
@@ -40,7 +170,7 @@
         <title>Hello World, Jekyll</title>
         <description>&lt;p&gt;Play around with Jekyll&lt;/p&gt;
 </description>
-        <pubDate>Sun, 15 Nov 2015 21:42:10 -0700</pubDate>
+        <pubDate>Sun, 15 Nov 2015 00:00:00 -0700</pubDate>
         <link>https://zehengl.github.io//2015/11/15/hello-world-jekyll.html</link>
         <guid isPermaLink="true">https://zehengl.github.io//2015/11/15/hello-world-jekyll.html</guid>
         
