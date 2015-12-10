@@ -13,7 +13,7 @@ author: Zeheng Li
   * 7 principle
     - Frequent Delivery
     - Reflective Improvement
-    - Close(Osmotic)Communication
+    - Close(Osmotic) Communication
     - Personal Safety
     - Focus
     - Easy access to expert users
