@@ -4,7 +4,9 @@ title:  "Setup Your Site with Minimal Effort"
 date:   2015-12-10
 author: Zeheng Li
 ---
-Once up a time I had a domain and a hosting account on U.S. [GoDaddy](https://www.godaddy.com/), where a [WordPress](https://wordpress.org/) blog and a simple static site was hosted. I ended up paying $60~70 per year. Early this year I managed to remind myself to cancel the automatic renewal and stop wasting money. Since my site was no longer live, I looked for alternatives. If you google "create a free website", you can find options such as [WIX](http://www.wix.com/) and [Weebly](http://www.weebly.com/).
+Once upon a time I had a domain and a hosting account on U.S. [GoDaddy](https://www.godaddy.com/), where a [WordPress](https://wordpress.org/) blog and a simple static site was hosted. I ended up paying $60~70 annually. Early this year I managed to remind myself to cancel the automatic renewal and stop wasting money. Since my site was no longer live, I looked for alternatives. If you google "create a free website", you can find options such as [WIX](http://www.wix.com/) and [Weebly](http://www.weebly.com/).
+
+"I DON'T LIKE THEM"
 
 I prefer something minimal and hackable at the same time. That's the reason I decide to use Github and Jekyll, alongside with other ready-made tools such Disqus and Google Analytics to create this website.
 
@@ -58,9 +60,9 @@ s.setAttribute('data-timestamp', +new Date());
 
 It simply plugs and plays. In other words, create a **"comments.html"** within **"_includes"** folder, paste the code above, and {% raw %} {% include comments.html %} {% endraw %} wherever you want to display the comment section. In my case, it is placed in the layout of post, **"_layouts/post.html"**.
 
-# Add share buttons for social network
+# Add share buttons for social networks
 
-It's a good idea to put some share buttons just in case readers would like to promote your site. You only need to include few lines of code that is generated automatically by the social networks. 
+It's a good idea to put some share buttons that give readers easy access to promote your site. You only need to include few lines of code that are generated automatically by the social networks. 
 
 "LESS codes your write LESS bugs you will encounter"
 
@@ -75,7 +77,7 @@ FYI, here's the code I get and save to **"_includes/button_twitter.html"**.
 
 * [Linkedin share button][3]
 
-FYI, here's the code I get, modify to include the url of current page, and save to **"_includes/button_linkedin.html"**.
+FYI, here's the code I get, modify to include current page's URL, and save to **"_includes/button_linkedin.html"**.
   
 {% highlight html %} {% raw %}
 <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
@@ -86,13 +88,13 @@ FYI, here's the code I get, modify to include the url of current page, and save 
 
 Facebook asks you to include its JavaScript SDK on your page. Then you can place the plugin wherever you want the plugin to appear.
 
-I save the following code to **"_includes/button_facebook.html"**.
+First, I save the following code to **"_includes/button_facebook.html"**.
 
 {% highlight html %} {% raw %}
 <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button"></div>
 {% endraw %} {% endhighlight %} 
 
-And place the JavaScript SDK in **"_layouts/post.html"**.
+Second, place the JavaScript SDK in **"_layouts/post.html"**.
 
 *P.S.* In order to line up these 3 buttons horizontally, I have to put them in different containers and adjust the margins.
 
@@ -151,8 +153,6 @@ Finally, I want to enable [Google Analytics](https://www.google.com/analytics/) 
 
 I save the following code to **"_includes/google_analytics.html"** 
 
-and {% raw %} {% include google_analytics.html %} {% endraw %} in **"_layouts/default.html"**.
-
 {% highlight html %} {% raw %}
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -166,9 +166,11 @@ and {% raw %} {% include google_analytics.html %} {% endraw %} in **"_layouts/de
 </script>
 {% endraw %} {% endhighlight %}
 
+and {% raw %} {% include google_analytics.html %} {% endraw %} in **"_layouts/default.html"**.
+
 # One more thing
 
-You want Github to host your jekyll site. 
+You want Github to host your jekyll site. Following is pretty standard if you know git.
 
 {% highlight bash %}
 git init
@@ -180,9 +182,7 @@ git push origin master
 
 # THANKS FOR READING
 
-You can also checkout my site on Github:
-
-[https://github.com/zehengl/zehengl.github.io](https://github.com/zehengl/zehengl.github.io)
+You can also checkout my site on Github: [https://github.com/zehengl/zehengl.github.io](https://github.com/zehengl/zehengl.github.io)
 
 zehengl
 
