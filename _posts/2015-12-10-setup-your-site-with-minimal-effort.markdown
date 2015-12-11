@@ -84,6 +84,16 @@ FYI, here's the code I get, modify to include current page's URL, and save to **
 <script type="IN/Share" data-url="{{site.url}}{{page.url}}"></script>
 {% endraw %} {% endhighlight %}
 
+* [Google share button][4]
+
+FYI, here's the code I get and save to **"_includes/button_google.html"**.
+
+{% highlight html %} {% raw %}
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<g:plus action="share" height="20"></g:plus>
+{% endraw %} {% endhighlight %}
+
+
 * [Facebook share button][1]
 
 Facebook asks you to include its JavaScript SDK on your page. Then you can place the plugin wherever you want the plugin to appear.
@@ -136,6 +146,8 @@ fjs.parentNode.insertBefore(js, fjs);
 
 {% include button_linkedin.html %}
 
+{% include button_google.html %}
+
 </div>
 
 {% include comments.html %}
@@ -146,6 +158,8 @@ fjs.parentNode.insertBefore(js, fjs);
 [2]: https://about.twitter.com/resources/buttons
 
 [3]: https://developer.linkedin.com/plugins/share
+
+[4]: https://developers.google.com/+/web/share/
 
 # Add Google Analytics
 
