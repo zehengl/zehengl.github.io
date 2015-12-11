@@ -1,35 +1,37 @@
-title: Zeheng Li
+title: ZEHENGL
+
+author: Zeheng Li
 
 email: imzehengl@gmail.com
 
 description: > #
- A Blog for Zeheng Li, powered by Jekyll, Disqus, Google Analytics, and Github.
- Progarmming/Research bits and pieces.
+ A blog where Zeheng Li writes about Progarmming/Research bits and pieces, 
+ powered by Github, Jekyll, Disqus, Google Analytics, and more.
 
 baseurl: ""
 
 url: "https://zehengl.github.io/"
 
-twitter_username: zehengl
-
 github_username: zehengl
+
+twitter_username: zehengl
 
 instagram_username: zehengl
 
+facebook_username: zli4u
+
 linkedin_username: zehengl
+
+youtube_username: cefzhl
 
 wechat_username: zehengl
 
 skype_username: zehengl
 
-facebook_username: zli4u
-
-renren_username: lizeheng1986
-
 qq_username: 51163802
 
-weibo_username: chimaodeyu
-
-youtube_username: cefzhl
+web_username: zehengl
 
 markdown: kramdown
+
+highlighter: rouge

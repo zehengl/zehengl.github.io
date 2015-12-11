@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "Agile Scrum Note 02"
+title:  "Agile Scrum Note 02: Methodologies"
 date:   2015-12-07
 author: Zeheng Li
 ---
 ## Overview of Agile methodologies
 
 # Crystal
-
   * **lightweight approach**
   * Learn (Shu), Collect (Ha), Invent/Blend (Ri) techniques
   * 7 principle
@@ -20,7 +19,6 @@ author: Zeheng Li
     - Technical environment
 
 # Extreme Programming (XP)
-
   * **lightweight approach**
   * A system of practices that a community of software developers is evolving to address the problem of quickly delivering quality software, and then evolving it to meet business problems
   * Take proven practices to the extreme
@@ -95,7 +93,6 @@ author: Zeheng Li
       + Would
     - Facilitated workshops
     - Modeling
-
 
 # Feature-Driven Development (FDD)
   * **heavy approach**

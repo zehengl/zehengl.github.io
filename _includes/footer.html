@@ -5,15 +5,17 @@
     <h2 class="footer-heading">{{ site.title }}</h2>
 
     <div class="footer-col-wrapper">
+
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>{{ site.author }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
+
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -44,18 +46,6 @@
           </li>
           {% endif %}
 
-          {% if site.weibo_username %}
-          <li>
-            {% include icon-weibo.html username=site.weibo_username %}
-          </li>
-          {% endif %}
-
-          {% if site.renren_username %}
-          <li>
-            {% include icon-renren.html username=site.renren_username %}
-          </li>
-          {% endif %}
-
           {% if site.youtube_username %}
           <li>
             {% include icon-youtube.html username=site.youtube_username %}
@@ -80,9 +70,11 @@
           </li>
           {% endif %}
 
-
-
-
+          {% if site.web_username %}
+          <li>
+            {% include icon-web.html username=site.web_username %}
+          </li>
+          {% endif %}
 
         </ul>
       </div>
