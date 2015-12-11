@@ -12,11 +12,11 @@ I prefer something minimal and hackable at the same time. That's the reason I de
 
 # Getting started
 
-Assume you have ruby installed, open your terminal and fetch jekyll and rouge (our code highlighter).
+Assume you have ruby installed, open your terminal and fetch jekyll and pygments (our code highlighter).
 
 {% highlight bash %}
 gem install jekyll
-gem install rouge
+gem install pygments
 {% endhighlight %}
 
 Then creating a static website is easy as pie.

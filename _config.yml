@@ -34,4 +34,4 @@ web_username: zehengl
 
 markdown: kramdown
 
-highlighter: rouge
+highlighter: pygments
