@@ -12,7 +12,7 @@ I am working on an Agile Scrum certificate. Reading notes are as follows.
   * Coding
   * Testing
   * Deploy
-  * logically sound but assumes predictability, diffcult to react to unforeseen changes*
+  * logically sound but assumes predictability, difficult to react to unforeseen changes*
 
 # Agile Manifesto
   * Individuals and interactions over processes and tools

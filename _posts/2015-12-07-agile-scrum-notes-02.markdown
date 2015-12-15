@@ -115,7 +115,7 @@ author: Zeheng Li
       - Plan by feature
     + *Per feature*
       - Design by feature
-      - Build by feautre
+      - Build by feature
   * Best for team with 10-250 developers, handy pool of talented workers, focus on good object model
 
 # Agile Unified Process
