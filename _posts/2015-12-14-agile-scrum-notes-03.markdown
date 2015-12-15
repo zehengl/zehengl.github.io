@@ -65,8 +65,8 @@ author: Zeheng Li
       + Net-present-value (NPV)
       + Internal Rate of Return (IRR)
   - Prioritization based on Value and Risk
-    * High value, Low risk -> DO FIRST
-    * High value, High risk -> DO NEXT
+    * HIGH value, LOW risk -> DO FIRST
+    * HIGH value, HIGH risk -> DO NEXT
     * LOW value, HIGH risk -> DO LAST
     * LOW value, LOW risk -> DON'T DO
   - Prioritizing requirements - MoSCoW
