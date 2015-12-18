@@ -35,3 +35,5 @@ web_username: zehengl
 markdown: kramdown
 
 highlighter: pygments
+
+exclude: [vendor]
