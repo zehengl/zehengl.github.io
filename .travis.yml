@@ -19,7 +19,7 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
-source "https://rubygems.org"
+source: "https://rubygems.org"
 
 gem "jekyll"
 gem "html-proofer"
