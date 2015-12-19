@@ -6,9 +6,9 @@ before_script:
  - chmod +x ./script/cibuild # or do this locally and commit
 
 install:
- - gem install jekyll
- - pip install pygments
- - gem install bundle
+ - gem install "jekyll"
+ - gem install "html-proofer"
+ - gem install "bundle"
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
