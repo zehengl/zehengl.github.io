@@ -2,10 +2,6 @@ language: ruby
 rvm:
 - 2.1
 
-install:
- - gem install "jekyll"
- - gem install "html-proofer"
- - gem install "bundle"
 
 script: 
  - bundle exec jekyll build
