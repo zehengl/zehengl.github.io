@@ -7,7 +7,7 @@ before_script:
 
 install:
  - gem install jekyll
- - gem install pygments
+ - pip install pygments
  - gem install bundle
 
 # Assume bundler is being used, therefore
