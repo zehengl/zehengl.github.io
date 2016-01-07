@@ -6,7 +6,7 @@ email: imzehengl@gmail.com
 
 description: > #
  A blog where Zeheng Li writes about Progarmming/Research bits and pieces, 
- powered by Github, Jekyll, Disqus, Google Analytics, and more.
+ powered by Github, Jekyll, Disqus, Google Analytics & Custom Search Engine, and more.
 
 baseurl: ""
 
@@ -35,3 +35,6 @@ web_username: zehengl
 markdown: kramdown
 
 exclude: [vendor]
+
+gems: 
+    - jekyll-sitemap
