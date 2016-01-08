@@ -2,7 +2,7 @@
 
 My github page
 
-[![Build Status](https://travis-ci.org/zehengl/zehengl.github.io.svg?branch=master)](https://travis-ci.org/zehengl/zehengl.github.io) [![GitHub version](https://badge.fury.io/gh/zehengl%2Fzehengl.github.io.svg)](https://badge.fury.io/gh/zehengl%2Fzehengl.github.io)
+[![Travis](https://img.shields.io/travis/zehengl/zehengl.github.io.svg)](https://github.com/zehengl/zehengl.github.io) [![GitHub release](https://img.shields.io/github/release/zehengl/zehengl.github.io.svg)](https://github.com/zehengl/zehengl.github.io)
 
 POWERED BY
 
@@ -11,3 +11,4 @@ POWERED BY
 * Disqus
 * Travis-CI
 * Google Analytics
+* Google Custom Search Engine
