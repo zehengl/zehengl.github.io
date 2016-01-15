@@ -32,6 +32,10 @@ qq_username: 51163802
 
 web_username: zehengl
 
+wordpress_username: imzehengl
+
+medium_username: zehengl
+
 markdown: kramdown
 
 exclude: [vendor]
