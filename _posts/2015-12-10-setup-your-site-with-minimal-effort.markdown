@@ -16,7 +16,6 @@ Assume you have ruby installed, open your terminal and fetch jekyll and pygments
 
 {% highlight bash %}
 gem install jekyll
-gem install pygments
 {% endhighlight %}
 
 Then creating a static website is easy as pie.
