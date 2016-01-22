@@ -6,7 +6,9 @@ author: Zeheng Li
 ---
 ## Simple Web Scraper
 
-I am going to write a learning-based address parser and need some data for training.
+I am going to write a learning-based address parser and need some data for training. Internet is my best friend.
+
+------------------------------------------------------------------------------------
 
 # Source
   * [OpenDataCanada Data Explorer](http://opendatacanada.com/)
@@ -23,7 +25,7 @@ The [corporation](http://opendatacanada.com/corporation.php) page lists many are
 With the help of "Inspect", we can conclude the structure:
 
   1. The base url is "**http://opendatacanada.com/corporation.php**"
-  2. Areacodes are list items (li) that placed within {% raw %} <ul class="list-inline"> {% endraw %}. The first "ul" is a list of provinves abbr. The last "ul" is a list of random links.
+  2. Areacodes are list items (li) that placed within {% raw %} <ul class="list-inline"> {% endraw %}. The first "ul" is a list of provinces abbr. The last "ul" is a list of random links.
   3. For each address page, access the base url with parameter "postal=**xxx**", where **xxx** is an areacode
   4. Addresses are table rows (tr)
 
@@ -80,6 +82,6 @@ Extracting http://opendatacanada.com/corporation.php?postal=X0C
 Extracting http://opendatacanada.com/corporation.php?postal=X0B
 Result:
 13 provinces
-1437 area codes
+1437 areacodes
 77680 addresses
 {% endhighlight %}
