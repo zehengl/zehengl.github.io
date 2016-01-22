@@ -12,7 +12,7 @@ I prefer something minimal and hackable at the same time. That's the reason I de
 
 # Getting started
 
-Assume you have ruby installed, open your terminal and fetch jekyll and pygments (our code highlighter).
+Assume you have ruby installed, open your terminal and fetch jekyll.
 
 {% highlight bash %}
 gem install jekyll
