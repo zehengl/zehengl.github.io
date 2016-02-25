@@ -7,6 +7,7 @@ My github page
 POWERED BY
 
 * Github
+* Bootstrap
 * Jekyll
 * Disqus
 * Travis-CI

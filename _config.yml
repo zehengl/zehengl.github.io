@@ -4,9 +4,12 @@ author: Zeheng Li
 
 email: imzehengl@gmail.com
 
-description: > #
- A blog where Zeheng Li writes about Progarmming/Research bits and pieces, 
- powered by Github, Jekyll, Disqus, Google Analytics & Custom Search Engine, and more.
+head_note: > #
+ A blog where Zeheng Li writes about Progarmming/Research bits and pieces
+ 
+
+foot_note: > #
+ Copyright &copy; 2016 &middot; All Rights Reserved &middot; Powered by Github, Jekyll, Bootstrap, Disqus, Google Analytics & Custom Search Engine, and more.
 
 baseurl: ""
 
@@ -41,4 +44,4 @@ markdown: kramdown
 exclude: [vendor]
 
 gems: 
-    - jekyll-sitemap
+  - jekyll-sitemap

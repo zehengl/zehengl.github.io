@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
@@ -9,7 +9,7 @@
 
     
 
-    {% include header.html %}
+    {% include nav.html %}
 
     <div class="page-content">
       <div class="wrapper">
@@ -19,7 +19,9 @@
 
     {% include footer.html %}
 
-    
+    <script src="{{ "/assets/js/jquery-2.2.0.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>  
+
   </body>
 
 
