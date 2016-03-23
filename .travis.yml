@@ -5,6 +5,7 @@ rvm:
 install:
   - gem install jekyll
   - gem install html-proofer
+  - gem install jekyll-sitemap
 
 script: 
  - bundle exec jekyll build
