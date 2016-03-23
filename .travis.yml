@@ -1,7 +1,12 @@
 language: ruby
+rvm:
+  - 2.1
+
+
+script: 
+ - bundle exec jekyll build
+ - bundle exec htmlproof ./_site --href-ignore "#" --disable-external
+
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-script:
-  - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --href-ignore "#" --disable-external
