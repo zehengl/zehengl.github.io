@@ -10,7 +10,7 @@ install:
 script: 
   - bundle install
   - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --href-ignore "#" --disable-external
+  - bundle exec htmlproofer ./_site --href-ignore "#" --disable-external
 
 env:
   global:
