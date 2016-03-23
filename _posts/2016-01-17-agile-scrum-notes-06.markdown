@@ -4,7 +4,7 @@ title:  "Agile Scrum Note 06: Best Practices"
 date:   2016-01-17
 author: Zeheng Li
 ---
-## Scrum Best Practices
+This chapter covers theScrum Best Practices.
 
 # Continuous Refactoring
  * Cleaning up the code (changes that do not change the expected inputs or outputs) for one or more of the following reasons:

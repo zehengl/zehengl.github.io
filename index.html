@@ -7,23 +7,25 @@ title: "zehengl"
 
   {% include google_custom_engine.html %}
   
-  <h1>Posts</h1>
-  
-  
+  <p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th><h2>Date</h2></th>
+        <th><h2>Title</h2></th>
+      </tr>
+    </thead>
     {% for post in site.posts %}
-    <div class="row">
-      <div class="col-lg-2">
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      </div>
+      <tr>
+        <td>
+          <p>{{ post.date | date: "%b %d, %Y" }}</p>
+        </td>
 
-         <div class="col-lg-8">
-          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        </div>
-
-    </div>
+        <td>
+          <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+        </td>
+      </tr>
     {% endfor %}
- 
-
-  <p align="center">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </table>
 
 </div>

@@ -4,7 +4,6 @@ title:  "Simple Web Scraper"
 date:   2016-01-21
 author: Zeheng Li
 ---
-## Simple Web Scraper
 
 I am going to write a learning-based address parser and need some data for training. Internet is my best friend.
 

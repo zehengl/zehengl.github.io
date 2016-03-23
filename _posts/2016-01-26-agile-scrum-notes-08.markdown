@@ -4,7 +4,7 @@ title:  "Agile Scrum Note 08: Estimation"
 date:   2016-01-26
 author: Zeheng Li
 ---
-## Scrum Estimation
+This chapter covers the Scrum Estimation.
 
 # Principles behind Scrum estimation
   * Achieving "precision" in estimates is neither possible nor necessary – being "predictable" is good enough 

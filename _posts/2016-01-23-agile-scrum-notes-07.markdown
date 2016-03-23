@@ -4,7 +4,7 @@ title:  "Agile Scrum Note 07: Planning"
 date:   2016-01-23
 author: Zeheng Li
 ---
-## Scrum Planning
+This chapter covers the Scrum Planning.
 
 # Principles behind Agile planning
   * Planning in Agile is considered as a "Speculative" activity, i.e., you make a forecast that is reasonable, based on the available information

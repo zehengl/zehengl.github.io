@@ -4,7 +4,7 @@ title:  "Agile Scrum Note 05: Artifacts"
 date:   2016-01-10
 author: Zeheng Li
 ---
-## Scrum Artifacts
+This chapter covers the Scrum Artifacts.
 
 # Product backlog
   - Collection of everything that the team could do which adds value to the customer

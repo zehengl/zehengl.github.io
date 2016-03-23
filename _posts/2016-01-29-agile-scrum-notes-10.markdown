@@ -4,7 +4,7 @@ title:  "Agile Scrum Note 10: Advanced Concepts"
 date:   2016-01-29
 author: Zeheng Li
 ---
-## Scrum Advanced Concepts
+This chapter covers the Scrum Advanced Concepts.
 
 # Scrum on large projects
   * Split into smaller teams each delivering a logical portion

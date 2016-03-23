@@ -4,7 +4,7 @@ title:  "Agile Scrum Note 02: Methodologies"
 date:   2015-12-07
 author: Zeheng Li
 ---
-## Overview of Agile methodologies
+This chapter covers the overview of Agile methodologies.
 
 # Crystal
   * **lightweight approach**

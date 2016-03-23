@@ -4,7 +4,7 @@ title:  "Agile Scrum Note 04: Ceremonies"
 date:   2015-12-24
 author: Zeheng Li
 ---
-## Scrum Ceremonies
+This chapter covers the Scrum Ceremonies.
 
 # Time-boxing
   - Time-boxing is setting a fixed time limit to any activity and letting other characteristics such as scope vary.

@@ -4,7 +4,7 @@ title:  "Agile Scrum Note 01: Introduction"
 date:   2015-12-06
 author: Zeheng Li
 ---
-I am working on an Agile Scrum certificate. Reading notes are as follows.
+This chapter covers the introduction of Agile.
 
 # Traditional Development
   * Analysis
