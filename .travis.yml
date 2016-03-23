@@ -1,4 +1,11 @@
 language: ruby
+rvm:
+  - 2.1
+
+install:
+  - gem install jekyll -v '3.1.2'
+  - gem install html-proofer
+  - gem install jekyll-sitemap
 
 script: 
   - bundle install
