@@ -1,31 +1,74 @@
 ---
 layout: default
-title: "zehengl"
+title: "ZEHENGL"
 ---
 
-<div class="container">
+<h1 class="bulletin logo">ZEHENGL</h1>
 
-  {% include google_custom_engine.html %}
-  
-  <p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th><h2>Date</h2></th>
-        <th><h2>Title</h2></th>
-      </tr>
-    </thead>
-    {% for post in site.posts %}
-      <tr>
-        <td>
-          <p>{{ post.date | date: "%b %d, %Y" }}</p>
-        </td>
+<h1 class="bulletin"><span class="glyphicon glyphicon-user" ></span> Who I am</h1>
 
-        <td>
-          <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-        </td>
-      </tr>
-    {% endfor %}
-  </table>
-
+<div class="content">
+  <p>Zeheng Li &middot; <strong>李泽恒</strong> &middot; imzehengl@gmail.com</p>
+  <p><a href="/blog/">My blog</a> (Subscribe <a href="{{ "/feed.xml" }}">via RSS</a>)</p>
 </div>
+
+<h1 class="bulletin"><span class="glyphicon glyphicon-map-marker" ></span> Footprints</h1>
+
+<div class="content">
+  <ul>
+    <li>Calgary, Alberta, Canada &middot; <abbr title="HireGround Software Solution">HG</abbr> <span class="glyphicon glyphicon-ok" ></span></li>
+    <li>Dallas, Texas, United States &middot; <abbr title="Southern Methodist University">SMU</abbr></li>
+    <li>Abilene, Texas, United States &middot; <abbr title="Abilene Christian University">ACU</abbr></li>
+    <li>Guangzhou, Guangdong, China &middot; <abbr title="South China University of Technology">SCUT</abbr></li>
+    <li>Taishan, Guangdong, China &middot; <abbr title="Taishan No.1 High School">TSYZ</abbr></li>
+  </ul>
+</div>
+
+<h1 class="bulletin"><span class="glyphicon glyphicon-briefcase" ></span> Projects</h1>
+
+<div class="content">
+  <ul>
+    <li><a href="https://pypi.python.org/pypi/ezapi-yelp">ezapi_yelp</a></li>
+    <li><a href="https://pypi.python.org/pypi/ezapi-tmdb">ezapi_tmdb</a></li>
+    <li><a href="">ez_address_parser</a></li>
+  </ul> 
+</div>
+
+<h1 class="bulletin"><span class="glyphicon glyphicon-pencil" ></span> Publications</h1>
+
+<div class="content">
+  <ul>
+    <li>
+      <strong>When to Release in Open Source Project?</strong>
+      <br>Proceedings of the Thirty-Eighth International Conference on Software Engineering, 2016. 
+    </li>    
+    <li>
+      <strong><a href="http://www.aclweb.org/anthology/K/K15/K15-1024.pdf">Recovering Traceability Links in Requirements Documents</a></strong>
+      <br>Proceedings of the Nineteenth Conference on Computational Natural Language Learning, 2015. 
+    </li>
+    <li>
+      <strong><a href="http://dx.doi.org/10.1007/s10515-014-0155-1">AutoODC: Automated Generation of Orthogonal Defect Classifications</a></strong>
+      <br>Automated Software Engineering, 22(1), 3-46, 2015.
+    </li>
+  </ul>
+</div>
+
+<h1 class="bulletin"><span class="glyphicon glyphicon-list" ></span> Batteries Included</h1>
+
+<div class="content">
+  <ul>
+    <li>Machine Learning, Natrual Language Processing</li>
+    <li>C++, C#, Java</li>
+    <li>Python, Lua</li>
+    <li>R</li>
+    <li>HTML, CSS</li>
+    <li>Ubuntu, OSX</li>
+  </ul>
+</div>
+
+<h1 class="bulletin"><span class="glyphicon glyphicon-bookmark" ></span> Profiles</h1>
+
+<div class="content">
+  Find me somewhere else?
+</div>
+{% include profiles.html %}

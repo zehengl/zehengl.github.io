@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<h1 class="bulletin logo"><a href="{{ site.url }}blog">Posts by ZEHENGL</a></h1>
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -13,7 +15,7 @@ layout: default
 <div class="container">
   <article itemscope itemtype="http://schema.org/BlogPosting">
     <header >
-      <h1 itemprop="name headline">{{ page.title }}</h1>
+      <h1 class="logo" itemprop="name headline">{{ page.title }}</h1>
       <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time>{% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     </header>
     <div itemprop="articleBody">

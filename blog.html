@@ -1,0 +1,37 @@
+---
+layout: page
+title: Posts by ZEHENGL
+permalink: /blog/
+---
+
+<!-- {% include google_custom_engine.html %} -->
+
+
+
+<!-- <table class="table table-hover">
+<thead>
+  <tr>
+    <th><h2>Date</h2></th>
+    <th><h2>Title</h2></th>
+  </tr>
+</thead>
+{% for post in site.posts %}
+  <tr>
+    <td>
+      <p>{{ post.date | date: "%b %d, %Y" }}</p>
+    </td>
+
+    <td>
+      <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+    </td>
+  </tr>
+{% endfor %}
+</table> -->
+
+{% for post in site.posts %}
+<h1 class="content"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+<blockquote>
+  <p>{{post.excerpt}}</p>
+  <footer>{{ post.date | date: "%b %d, %Y" }}</footer>
+</blockquote>
+{% endfor %}

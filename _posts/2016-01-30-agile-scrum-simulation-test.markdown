@@ -5,6 +5,8 @@ date:   2016-01-30
 author: Zeheng Li
 ---
 
+Questions and answers of a simulation test.
+
 ---
 
 # Which of the following BEST explain the terms 'Lead time' and 'Cycle time' in Lean methodologies? 
