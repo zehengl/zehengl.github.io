@@ -14,10 +14,25 @@ layout: default
 
 <div class="container">
   <article itemscope itemtype="http://schema.org/BlogPosting">
-    <header >
-      <h1 class="logo" itemprop="name headline">{{ page.title }}</h1>
-      <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time>{% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <header>
+      <div class="jumbotron">
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+      <p>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time>
+      {% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+      </p>
+      {% if page.tags %}
+        <p> 
+        {% for t in page.tags%}
+          <span class="posTag">{{ t }}</span>
+        {% endfor %}
+        </p>
+      {% endif %}
+      </div>
     </header>
+
+
+
     <div itemprop="articleBody">
       {{ content }}
     </div>

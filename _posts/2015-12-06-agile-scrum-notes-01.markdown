@@ -3,8 +3,10 @@ layout: post
 title:  "Agile Scrum Note 01: Introduction"
 date:   2015-12-06
 author: Zeheng Li
+tags: [agile, scrum]
 ---
-This chapter covers the introduction of Agile.
+
+Introduction of Agile.
 
 # Traditional Development
   * Analysis

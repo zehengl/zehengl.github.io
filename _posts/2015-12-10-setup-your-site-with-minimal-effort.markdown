@@ -3,7 +3,11 @@ layout: post
 title:  "Setup Your Site with Minimal Effort"
 date:   2015-12-10
 author: Zeheng Li
+tags: [web development, jekyll]
 ---
+
+In this post I will write about how to use Github, Jekyll, and many handy resources to create a site.
+
 Once upon a time I had a domain and a hosting account on U.S. [GoDaddy](https://www.godaddy.com/), where a [WordPress](https://wordpress.org/) blog and a simple static site was hosted. I ended up paying $60~70 annually. Early this year I managed to remind myself to cancel the automatic renewal and stop wasting money. Since my site was no longer live, I looked for alternatives. If you google "create a free website", you can find options such as [WIX](http://www.wix.com/) and [Weebly](http://www.weebly.com/).
 
 "I DON'T LIKE THEM"

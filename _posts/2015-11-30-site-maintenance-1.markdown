@@ -3,11 +3,10 @@ layout: post
 title:  "Site Maintenance I"
 date:   2015-11-30
 author: Zeheng Li
+tags: [site maintenance]
 ---
 
-I intent to use this blog to keep track of programming/research notes, bits and pieces.
-
-Following is a changelist of updates made tonight.
+A list of updates on Nov 30, 2015.
 
 * Update site description
 

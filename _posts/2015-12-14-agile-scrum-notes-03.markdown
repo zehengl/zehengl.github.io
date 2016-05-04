@@ -3,8 +3,10 @@ layout: post
 title:  "Agile Scrum Note 03: Roles"
 date:   2015-12-14
 author: Zeheng Li
+tags: [agile, scrum]
 ---
-This chapter covers the Scrum Roles.
+
+Roles in Scrum.
 
 # Stakeholders
   - Anybody whose interest is positively or negatively affected by the project OR who can exert an influence on the project

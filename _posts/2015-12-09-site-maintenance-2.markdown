@@ -3,9 +3,10 @@ layout: post
 title:  "Site Maintenance II"
 date:   2015-12-09
 author: Zeheng Li
+tags: [site maintenance]
 ---
 
-Following is a changelist of updates.
+A list of updates on Dec 9, 2015.
 
 * Clean up files
 

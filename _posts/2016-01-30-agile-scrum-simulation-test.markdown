@@ -3,9 +3,10 @@ layout: post
 title:  "Agile Scrum Simulation Test"
 date:   2016-01-30
 author: Zeheng Li
+tags: [agile, scrum]
 ---
 
-Questions and answers of a simulation test.
+A list of questions and answers about Agile Scrum.
 
 ---
 

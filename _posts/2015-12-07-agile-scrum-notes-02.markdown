@@ -3,8 +3,10 @@ layout: post
 title:  "Agile Scrum Note 02: Methodologies"
 date:   2015-12-07
 author: Zeheng Li
+tags: [agile, scrum]
 ---
-This chapter covers the overview of Agile methodologies.
+
+Some popular Agile methodologies.
 
 # Crystal
   * **lightweight approach**

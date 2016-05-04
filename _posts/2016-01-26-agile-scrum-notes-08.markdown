@@ -3,8 +3,10 @@ layout: post
 title:  "Agile Scrum Note 08: Estimation"
 date:   2016-01-26
 author: Zeheng Li
+tags: [agile, scrum]
 ---
-This chapter covers the Scrum Estimation.
+
+How to estimate efforts in Scrum projects.
 
 # Principles behind Scrum estimation
   * Achieving "precision" in estimates is neither possible nor necessary – being "predictable" is good enough 

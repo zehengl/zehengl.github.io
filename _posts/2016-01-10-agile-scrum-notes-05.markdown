@@ -3,8 +3,10 @@ layout: post
 title:  "Agile Scrum Note 05: Artifacts"
 date:   2016-01-10
 author: Zeheng Li
+tags: [agile, scrum]
 ---
-This chapter covers the Scrum Artifacts.
+
+Some Artifacts that are used in Scrum projects.
 
 # Product backlog
   - Collection of everything that the team could do which adds value to the customer

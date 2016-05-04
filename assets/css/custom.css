@@ -59,6 +59,7 @@
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.highlight pre { border: 0; }
 .lineno { color: #000000; border: none;}
 
 .icon > svg { display: inline-block; width: 40px; height: 40px; vertical-align: middle; padding-top: 2px;}
@@ -81,4 +82,27 @@
 .post {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
+}
+
+article header h1 {
+  font-size: 30px;
+}
+
+article div h1 {
+  font-size: 24px;
+}
+
+article div p {
+  font-size: 16px;
+}
+
+article img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.posTag {
+  border: 1px solid;
+  background: #4099FF;
+  padding: 5px;
 }

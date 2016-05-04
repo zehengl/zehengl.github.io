@@ -3,8 +3,10 @@ layout: post
 title:  "Agile Scrum Note 09: Monitoring Scrum Projects"
 date:   2016-01-28
 author: Zeheng Li
+tags: [agile, scrum]
 ---
-This chapter covers the Monitoring Scrum Projects.
+
+Tools and techniques to monitoring Scrum projects.
 
 # Principles in monitoring Scrum Projects
   * Ideally, the TEAM should monitor its own progress

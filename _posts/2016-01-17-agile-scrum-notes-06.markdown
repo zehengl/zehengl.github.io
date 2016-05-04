@@ -3,8 +3,10 @@ layout: post
 title:  "Agile Scrum Note 06: Best Practices"
 date:   2016-01-17
 author: Zeheng Li
+tags: [agile, scrum]
 ---
-This chapter covers theScrum Best Practices.
+
+Some Scrum best practices you should know.
 
 # Continuous Refactoring
  * Cleaning up the code (changes that do not change the expected inputs or outputs) for one or more of the following reasons:
