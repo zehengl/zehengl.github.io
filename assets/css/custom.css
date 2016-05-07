@@ -106,3 +106,12 @@ article img {
   background: #4099FF;
   padding: 5px;
 }
+
+article th{
+    border: 2px;
+    padding: 10px;
+}
+
+article td{
+    border: 2px;
+}
