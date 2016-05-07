@@ -169,8 +169,9 @@ def train(language_docs, n=1):
     model['language'] = {}
     model['ngram'] = n
     for l in language_docs:
-        print 'learning', l, 'model'
+        print 'learning', l, 'model:',
         docs = language_docs[l]
+        print len(docs), 'docs', sum([len(d.split()) for d in docs]), 'tokens'
         model['language'][l] = train_language_model(docs, n)
     return model
 
@@ -200,6 +201,7 @@ def test(language_docs, model):
     for l in language_docs:
         docs = language_docs[l]
         for doc in docs:
+            print predict(doc, model), l
             if predict(doc, model) != l:
                 error += 1
             length += 1
@@ -260,11 +262,11 @@ python language_detect.py
 
 I only use **10** documents from each language as training set. Catalan, English, and Spanish documents have 6709, 2437, and 2377 words respectively.
 
-"Hoy es un buen día" and "avui és un bon dia" are "today is a good day" in Spanish and Catalan according to [Google Translate](https://translate.google.ca/). The Unigram model learned from the limited training set fails 2 out of 3 times. Bigram and Trigram models both seem working.
+"Hoy es un buen día" and "avui és un bon dia" are "today is a good day" in Spanish and Catalan according to [Google Translate](https://translate.google.ca/). The Unigram model learned from the limited training set fails all three testcaes. Bigram and Trigram models both seem working.
 
-Later I apply the model and predict on a total number of 19479 documents. The result is promising.
+Later I apply the model and predict on a total number of 19479 documents. The result is promising, even on for the unigram model.
 
-|ngram   |"today is a good day"|"Hoy es un buen día"|"avui és un bon dia"|Accuracy|
+|ngram   |"today is a good day"|"Hoy es un buen día"|"avui és un bon dia"|Accuracy on 19479 documents|
 |:------:|:-------------------:|:------------------:|:------------------:|:------:|
 |Unigram |es                   |en                  |es                  |0.9461  |
 |Bigram  |en                   |es                  |ca                  |0.9805  |
