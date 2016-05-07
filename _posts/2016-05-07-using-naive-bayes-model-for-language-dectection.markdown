@@ -264,7 +264,7 @@ I only use **10** documents from each language as training set. Catalan, English
 
 "Hoy es un buen día" and "avui és un bon dia" are "today is a good day" in Spanish and Catalan according to [Google Translate](https://translate.google.ca/). The Unigram model learned from the limited training set fails all three testcaes. Bigram and Trigram models both seem working.
 
-Later I apply the model and predict on a total number of 19479 documents. The result is promising, even on for the unigram model.
+Later I apply the model and predict on a total number of 19479 documents. The result is promising, even for the unigram model.
 
 |ngram   |"today is a good day"|"Hoy es un buen día"|"avui és un bon dia"|Accuracy on 19479 documents|
 |:------:|:-------------------:|:------------------:|:------------------:|:------:|
