@@ -34,7 +34,7 @@ With the help of "Inspect", we can conclude the structure:
 
 # Code
 
-Following is my Python script, less than 40 lines.
+Following is my Python script, less than 40 lines. You can also find it on [Github](https://github.com/zehengl/example_codes_python/tree/master/simple_web_scraper).
 
 {% highlight python linenos %} {% raw %}
 import requests

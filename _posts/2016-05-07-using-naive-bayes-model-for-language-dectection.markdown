@@ -62,7 +62,9 @@ hello   trigram    ['$$h', '$he', 'hel', 'ell', 'llo', 'lo$', 'o$$']
 {% endraw %} {% endhighlight %}
 
 # Implementation
-  
+
+Example codes, as well as the downgloading script for dataset, can be found on [Github](https://github.com/zehengl/example_codes_python/tree/master/language_detection).
+
 **Preprocessing**
 
 {% highlight python linenos %} {% raw %}
