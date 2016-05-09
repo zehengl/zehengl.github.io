@@ -62,8 +62,14 @@
 .highlight pre { border: 0; }
 .lineno { color: #000000; border: none;}
 
-.icon > svg { display: inline-block; width: 40px; height: 40px; vertical-align: middle; padding-top: 2px;}
-.icon > svg path { fill: #828282; }
+.icon img { display: inline-block; width: 40px; height: 40px; vertical-align: middle; padding-top: 2px;}
+
+.footer footer {
+  display: block;
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
 
 .bulletin {
   font-family: "Indie Flower", cursive;

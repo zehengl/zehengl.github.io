@@ -1,51 +1,55 @@
 <div align="left">
 
-  {% if site.web_username %}
-    {% include icon-web.html username=site.web_username %}
+  {% if site.web_href %}
+    {% include profile-link.html href=site.web_href icon=site.web_icon %}
   {% endif %}
 
-  {% if site.wordpress_username %}
-    {% include icon-wordpress.html username=site.wordpress_username %}
+  {% if site.wordpress_href %}
+    {% include profile-link.html href=site.wordpress_href icon=site.wordpress_icon %}
   {% endif %}
 
-  {% if site.github_username %}
-    {% include icon-github.html username=site.github_username %}
+  {% if site.github_href %}
+    {% include profile-link.html href=site.github_href icon=site.github_icon %}
   {% endif %}
 
-  {% if site.twitter_username %}
-    {% include icon-twitter.html username=site.twitter_username %}
+  {% if site.twitter_href %}
+    {% include profile-link.html href=site.twitter_href icon=site.twitter_icon %}
   {% endif %}
 
-  {% if site.instagram_username %}
-    {% include icon-instagram.html username=site.instagram_username %}
+  {% if site.instagram_href %}
+    {% include profile-link.html href=site.instagram_href icon=site.instagram_icon %}
   {% endif %}  
 
-  {% if site.facebook_username %}
-    {% include icon-facebook.html username=site.facebook_username %}
+  {% if site.facebook_href %}
+    {% include profile-link.html href=site.facebook_href icon=site.facebook_icon %}
   {% endif %}
 
-  {% if site.linkedin_username %}
-    {% include icon-linkedin.html username=site.linkedin_username %}
+  {% if site.linkedin_href %}
+    {% include profile-link.html href=site.linkedin_href icon=site.linkedin_icon %}
   {% endif %}
 
-  {% if site.youtube_username %}
-    {% include icon-youtube.html username=site.youtube_username %}
+  {% if site.youtube_href %}
+    {% include profile-link.html href=site.youtube_href icon=site.youtube_icon %}
   {% endif %}
 
-  {% if site.medium_username %}
-    {% include icon-medium.html username=site.medium_username %}
+  {% if site.medium_href %}
+    {% include profile-link.html href=site.medium_href icon=site.medium_icon %}
   {% endif %}
 
-  {% if site.qq_username %}
-    {% include icon-qq.html username=site.qq_username %}
+</div>
+
+<div align="left">
+
+  {% if site.qq_href %}
+    {% include profile-tooltip.html href=site.qq_href icon=site.qq_icon %}
   {% endif %}  
 
-  {% if site.wechat_username %}
-    {% include icon-wechat.html username=site.wechat_username %}
+  {% if site.wechat_href %}
+    {% include profile-tooltip.html href=site.wechat_href icon=site.wechat_icon %}
   {% endif %}
   
-  {% if site.skype_username %}
-    {% include icon-skype.html username=site.skype_username %}
+  {% if site.skype_href %}
+    {% include profile-tooltip.html href=site.skype_href icon=site.skype_icon %}
   {% endif %}
 
 </div>

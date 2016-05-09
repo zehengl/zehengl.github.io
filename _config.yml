@@ -8,35 +8,46 @@ head_note: > #
  A blog where Zeheng Li writes about Progarmming/Research bits and pieces
 
 foot_note: > #
- Copyright &copy; 2016 &middot; All Rights Reserved &middot; Powered by Github, Jekyll, Bootstrap, Disqus, Google Analytics & Custom Search Engine, and more.
-
+ Copyright &copy; 2016 &middot; All Rights Reserved &middot; zehengl
 baseurl: ""
 
 url: "https://zehengl.github.io/"
 
-github_username: zehengl
+github_href: "https://github.com/zehengl"
+github_icon: "/assets/svg/icon-github.svg"
 
-twitter_username: zehengl
+twitter_href: "https://twitter.com/zehengl"
+twitter_icon: "/assets/svg/icon-twitter.svg"
 
-instagram_username: zehengl
+instagram_href: "https://instagram.com/zehengl"
+instagram_icon: "/assets/svg/icon-instagram.svg"
 
-facebook_username: zli4u
+facebook_href: "https://facebook.com/zli4u"
+facebook_icon: "/assets/svg/icon-facebook.svg"
 
-linkedin_username: zehengl
+linkedin_href: "https://linkedin.com/in/zehengl"
+linkedin_icon: "/assets/svg/icon-linkedin.svg"
 
-youtube_username: cefzhl
+youtube_href: "https://youtube.com/cefzhl"
+youtube_icon: "/assets/svg/icon-youtube.svg"
 
-wechat_username: zehengl
+web_href: "http://lyle.smu.edu/~zehengl"
+web_icon: "/assets/svg/icon-web.svg"
 
-skype_username: zehengl
+wordpress_href: "https://imzehengl.wordpress.com"
+wordpress_icon: "/assets/svg/icon-wordpress.svg"
 
-qq_username: 51163802
+medium_href: "https://medium.com/@zehengl"
+medium_icon: "/assets/svg/icon-medium.svg"
 
-web_username: zehengl
+wechat_href: zehengl
+wechat_icon: "/assets/svg/icon-wechat.svg"
 
-wordpress_username: imzehengl
+skype_href: zehengl
+skype_icon: "/assets/svg/icon-skype.svg"
 
-medium_username: zehengl
+qq_href: 51163802
+qq_icon: "/assets/svg/icon-qq.svg"
 
 markdown: kramdown
 
