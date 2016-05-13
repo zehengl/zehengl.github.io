@@ -22,11 +22,11 @@ layout: default
       {% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
       </p>
       {% if page.tags %}
-        <p> 
+        <div>
         {% for t in page.tags%}
           <span class="posTag">{{ t }}</span>
         {% endfor %}
-        </p>
+      </div>
       {% endif %}
       </div>
     </header>
@@ -41,7 +41,7 @@ layout: default
 
 <div class="container">
   <div style="float:left">
-    {% include button_facebook.html %}    
+    {% include button_facebook.html %}
   </div>
   <div style="float:left;margin-left:4px;" >
     {% include button_twitter.html %}
@@ -50,5 +50,3 @@ layout: default
   </div>
   {% include comments.html %}
 </div>
-
-

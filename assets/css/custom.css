@@ -123,9 +123,12 @@ article img {
 }
 
 .posTag {
+  display: inline-block;
   border: 1px solid;
+  color: white;
   background: #4099FF;
-  padding: 5px;
+  padding: 3px;
+  margin: 1px;
 }
 
 article th{
