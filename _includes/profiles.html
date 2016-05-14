@@ -36,6 +36,14 @@
     {% include profile-link.html href=site.medium_href icon=site.medium_icon %}
   {% endif %}
 
+  {% if site.rpubs_href %}
+    {% include profile-link.html href=site.rpubs_href icon=site.rpubs_icon %}
+  {% endif %}
+
+  {% if site.orcid_href %}
+    {% include profile-link.html href=site.orcid_href icon=site.orcid_icon %}
+  {% endif %}
+
   {% if site.qq_href %}
     {% include profile-tooltip.html href=site.qq_href icon=site.qq_icon %}
   {% endif %}

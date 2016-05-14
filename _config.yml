@@ -40,6 +40,12 @@ wordpress_icon: "/assets/svg/icon-wordpress.svg"
 medium_href: "https://medium.com/@zehengl"
 medium_icon: "/assets/svg/icon-medium.svg"
 
+rpubs_href: "https://rpubs.com/zehengl"
+rpubs_icon: "/assets/svg/icon-rpubs.svg"
+
+orcid_href: "http://orcid.org/0000-0003-1118-0839"
+orcid_icon: "/assets/svg/icon-orcid.png"
+
 wechat_href: zehengl
 wechat_icon: "/assets/svg/icon-wechat.svg"
 
@@ -53,5 +59,5 @@ markdown: kramdown
 
 exclude: [vendor]
 
-gems: 
+gems:
   - jekyll-sitemap
