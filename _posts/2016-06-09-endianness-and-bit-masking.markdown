@@ -9,9 +9,9 @@ Today I will write about how to handle some bit level data manipualtions in Pyth
 
 # Endianness
 
-See this [wiki](https://en.wikipedia.org/wiki/Endianness) for background knowledge about endianness. It refers to the ordering of bytes. 
+See this [wiki](https://en.wikipedia.org/wiki/Endianness) for background knowledge about endianness. It refers to the ordering of bytes.
 
-* Big endianness is to store with the most significant bit coming first. 
+* Big endianness is to store with the most significant bit coming first.
 * Little endianness is to store in the opposite order where the most significant bit comes last.
 
 For example, we have a **hex** number 0A0B0C0D
@@ -44,8 +44,10 @@ data_little_endian = pack('<3h', var1, var2, var3)
 print hexlify(data_little_endian)
 print unpack('<3h', data_little_endian)
 
-print var1 >> 2
-print var1 & 0x3
+print bin(var1), var1
+print bin(var1 & 0b111), var1 & 0b111
+print bin(var1 | 0b111), var1 | 0b111
+print bin(var1 ^ 0b111), var1 ^ 0b111
 {% endraw %} {% endhighlight %}
 
 **Explanation:**
