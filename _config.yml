@@ -4,11 +4,9 @@ author: Zeheng Li
 
 email: imzehengl@gmail.com
 
-head_note: > #
- A blog where Zeheng Li writes about Progarmming/Research bits and pieces
-
 foot_note: > #
  Copyright &copy; 2016 &middot; All Rights Reserved &middot; zehengl
+
 baseurl: ""
 
 url: "https://zehengl.github.io/"
