@@ -53,6 +53,9 @@ skype_icon: "/assets/svg/icon-skype.svg"
 qq_href: 51163802
 qq_icon: "/assets/svg/icon-qq.svg"
 
+yelp_href: "http://zehengl.yelp.ca"
+yelp_icon: "assets/svg/icon-yelp.svg"
+
 markdown: kramdown
 
 exclude: [vendor]

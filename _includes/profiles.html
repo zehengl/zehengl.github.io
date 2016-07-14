@@ -44,6 +44,10 @@
     {% include profile-link.html href=site.orcid_href icon=site.orcid_icon %}
   {% endif %}
 
+  {% if site.yelp_href %}
+    {% include profile-link.html href=site.yelp_href icon=site.yelp_icon %}
+  {% endif %}
+
   {% if site.qq_href %}
     {% include profile-tooltip.html href=site.qq_href icon=site.qq_icon %}
   {% endif %}
