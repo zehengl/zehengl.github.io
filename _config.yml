@@ -1,13 +1,8 @@
-title: ZEHENGL
+title: zehengl
 
 author: Zeheng Li
 
 email: imzehengl@gmail.com
-
-foot_note: > #
- Copyright &copy; 2016 &middot; All Rights Reserved &middot; zehengl
-
-baseurl: ""
 
 url: "https://zehengl.github.io/"
 
@@ -58,7 +53,11 @@ yelp_icon: "assets/svg/icon-yelp.svg"
 
 markdown: kramdown
 
-exclude: [vendor]
+paginate_path: "/blog/page:num/"
+paginate: 10
+
+permalink: pretty
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate

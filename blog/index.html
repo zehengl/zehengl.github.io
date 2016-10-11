@@ -1,0 +1,29 @@
+---
+layout: default
+title: posts by zehengl
+---
+
+{% include google_custom_engine.html %}
+
+{% for post in paginator.posts %}
+  <h1>
+    <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+  </h1>
+  <blockquote>
+    <p><span class="glyphicon glyphicon-calendar" ></span> {{ post.date | date: "%b %d, %Y" }}</p>
+    <p>{{post.excerpt}}</p>
+  </blockquote>
+{% endfor %}
+
+
+{% if paginator.previous_page_path %}
+  <a class="prev" href="{{paginator.previous_page_path}}">
+    previous {{ site.paginate }}...<span class="glyphicon glyphicon-menu-left" ></span>
+  </a>
+{% endif %}
+{% if paginator.next_page_path %}
+  <a class="next" href="{{paginator.next_page_path}}">
+    <span class="glyphicon glyphicon-menu-right" ></span>next {{ site.paginate }}...
+  </a>
+{% endif %}
+

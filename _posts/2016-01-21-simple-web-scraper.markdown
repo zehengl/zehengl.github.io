@@ -3,7 +3,6 @@ layout: post
 title:  "Simple Web Scraper"
 date:   2016-01-21
 author: Zeheng Li
-tags: [python, web crawler]
 ---
 
 In this post I will write about how to use some amazing python libraries to crawl the web.

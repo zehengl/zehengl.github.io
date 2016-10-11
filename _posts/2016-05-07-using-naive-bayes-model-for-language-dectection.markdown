@@ -3,7 +3,6 @@ layout: post
 title:  "Using Naive Bayes Model for Language Dectection"
 date:   2016-05-07
 author: Zeheng Li
-tags: [naive bayes, ngram, language detection]
 ---
 
 Tonight I will write about how to use one of simplest supervised learning model (Naive Bayes) to perform language detection.

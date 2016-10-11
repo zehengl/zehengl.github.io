@@ -3,7 +3,6 @@ layout: post
 title:  "Agile Scrum Note 03: Roles"
 date:   2015-12-14
 author: Zeheng Li
-tags: [agile, scrum]
 ---
 
 Roles in Scrum.
@@ -173,30 +172,3 @@ Roles in Scrum.
   - Configuration Manager
     + Maintains cod repository
     + Automates source code control, build and release processes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

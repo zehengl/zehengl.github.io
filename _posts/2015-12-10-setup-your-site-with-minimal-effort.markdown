@@ -3,7 +3,6 @@ layout: post
 title:  "Setup Your Site with Minimal Effort"
 date:   2015-12-10
 author: Zeheng Li
-tags: [web development, jekyll]
 ---
 
 In this post I will write about how to use Github, Jekyll, and many handy resources to create a site.
@@ -202,4 +201,3 @@ git push origin master
 You can also checkout my site on Github: [https://github.com/zehengl/zehengl.github.io](https://github.com/zehengl/zehengl.github.io)
 
 zehengl
-

@@ -3,8 +3,8 @@ layout: post
 title:  "Endianness and Bit Masking"
 date:   2016-06-09
 author: Zeheng Li
-tags: [python, endianness]
 ---
+
 Today I will write about how to handle some bit level data manipualtions in Python.
 
 # Endianness

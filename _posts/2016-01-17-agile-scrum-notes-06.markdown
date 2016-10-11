@@ -3,7 +3,6 @@ layout: post
 title:  "Agile Scrum Note 06: Best Practices"
 date:   2016-01-17
 author: Zeheng Li
-tags: [agile, scrum]
 ---
 
 Some Scrum best practices you should know.

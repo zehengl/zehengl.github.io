@@ -3,8 +3,8 @@ layout: post
 title:  "Dynamic Programming Examples"
 date:   2016-05-12
 author: Zeheng Li
-tags: [dynamic programming, leetcode, house robber]
 ---
+
 In this post I will use two simple examples from LeetCode to illustrate the idea of Dynamic Programming.
 
 # Dynamic Programming

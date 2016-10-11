@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+  </head>
 
   <body>
+
+    {% include header.html %}
 
     <div class="container">
       {{ content }}
     </div>
+
+    <footer>
+      <div class="container">
+        <p class="text-muted">Hosted on Github, Powered by Jekyll</p>
+      </div>
+    </footer>
+
     <div class="btn back-to-top">Back to Top</div>
+
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
     <script>
       jQuery(document).ready(function() {
         var offset = 400;
@@ -31,12 +42,6 @@
         })
       });
     </script>
-
-    <div class="footer">
-        <footer>
-          {{ site.foot_note }}
-        </footer>
-    </div>
 
   </body>
 

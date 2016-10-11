@@ -3,7 +3,6 @@ layout: post
 title:  "Agile Scrum Note 07: Planning"
 date:   2016-01-23
 author: Zeheng Li
-tags: [agile, scrum]
 ---
 
 Information about Scrum planning.

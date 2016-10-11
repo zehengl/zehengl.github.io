@@ -3,7 +3,6 @@ layout: post
 title:  "Agile Scrum Note 04: Ceremonies"
 date:   2015-12-24
 author: Zeheng Li
-tags: [agile, scrum]
 ---
 
 Details of the Scrum ceremonies.
@@ -111,4 +110,3 @@ The concept of a “Release” has been removed from the latest Scrum Guide. The
     + Assign actions and follow up
     + Agree on token penalty of actions are incomplete
     + Find a way to make the meeting fun
-    

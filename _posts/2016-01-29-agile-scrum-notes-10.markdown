@@ -3,7 +3,6 @@ layout: post
 title:  "Agile Scrum Note 10: Advanced Concepts"
 date:   2016-01-29
 author: Zeheng Li
-tags: [agile, scrum]
 ---
 
 Some advanced concepts in Scrum.

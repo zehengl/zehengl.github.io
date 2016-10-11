@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-<h1 class="bulletin logo"><a href="{{ site.url }}blog">Posts by ZEHENGL</a></h1>
-
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -16,36 +14,39 @@ layout: default
   <article itemscope itemtype="http://schema.org/BlogPosting">
     <header>
       <div class="jumbotron">
-      <h1 itemprop="name headline">{{ page.title }}</h1>
-      <p>
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time>
-      {% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-      </p>
-      {% if page.tags %}
-        <div>
-        {% for t in page.tags%}
-          <span class="posTag">{{ t }}</span>
-        {% endfor %}
-      </div>
-      {% endif %}
+        <h1 itemprop="name headline">{{ page.title }}</h1>
+        <p>
+          <span class="glyphicon glyphicon-calendar" ></span>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ page.date | date: "%b %d, %Y" }}
+          </time>
+          {% if page.author %}
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">
+                by {{ page.author }}
+              </span>
+            </span>
+          {% endif %}
+        </p>
       </div>
     </header>
-
-
-
     <div itemprop="articleBody">
       {{ content }}
     </div>
   </article>
 </div>
 
-<div class="container">
+<div id="share-comment" class="container">
   <div style="float:left">
     {% include button_facebook.html %}
   </div>
   <div style="float:left;margin-left:4px;" >
     {% include button_twitter.html %}
+  </div>
+  <div style="float:left;margin-left:4px;" >
     {% include button_linkedin.html %}
+  </div>
+  <div style="float:left;margin-left:4px;" >
     {% include button_google.html %}
   </div>
   {% include comments.html %}

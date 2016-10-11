@@ -3,7 +3,6 @@ layout: post
 title:  "Agile Scrum Note 01: Introduction"
 date:   2015-12-06
 author: Zeheng Li
-tags: [agile, scrum]
 ---
 
 Introduction of Agile.

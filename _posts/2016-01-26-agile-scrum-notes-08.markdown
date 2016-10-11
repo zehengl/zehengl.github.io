@@ -3,7 +3,6 @@ layout: post
 title:  "Agile Scrum Note 08: Estimation"
 date:   2016-01-26
 author: Zeheng Li
-tags: [agile, scrum]
 ---
 
 How to estimate efforts in Scrum projects.

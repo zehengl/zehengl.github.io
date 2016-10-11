@@ -3,7 +3,6 @@ layout: post
 title:  "Site Maintenance II"
 date:   2015-12-09
 author: Zeheng Li
-tags: [site maintenance]
 ---
 
 A list of updates on Dec 9, 2015.
