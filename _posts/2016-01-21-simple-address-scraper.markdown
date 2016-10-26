@@ -33,7 +33,7 @@ With the help of "Inspect", we can conclude the structure:
 
 # Code
 
-Following is my Python script, less than 40 lines. You can also find it on [Github](https://github.com/zehengl/example_codes_python/tree/master/simple_web_scraper).
+Following is my Python script, less than 40 lines. You can also find it on [Github](https://gist.github.com/zehengl/a1ddfa2693b91409eb252400143ca6e8).
 
 <script src="https://gist.github.com/zehengl/a1ddfa2693b91409eb252400143ca6e8.js"></script>
 
