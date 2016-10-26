@@ -51,6 +51,9 @@ qq_icon: "/assets/svg/icon-qq.svg"
 yelp_href: "http://zehengl.yelp.ca"
 yelp_icon: "assets/svg/icon-yelp.svg"
 
+keybase_href: "https://keybase.io/zehengl"
+keybase_icon: "assets/svg/icon-keybase.png"
+
 markdown: kramdown
 
 paginate_path: "/blog/page:num/"

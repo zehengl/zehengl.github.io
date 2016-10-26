@@ -48,6 +48,10 @@
     {% include profile-link.html href=site.yelp_href icon=site.yelp_icon %}
   {% endif %}
 
+  {% if site.keybase_href %}
+    {% include profile-link.html href=site.keybase_href icon=site.keybase_icon %}
+  {% endif %}
+
   {% if site.qq_href %}
     {% include profile-tooltip.html href=site.qq_href icon=site.qq_icon %}
   {% endif %}
