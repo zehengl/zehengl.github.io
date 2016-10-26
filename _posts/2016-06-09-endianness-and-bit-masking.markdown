@@ -30,25 +30,7 @@ In little endianness, it shall be written as 0D0C0B0A
 
 Python provides a handy library (**struct**) to handle such conversion. See [here](https://docs.python.org/2/library/struct.html) for deatil.
 
-{% highlight python linenos %} {% raw %}
-from struct import pack, unpack
-from binascii import hexlify
-
-var1, var2, var3 = 1025, 2050, 4099
-
-data_big_endian = pack('>3h', var1, var2, var3)
-print hexlify(data_big_endian)
-print unpack('>3h', data_big_endian)
-
-data_little_endian = pack('<3h', var1, var2, var3)
-print hexlify(data_little_endian)
-print unpack('<3h', data_little_endian)
-
-print bin(var1), var1
-print bin(var1 & 0b111), var1 & 0b111
-print bin(var1 | 0b111), var1 | 0b111
-print bin(var1 ^ 0b111), var1 ^ 0b111
-{% endraw %} {% endhighlight %}
+<script src="https://gist.github.com/zehengl/1c592f9e3f3cc5797f03c02e8e953b28.js"></script>
 
 **Explanation:**
 

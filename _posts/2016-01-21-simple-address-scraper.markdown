@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Simple Web Scraper"
+title:  "Simple Address Scraper"
 date:   2016-01-21
 author: Zeheng Li
 ---
 
-In this post I will write about how to use some amazing python libraries to crawl the web.
+In this post I will write about how to use some amazing python libraries to crawl some addresses web.
 
 # Why
 I am going to write a learning-based address parser and need some data for training.
@@ -35,46 +35,7 @@ With the help of "Inspect", we can conclude the structure:
 
 Following is my Python script, less than 40 lines. You can also find it on [Github](https://github.com/zehengl/example_codes_python/tree/master/simple_web_scraper).
 
-{% highlight python linenos %} {% raw %}
-import requests
-from bs4 import BeautifulSoup
-import time
-import codecs
-
-r = requests.get('http://opendatacanada.com/corporation.php')
-parsed_html = BeautifulSoup(r.content, 'html.parser')
-provinces = parsed_html.find_all('ul', class_='list-inline')[1:-2]
-
-num_prov = 0
-num_area = 0
-num_addr = 0
-for p in provinces:
-    with codecs.open('province_'+str(num_prov), 'wb',  'utf-8') as f:
-        areacodes = p.find_all('li')
-        for _ in areacodes:
-            a = _.contents[1].contents[0].split()[0].strip()
-            link = 'http://opendatacanada.com/corporation.php?postal='+a
-            print 'Extracting', link
-            r = requests.get(link)
-            parsed_html = BeautifulSoup(r.content, 'html.parser')
-            addresses = parsed_html.find_all('tr')
-            for _ in addresses:
-                try:
-                    addr = _.contents[3].contents[0] + ', ' + \
-                        _.contents[5].contents[0]
-                    f.write(addr + '\n')
-                    num_addr += 1
-                except:
-                    pass
-            num_area += 1
-        time.sleep(.5)
-    num_prov += 1
-
-print 'Result:'
-print num_prov, 'provinces'
-print num_area, 'areacodes'
-print num_addr, 'addresses'
-{% endraw %} {% endhighlight %}
+<script src="https://gist.github.com/zehengl/a1ddfa2693b91409eb252400143ca6e8.js"></script>
 
 
 # Result

@@ -144,49 +144,6 @@ Therefore we can reuse the codes from ***Situation 1***.
 
 # Implementation
 
-{% highlight python linenos %} {% raw %}
-# dynamic programming
-
-class Solution(object):
-
-    '''
-    Situation 1: Houses in a row
-    '''
-    def rob_in_a_row(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        if not nums:
-            return 0
-        else:
-            nums = [0] + nums
-            gain = [0] * len(nums)
-            gain[1] = nums[1]
-            for i in range(2, len(nums)):
-                gain[i] = max(gain[i-1], gain[i-2] + nums[i])
-            return gain[-1]
-
-    '''
-    Situation 2: Houses in a circle
-    '''
-    def rob_in_a_circle(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        if not nums:
-            return 0
-        elif len(nums) == 1:
-            return nums[0]
-        else:
-            return max(self.rob_in_a_row(nums[:-1]), self.rob_in_a_row(nums[1:]))
-
-if __name__ == '__main__':
-    nums = [1, 2, 5, 3, 9, 3, 2]
-    sol = Solution()
-    print sol.rob_in_a_row(nums)
-    print sol.rob_in_a_circle(nums)
-{% endraw %} {% endhighlight %}
+<script src="https://gist.github.com/zehengl/b8594073d1119ceb829896d84fdde2db.js"></script>
 
 Both submissions are <strong style="color:green;">Accepted</strong>

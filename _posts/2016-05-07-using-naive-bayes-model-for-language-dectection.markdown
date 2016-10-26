@@ -62,52 +62,11 @@ hello   trigram    ['$$h', '$he', 'hel', 'ell', 'llo', 'lo$', 'o$$']
 
 # Implementation
 
-Example codes, as well as the downgloading script for dataset, can be found on [Github](https://github.com/zehengl/example_codes_python/tree/master/language_detection).
+Example codes, as well as the downloading script for dataset, can be found on [Github](https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7).
+
+<script src="https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7.js"></script>
 
 **Preprocessing**
-
-{% highlight python linenos %} {% raw %}
-# extract.py
-
-from bs4 import BeautifulSoup
-import glob
-import argparse
-import pickle
-from random import seed, randint
-
-seed(5)
-
-parser = argparse.ArgumentParser(
-    description='Extract documents from wikicorpus V1.0')
-parser.add_argument(
-    'folders', type=str, nargs='+',
-    help='folder (raw.ca, raw.en, raw.es)')
-
-args = parser.parse_args()
-print 'process', ' '.join(args.folders)
-
-for folder in args.folders:
-    files = glob.glob(folder+'/*')
-
-    ind_train = randint(0, len(files)-1)
-    ind_test = randint(0, len(files)-1)
-
-    soup = BeautifulSoup(open(files[ind_train]).read(), 'html.parser')
-    docs = soup.find_all('doc')
-    content = []
-    for doc in docs:
-        content.append(doc.get_text())
-    pickle.dump(content, open(folder+'.train.pkl', 'wb'))
-    print 'use', files[ind_train], 'as training set'
-
-    soup = BeautifulSoup(open(files[ind_test]).read(), 'html.parser')
-    docs = soup.find_all('doc')
-    content = []
-    for doc in docs:
-        content.append(doc.get_text())
-    pickle.dump(content, open(folder+'.test.pkl', 'wb'))
-    print 'use', files[ind_test], 'as testing set'
-{% endraw %} {% endhighlight %}
 
 Run the script as follow
 
@@ -126,132 +85,6 @@ $$ \log {P(C_k|x)} = \log {P(C_k) + \sum_{i=1}^n \log {P(x_i|C_k)}} - \log{P(x)}
 I will assume the likelihoods of different languages are the same. And evidence is also no difference. Therefore only the following part needs to be computed.
 
 $$ \sum_{i=1}^n {\log {P(x_i|C_k)}} $$
-
-{% highlight python linenos %} {% raw %}
-# language_detect.py
-# coding: utf-8
-
-import pickle
-from collections import defaultdict
-from math import log10
-
-
-def ngramize(word, n=1):
-    ngram_list = []
-    word = word.lower()
-    word = '$'*(n-1)+word+'$'*(n-1) if n > 1 else word
-    for i in range(len(word)-n+1):
-        ngram_list.append(word[i:i+n])
-    return ngram_list
-
-
-def tokenize(doc):
-    tokens = doc.split()
-    tokens = [t.lower() for t in tokens]
-    tokens = [t for t in tokens if not t.isdigit()]
-    return tokens[:-1]
-
-
-def train_language_model(docs, n=1):
-    language_model, total = defaultdict(float), 0
-    for doc in docs:
-        tokens = tokenize(doc)
-        for word in tokens:
-            for ngram in ngramize(word, n):
-                language_model[ngram] += 1
-                total += 1
-    for key in language_model:
-        language_model[key] = (language_model[key] + 1) / total
-    return (language_model, total)
-
-
-def train(language_docs, n=1):
-    model = {}
-    model['language'] = {}
-    model['ngram'] = n
-    for l in language_docs:
-        print 'learning', l, 'model:',
-        docs = language_docs[l]
-        print len(docs), 'docs', sum([len(d.split()) for d in docs]), 'tokens'
-        model['language'][l] = train_language_model(docs, n)
-    return model
-
-
-def predict(doc, model):
-    n = model['ngram']
-    languages = model['language'].keys()
-    preds = []
-    for l in languages:
-        language_model, total = model['language'][l]
-        pred = 0.
-        for word in tokenize(doc):
-            for ngram in ngramize(word, n):
-                weight = 1.
-                if ngram in language_model:
-                    weight *= language_model[ngram]
-                else:
-                    weight = 1. / total
-                pred += log10(weight)
-        preds.append(pred)
-    max_ind = preds.index(max(preds))
-    return languages[max_ind]
-
-
-def test(language_docs, model):
-    error, length = 0, 0
-    for l in language_docs:
-        docs = language_docs[l]
-        for doc in docs:
-            print predict(doc, model), l
-            if predict(doc, model) != l:
-                error += 1
-            length += 1
-    print 'Testing on %d instances\nAccuracy=%.4f' % (
-        length, 1 - float(error) / length)
-
-
-def testcase(ngram_size):
-    en_train = pickle.load(open('raw.en.train.pkl'))
-    en_test = pickle.load(open('raw.en.test.pkl'))
-
-    es_train = pickle.load(open('raw.es.train.pkl'))
-    es_test = pickle.load(open('raw.es.test.pkl'))
-
-    ca_train = pickle.load(open('raw.ca.train.pkl'))
-    ca_test = pickle.load(open('raw.ca.test.pkl'))
-
-    training_language_docs = {
-        'en': en_train[:10],
-        'es': es_train[:10],
-        'ca': ca_train[:10],
-    }
-
-    model = train(training_language_docs, ngram_size)
-
-    test_str = 'today is a good day'
-    print '\"%s\"' % test_str, 'is', predict(test_str, model)
-
-    test_str = 'Hoy es un buen día'
-    print '\"%s\"' % test_str, 'is', predict(test_str, model)
-
-    test_str = 'avui és un bon dia'
-    print '\"%s\"' % test_str, 'is', predict(test_str, model)
-
-    testing_language_docs = {
-        'en': en_test,
-        'es': es_test,
-        'ca': ca_test,
-    }
-
-    test(testing_language_docs, model)
-
-if __name__ == '__main__':
-    for n in [1, 2, 3]:
-        print 'When ngram = %d' % n
-        testcase(n)
-        print '-'*20
-
-{% endraw %} {% endhighlight %}
 
 Run the script as follow
 
