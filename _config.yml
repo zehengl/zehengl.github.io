@@ -6,53 +6,54 @@ email: imzehengl@gmail.com
 
 url: "https://zehengl.github.io"
 
-github_href: "https://github.com/zehengl"
-github_icon: "/assets/svg/icon-github.svg"
+profile_with_link:
+  github:
+    - "https://github.com/zehengl"
+    - "/assets/svg/icon-github.svg"
+  twitter:
+    - "https://twitter.com/zehengl"
+    - "/assets/svg/icon-twitter.svg"
+  instagram:
+    - "https://instagram.com/zehengl"
+    - "/assets/svg/icon-instagram.svg"
+  facebook:
+    - "https://facebook.com/zehengl"
+    - "/assets/svg/icon-facebook.svg"
+  linkedin:
+    - "https://linkedin.com/in/zehengl"
+    - "/assets/svg/icon-linkedin.svg"
+  youtube:
+    - "https://youtube.com/cefzhl"
+    - "/assets/svg/icon-youtube.svg"
+  web:
+    - "http://lyle.smu.edu/~zehengl"
+    - "/assets/svg/icon-web.svg"
+  wordpress:
+    - "https://imzehengl.wordpress.com"
+    - "/assets/svg/icon-wordpress.svg"
+  medium:
+    - "https://medium.com/@zehengl"
+    - "/assets/svg/icon-medium.svg"
+  rpubs:
+    - "https://rpubs.com/zehengl"
+    - "/assets/svg/icon-rpubs.svg"
+  yelp:
+    - "http://zehengl.yelp.ca"
+    - "/assets/svg/icon-yelp.svg"
+  keybase:
+    - "https://keybase.io/zehengl"
+    - "/assets/svg/icon-keybase.png"
 
-twitter_href: "https://twitter.com/zehengl"
-twitter_icon: "/assets/svg/icon-twitter.svg"
-
-instagram_href: "https://instagram.com/zehengl"
-instagram_icon: "/assets/svg/icon-instagram.svg"
-
-facebook_href: "https://facebook.com/zehengl"
-facebook_icon: "/assets/svg/icon-facebook.svg"
-
-linkedin_href: "https://linkedin.com/in/zehengl"
-linkedin_icon: "/assets/svg/icon-linkedin.svg"
-
-youtube_href: "https://youtube.com/cefzhl"
-youtube_icon: "/assets/svg/icon-youtube.svg"
-
-web_href: "http://lyle.smu.edu/~zehengl"
-web_icon: "/assets/svg/icon-web.svg"
-
-wordpress_href: "https://imzehengl.wordpress.com"
-wordpress_icon: "/assets/svg/icon-wordpress.svg"
-
-medium_href: "https://medium.com/@zehengl"
-medium_icon: "/assets/svg/icon-medium.svg"
-
-rpubs_href: "https://rpubs.com/zehengl"
-rpubs_icon: "/assets/svg/icon-rpubs.svg"
-
-orcid_href: "http://orcid.org/0000-0003-1118-0839"
-orcid_icon: "/assets/svg/icon-orcid.png"
-
-wechat_href: zehengl
-wechat_icon: "/assets/svg/icon-wechat.svg"
-
-skype_href: zehengl
-skype_icon: "/assets/svg/icon-skype.svg"
-
-qq_href: 51163802
-qq_icon: "/assets/svg/icon-qq.svg"
-
-yelp_href: "http://zehengl.yelp.ca"
-yelp_icon: "assets/svg/icon-yelp.svg"
-
-keybase_href: "https://keybase.io/zehengl"
-keybase_icon: "assets/svg/icon-keybase.png"
+profile_no_link:
+  wechat:
+    - zehengl
+    - "/assets/svg/icon-wechat.svg"
+  skype:
+    - zehengl
+    - "/assets/svg/icon-skype.svg"
+  qq:
+    - 51163802
+    - "/assets/svg/icon-qq.svg"
 
 markdown: kramdown
 

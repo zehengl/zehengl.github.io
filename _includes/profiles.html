@@ -1,67 +1,17 @@
 <div align="left">
 
-  {% if site.web_href %}
-    {% include profile-link.html href=site.web_href icon=site.web_icon %}
-  {% endif %}
+    {% for profile in site.profile_with_link %}
+        {% assign a=profile[0] %}
+        {% assign h=profile[1][0] %}
+        {% assign i=profile[1][1]%}
+        {% include profile-link.html alt=a href=h icon=i %}
+    {% endfor %}
 
-  {% if site.wordpress_href %}
-    {% include profile-link.html href=site.wordpress_href icon=site.wordpress_icon %}
-  {% endif %}
-
-  {% if site.github_href %}
-    {% include profile-link.html href=site.github_href icon=site.github_icon %}
-  {% endif %}
-
-  {% if site.twitter_href %}
-    {% include profile-link.html href=site.twitter_href icon=site.twitter_icon %}
-  {% endif %}
-
-  {% if site.instagram_href %}
-    {% include profile-link.html href=site.instagram_href icon=site.instagram_icon %}
-  {% endif %}
-
-  {% if site.facebook_href %}
-    {% include profile-link.html href=site.facebook_href icon=site.facebook_icon %}
-  {% endif %}
-
-  {% if site.linkedin_href %}
-    {% include profile-link.html href=site.linkedin_href icon=site.linkedin_icon %}
-  {% endif %}
-
-  {% if site.youtube_href %}
-    {% include profile-link.html href=site.youtube_href icon=site.youtube_icon %}
-  {% endif %}
-
-  {% if site.medium_href %}
-    {% include profile-link.html href=site.medium_href icon=site.medium_icon %}
-  {% endif %}
-
-  {% if site.rpubs_href %}
-    {% include profile-link.html href=site.rpubs_href icon=site.rpubs_icon %}
-  {% endif %}
-
-  {% if site.orcid_href %}
-    {% include profile-link.html href=site.orcid_href icon=site.orcid_icon %}
-  {% endif %}
-
-  {% if site.yelp_href %}
-    {% include profile-link.html href=site.yelp_href icon=site.yelp_icon %}
-  {% endif %}
-
-  {% if site.keybase_href %}
-    {% include profile-link.html href=site.keybase_href icon=site.keybase_icon %}
-  {% endif %}
-
-  {% if site.qq_href %}
-    {% include profile-tooltip.html href=site.qq_href icon=site.qq_icon %}
-  {% endif %}
-
-  {% if site.wechat_href %}
-    {% include profile-tooltip.html href=site.wechat_href icon=site.wechat_icon %}
-  {% endif %}
-
-  {% if site.skype_href %}
-    {% include profile-tooltip.html href=site.skype_href icon=site.skype_icon %}
-  {% endif %}
+    {% for profile in site.profile_no_link %}
+        {% assign a=profile[0] %}
+        {% assign h=profile[1][0] %}
+        {% assign i=profile[1][1]%}
+        {% include profile-tooltip.html alt=a href=h icon=i %}
+    {% endfor %}
 
 </div>
