@@ -32,9 +32,9 @@ Life is short, use Python
 
 * python-qrcode does all the dirty work to generate QR code from string
 
-* flask serves a webapp where's only one end point, it returns the form upon GET and displays the QR code image upon POST
+* flask serves a webapp with only one endpoint, it returns the form upon GET and displays the QR code image upon POST
 
-* [the flask snippet](http://flask.pocoo.org/snippets/32/) shows how to avoid creating a temp file for the image.
+* [the flask snippet](http://flask.pocoo.org/snippets/32/) shows how to avoid creating a temp file for the image
 
 # The Deploy
 
