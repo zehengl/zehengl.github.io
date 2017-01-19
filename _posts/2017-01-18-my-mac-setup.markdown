@@ -26,6 +26,7 @@ You cannot go wrong with [Homebrew](http://brew.sh/).
 There are tons of useful packages already managed in homebrew. Here is a list of my frequent items.
 
 ```brew install```
+
 * git
 * imagemagick
 * multitail
@@ -36,6 +37,7 @@ There are tons of useful packages already managed in homebrew. Here is a list of
 * graphviz
 
 ```brew cask install```
+
 * qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 * virtualbox
 * vagrant
