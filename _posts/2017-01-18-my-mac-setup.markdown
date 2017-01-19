@@ -17,9 +17,7 @@ If you need a bootable use drive for macOS Sierra to begin with, see this instru
 
 You cannot go wrong with [Homebrew](http://brew.sh/).
 
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
 # Packages
 
@@ -70,6 +68,13 @@ There are tons of useful packages already managed in homebrew. Here is a list of
 	* ```brew services start mysql```
 	* ```brew cask install mysqlworkbench```
 
+# PaaS
+
+* Heroku
+	* ```brew install heroku```
+* Openshift
+	* ```brew install openshift-cli```
+
 # Apps
 
 * [iTerm2](https://www.iterm2.com/downloads.html)
@@ -92,3 +97,6 @@ There are tons of useful packages already managed in homebrew. Here is a list of
 	* Google Mail Checker
 * [MacTex](https://tug.org/mactex/)
 	* [Texworks](https://github.com/TeXworks/texworks)
+* [Transmission](https://transmissionbt.com/)
+* [XQuartz](https://www.xquartz.org/)
+* [Tunnelblick](https://tunnelblick.net/)
