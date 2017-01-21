@@ -5,7 +5,7 @@ date:   2017-01-18
 author: Zeheng Li
 ---
 
-This is my basic mac setup, heavily depending on Homebrew. (Updated as of 2017-01-18)
+This is my basic mac setup, heavily depending on Homebrew. (Updated as of 2017-01-21)
 
 # Reinstall macOS
 
@@ -33,6 +33,8 @@ There are tons of useful packages already managed in homebrew. Here is a list of
 * vim
 	* [spf13](https://github.com/spf13/spf13-vim) is awesome
 * graphviz
+* htop
+* links
 
 ```brew cask install```
 
