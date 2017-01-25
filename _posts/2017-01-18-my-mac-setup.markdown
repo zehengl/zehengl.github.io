@@ -42,6 +42,7 @@ There are tons of useful packages already managed in homebrew. Here is a list of
 * virtualbox
 * vagrant
 * vagrant-manager
+* vectr
 
 # Programming Languages
 
