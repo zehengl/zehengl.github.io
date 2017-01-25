@@ -9,7 +9,7 @@ Something about roman numerals, inspired by Super Bowl LI.
 
 # Why
 
-Cheer out for the Partiots and Falcons fans! I am excited about this year's super bowl. Will Tom Brady will win his **FIFTHS** or Matt Ryan finish strong for his amazing season?
+Cheer out for the Partiots and Falcons fans! I am excited about this year's super bowl. Will Tom Brady win his **FIFTHS** or Matt Ryan finish strong for his amazing season?
 
 When I was watching the conference finals on Sunday afternoon, my wife asked "why your name is with super bowl". For a second I was like, with a Nick Young face, "what?". Then I realized she was referring to "SB LI" and replied "that's roman 51".
 
