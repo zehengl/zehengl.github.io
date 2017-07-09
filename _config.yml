@@ -62,6 +62,6 @@ paginate: 10
 
 permalink: pretty
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
