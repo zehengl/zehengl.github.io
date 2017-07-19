@@ -1,0 +1,47 @@
+- name : github
+  link : https://github.com/zehengl
+  icon : /assets/svg/icon-github.svg
+
+- name : twitter
+  link : https://twitter.com/zehengl
+  icon : /assets/svg/icon-twitter.svg
+
+- name : instagram
+  link : https://instagram.com/zehengl
+  icon : /assets/svg/icon-instagram.svg
+
+- name : facebook
+  link : https://facebook.com/zehengl
+  icon : /assets/svg/icon-facebook.svg
+
+- name : linkedin
+  link : https://linkedin.com/in/zehengl
+  icon : /assets/svg/icon-linkedin.svg
+
+- name : youtube
+  link : https://youtube.com/cefzhl
+  icon : /assets/svg/icon-youtube.svg
+
+- name : smu
+  link : http://lyle.smu.edu/~zehengl
+  icon : /assets/svg/icon-web.svg
+
+- name : wordpress
+  link : https://imzehengl.wordpress.com
+  icon : /assets/svg/icon-wordpress.svg
+
+- name : medium
+  link : https://medium.com/@zehengl
+  icon : /assets/svg/icon-medium.svg
+
+- name : rpubs
+  link : https://rpubs.com/zehengl
+  icon : /assets/svg/icon-rpubs.svg
+
+- name : yelp
+  link : http://zehengl.yelp.ca
+  icon : /assets/svg/icon-yelp.svg
+
+- name : keybase
+  link : https://keybase.io/zehengl
+  icon : /assets/svg/icon-keybase.png

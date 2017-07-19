@@ -1,17 +1,8 @@
 <div align="left">
-
-    {% for profile in site.profile_with_link %}
-        {% assign a=profile[0] %}
-        {% assign h=profile[1][0] %}
-        {% assign i=profile[1][1]%}
-        {% include profile-link.html alt=a href=h icon=i %}
+    {% for id in site.data.identities %}
+        {% assign a=id.name %}
+        {% assign h=id.link %}
+        {% assign i=id.icon %}
+        {% include profile-element.html alt=a href=h icon=i %}
     {% endfor %}
-
-    {% for profile in site.profile_no_link %}
-        {% assign a=profile[0] %}
-        {% assign h=profile[1][0] %}
-        {% assign i=profile[1][1]%}
-        {% include profile-tooltip.html alt=a href=h icon=i %}
-    {% endfor %}
-
 </div>

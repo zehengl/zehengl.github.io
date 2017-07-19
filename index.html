@@ -17,22 +17,12 @@ title: "zehengl"
   <div class="container">
     <h1 class="bulletin"><span class="glyphicon glyphicon-console" ></span> Experience</h1>
     <table class="table table-hover">
-      <tr>
-        <td>Software Developer</td>
-        <td><a href="https://www.blacklinesafety.com/">Blackline Safety</a> <span class="glyphicon glyphicon-ok" ></span></td>
-      </tr>
-      <tr>
-        <td>Research Developer</td>
-        <td><a href="http://hiregroundsoftware.com/">HireGround Software Solution</a></td>
-      </tr>
-      <tr>
-        <td>Teaching Assistant</td>
-        <td><a href="http://www.smu.edu/">Southern Methodist University</a></td>
-      </tr>
-      <tr>
-        <td>Graduate Assistant</td>
-        <td><a href="http://www.acu.edu/">Abilene Christian University</a></td>
-      </tr>
+      {% for exp in site.data.experiences %}
+        <tr>
+          <td>{{ exp.title }}</td>
+          <td><a href="{{ exp.link }}">{{ exp.company }}</a></td>
+        </tr>
+      {% endfor %}
     </table>
   </div>
 </section>
@@ -41,8 +31,12 @@ title: "zehengl"
   <div class="container">
     <h1 class="bulletin"><span class="glyphicon glyphicon-briefcase" ></span> Projects</h1>
     <ul>
-      <li><a href="https://pypi.python.org/pypi/ezapi-yelp">ezapi-yelp</a></li>
-      <li><a href="https://pypi.python.org/pypi/ezapi-tmdb">ezapi-tmdb</a></li>
+      {% for proj in site.data.projects %}
+        <li>
+          <strong><a href="{{ proj.link }}">{{ proj.name }}</a></strong>
+          <br>{{ proj.description }}
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </section>
@@ -51,22 +45,12 @@ title: "zehengl"
   <div class="container">
     <h1 class="bulletin"><span class="glyphicon glyphicon-pencil" ></span> Publications</h1>
     <ul>
-      <li>
-        <strong><a href="http://dx.doi.org/10.1145/3084100.3084102">Tracing Requirements in Software Design</a></strong>
-        <br>Proceedings of 2017 International Conference on Software and Systems Process (ICSSP).
-      </li>
-      <li>
-        <strong><a href="http://dx.doi.org/10.1145/2889160.2892654">When to Release in Open Source Project?</a></strong> (Distinguished Posters)
-        <br>Proceedings of 2016 International Conference on Software Engineering (ICSE).
-      </li>
-      <li>
-        <strong><a href="http://www.aclweb.org/anthology/K/K15/K15-1024.pdf">Recovering Traceability Links in Requirements Documents</a></strong>
-        <br>Proceedings of 2015 Conference on Computational Natural Language Learning (CoNLL).
-      </li>
-      <li>
-        <strong><a href="http://dx.doi.org/10.1007/s10515-014-0155-1">AutoODC: Automated Generation of Orthogonal Defect Classifications</a></strong>
-        <br>Automated Software Engineering, 22(1), 3-46, 2015.
-      </li>
+      {% for pub in site.data.publications %}
+        <li>
+          <strong><a href="{{ pub.link }}">{{ pub.title }}</a></strong>
+          <br>{{ pub.venue }}
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </section>

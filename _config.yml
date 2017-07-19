@@ -6,55 +6,6 @@ email: imzehengl@gmail.com
 
 url: "https://zehengl.github.io"
 
-profile_with_link:
-  github:
-    - "https://github.com/zehengl"
-    - "/assets/svg/icon-github.svg"
-  twitter:
-    - "https://twitter.com/zehengl"
-    - "/assets/svg/icon-twitter.svg"
-  instagram:
-    - "https://instagram.com/zehengl"
-    - "/assets/svg/icon-instagram.svg"
-  facebook:
-    - "https://facebook.com/zehengl"
-    - "/assets/svg/icon-facebook.svg"
-  linkedin:
-    - "https://linkedin.com/in/zehengl"
-    - "/assets/svg/icon-linkedin.svg"
-  youtube:
-    - "https://youtube.com/cefzhl"
-    - "/assets/svg/icon-youtube.svg"
-  web:
-    - "http://lyle.smu.edu/~zehengl"
-    - "/assets/svg/icon-web.svg"
-  wordpress:
-    - "https://imzehengl.wordpress.com"
-    - "/assets/svg/icon-wordpress.svg"
-  medium:
-    - "https://medium.com/@zehengl"
-    - "/assets/svg/icon-medium.svg"
-  rpubs:
-    - "https://rpubs.com/zehengl"
-    - "/assets/svg/icon-rpubs.svg"
-  yelp:
-    - "http://zehengl.yelp.ca"
-    - "/assets/svg/icon-yelp.svg"
-  keybase:
-    - "https://keybase.io/zehengl"
-    - "/assets/svg/icon-keybase.png"
-
-profile_no_link:
-  wechat:
-    - zehengl
-    - "/assets/svg/icon-wechat.svg"
-  skype:
-    - zehengl
-    - "/assets/svg/icon-skype.svg"
-  qq:
-    - 51163802
-    - "/assets/svg/icon-qq.svg"
-
 markdown: kramdown
 
 paginate_path: "/blog/page:num/"
