@@ -18,7 +18,7 @@ permalink: /publication/
       {{ pub.pdf }}
     {% endcapture %}
     {% capture img %}
-      {{ pub.icon }}
+      {{ pub.icon | prepend: site.url }}
     {% endcapture %}
     {% capture supporting_text %}
       in proceedings of {{ pub.venue }}
@@ -29,6 +29,7 @@ permalink: /publication/
     {% 
       include card.html
       title=title
+      alt='logo'
       img=img
       supporting_text=supporting_text
       action_text=action_text

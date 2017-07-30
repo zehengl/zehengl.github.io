@@ -16,7 +16,7 @@ permalink: /profile/
       {{ id.link }}
     {% endcapture %}
     {% capture img %}
-      {{ id.icon }}
+      {{ id.icon | prepend: site.url }}
     {% endcapture %}
     {% 
       include card.html

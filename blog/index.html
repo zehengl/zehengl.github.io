@@ -27,16 +27,16 @@ title: posts by zehengl
     {% endcapture %}
     {% capture img %}
       {% if post.icon %}
-        {{ post.icon }}
+        {{ post.icon | prepend: site.url }}
       {% else %}
-        /assets/img/icon-post.svg
+        {{ /assets/img/icon-post.svg | prepend: site.url }}
       {% endif %}
     {% endcapture %}
     {% 
       include card.html
       title=title
       img=img
-      alt=alt
+      alt='logo'
       supporting_text=supporting_text
       action_text=action_text
       action_href=action_href
