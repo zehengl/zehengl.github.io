@@ -1,0 +1,30 @@
+---
+layout: default
+title: Profile
+permalink: /profile/
+---
+
+<div class="mdl-grid">
+  {% for id in site.data.identities %}
+    {% capture alt %}
+      {{ id.name }}
+    {% endcapture %}
+    {% capture action_text %}
+      go to {{ id.name }}
+    {% endcapture%}
+    {% capture action_href %}
+      {{ id.link }}
+    {% endcapture %}
+    {% capture img %}
+      {{ id.icon }}
+    {% endcapture %}
+    {% 
+      include card.html
+      title=''
+      img=img
+      alt=alt
+      action_text=action_text
+      action_href=action_href
+    %}
+  {% endfor %}
+</div>

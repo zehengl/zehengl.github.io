@@ -1,35 +1,108 @@
 ---
 layout: default
-title: "zehengl"
+title: zehengl
 ---
 
-<section id="intro">
-  <div class="container">
-    <h1 class="bulletin">
-      <span class="glyphicon glyphicon-user" ></span> Who I am
-    </h1>
-    <p>Zeheng Li &middot; <strong>李泽恒</strong> &middot; imzehengl@gmail.com</p>
-    <p>[ <em>occationally</em>, <em>frequently</em> ] write in <a href="/blog/">my blog</a>. (Subscribe <a href="{{ "/feed.xml" }}">via RSS</a>)</p>
-  </div>
-</section>
+<div class="mdl-grid">
 
-<section id="experience">
-  <div class="container">
-    <h1 class="bulletin"><span class="glyphicon glyphicon-console" ></span> Experience</h1>
-    <table class="table table-hover">
-      {% for exp in site.data.experiences %}
-        <tr>
-          <td>{{ exp.title }}</td>
-          <td><a href="{{ exp.link }}">{{ exp.company }}</a></td>
-        </tr>
-      {% endfor %}
-    </table>
-  </div>
-</section>
+  <!-- about -->
+  {% capture about_supporting_text %}
+    {{ site.author }}
+  {% endcapture %}
+  {% capture about_action_text %}
+    See more
+  {% endcapture%}
+  {% 
+    include card.html
+    title='About'
+    img='/assets/img/icon-about.svg'
+    alt='about'
+    supporting_text=about_supporting_text
+    action_href='/about'
+    action_text=about_action_text
+  %}
 
-<section id="projects">
-  <div class="container">
-    <h1 class="bulletin"><span class="glyphicon glyphicon-briefcase" ></span> Projects</h1>
+  <!-- experience -->
+  {% capture experience_supporting_text %}
+    {{ site.data.experiences.first.title }} at <a href="{{ site.data.experiences.first.link }}">{{ site.data.experiences.first.company }}</a>
+  {% endcapture %}
+  {% capture experience_action_text %}
+    See all {{ site.data.experiences | size }} jobs
+  {% endcapture%}
+  {% 
+    include card.html
+    title='Experience'
+    img='/assets/img/icon-experience.svg'
+    alt='experience'
+    supporting_text=experience_supporting_text
+    action_href='/experience'
+    action_text=experience_action_text
+  %}
+
+  <!-- project -->
+  {% capture project_supporting_text %}
+    <a href="{{ site.data.projects.first.link }}">
+      {{ site.data.projects.first.name }}
+    </a>
+  {% endcapture %}
+  {% capture project_action_text %}
+    See all {{ site.data.projects | size }} projects
+  {% endcapture%}
+  {% 
+    include card.html
+    title='Project'
+    img='/assets/img/icon-project.svg'
+    alt='project'
+    supporting_text=project_supporting_text
+    action_href='/project'
+    action_text=project_action_text
+  %}
+
+  <!-- publication -->
+  {% capture publication_supporting_text %}
+    <a href="{{ site.data.publications.first.link }}">
+      {{ site.data.publications.first.title }}
+    </a>
+  {% endcapture %}
+  {% capture publication_action_text %}
+    See all {{ site.data.publications | size }} published works
+  {% endcapture%}
+  {% 
+    include card.html
+    title='Publication'
+    img='/assets/img/icon-publication.svg'
+    alt='publication'
+    supporting_text=publication_supporting_text
+    action_href='/publication'
+    action_text=publication_action_text
+  %}
+
+  <!-- profile -->
+  {% capture profile_supporting_text %}
+    <a href="{{ site.data.identities.first.link }}">
+      {{ site.data.identities.first.name }}
+    </a>
+  {% endcapture %}
+  {% capture profile_action_text %}
+    See all {{ site.data.identities | size }} profiles
+  {% endcapture%}
+  {% 
+    include card.html
+    title='Profile'
+    img='/assets/img/icon-profile.svg'
+    alt='profile'
+    supporting_text=profile_supporting_text
+    action_href='/profile'
+    action_text=profile_action_text
+  %}
+
+</div>
+
+
+
+<!-- <section>
+  <div>
+    <h1>Projects</h1>
     <ul>
       {% for proj in site.data.projects %}
         <li>
@@ -41,23 +114,9 @@ title: "zehengl"
   </div>
 </section>
 
-<section id="publications">
-  <div class="container">
-    <h1 class="bulletin"><span class="glyphicon glyphicon-pencil" ></span> Publications</h1>
-    <ul>
-      {% for pub in site.data.publications %}
-        <li>
-          <strong><a href="{{ pub.link }}">{{ pub.title }}</a></strong>
-          <br>{{ pub.venue }}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
-<section id="others">
-  <div class="container">
-    <h1 class="bulletin"><span class="glyphicon glyphicon-pushpin" ></span> Miscellaneous</h1>
+<section>
+  <div>
+    <h1>Miscellaneous</h1>
     <ul>
       <li>
         Reviewer of <strong><a href="https://www.packtpub.com/game-development/corona-sdk-mobile-game-development-second-edition">Corona SDK Mobile Game Development: Beginner's Guide - Second Edition</a></strong>
@@ -67,9 +126,9 @@ title: "zehengl"
   </div>
 </section>
 
-<section id="skills">
-  <div class="container">
-    <h1 class="bulletin"><span class="glyphicon glyphicon-list" ></span> Batteries Included</h1>
+<section>
+  <div>
+    <h1>Batteries Included</h1>
     <ul>
       <li>Machine Learning, Natrual Language Processing, Software Engineering</li>
       <li>C++, C#, Java</li>
@@ -80,12 +139,6 @@ title: "zehengl"
       <li>PyCharm, Atom, Sublime Text 3, VS Code, Xcode</li>
     </ul>
   </div>
-</section>
+</section> -->
 
-<section id="profiles">
-  <div class="container">
-    <h1 class="bulletin"><span class="glyphicon glyphicon-bookmark" ></span> Profiles</h1>
-    <p>Find me somewhere else?</p>
-    {% include profiles.html %}
-  </div>
-</section>
+

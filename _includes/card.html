@@ -1,0 +1,22 @@
+<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+  {% if include.title %}
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">{{ include.title }}</h2>
+    </div>
+  {% endif %}
+  <div class="my-card-media mdl-card__media">
+    <img src="{{ include.img }}" width="128" border="0" alt="{{ include.alt }}" style="padding:10px;">
+  </div>
+  {% if include.supporting_text %}
+    <div class="mdl-card__supporting-text">
+      {{ include.supporting_text }}
+    </div>
+  {% endif %}
+  {% if include.action_text %}
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ include.action_href }}">
+        {{ include.action_text }}
+      </a>
+    </div>
+  {% endif %}
+</div>

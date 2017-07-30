@@ -1,0 +1,38 @@
+---
+layout: default
+title: Publication
+permalink: /publication/
+---
+
+<div class="mdl-grid">
+  {% for pub in site.data.publications %}
+    {% capture title %}
+      <a href="{{ pub.link }}">{{ pub.title }}</a>
+    {% endcapture %}
+    {% capture action_text %}
+      {% if pub.pdf %}
+        get pdf
+      {% endif %}
+    {% endcapture%}
+    {% capture action_href %}
+      {{ pub.pdf }}
+    {% endcapture %}
+    {% capture img %}
+      {{ pub.icon }}
+    {% endcapture %}
+    {% capture supporting_text %}
+      in proceedings of {{ pub.venue }}
+      {% if pub.bib %}
+        <a href="{{ pub.bib }}">bib</a>
+      {% endif %}
+    {% endcapture %}
+    {% 
+      include card.html
+      title=title
+      img=img
+      supporting_text=supporting_text
+      action_text=action_text
+      action_href=action_href
+    %}
+  {% endfor %}
+</div>

@@ -3,11 +3,12 @@ layout: post
 title:  "Agile Scrum Note 02: Methodologies"
 date:   2015-12-07
 author: Zeheng Li
+icon: /assets/post/icon-jira.svg
 ---
 
 Some popular Agile methodologies.
 
-# Crystal
+### Crystal
   * **lightweight approach**
   * Learn (Shu), Collect (Ha), Invent/Blend (Ri) techniques
   * 7 principle
@@ -19,7 +20,7 @@ Some popular Agile methodologies.
     - Easy access to expert users
     - Technical environment
 
-# Extreme Programming (XP)
+### Extreme Programming (XP)
   * **lightweight approach**
   * A system of practices that a community of software developers is evolving to address the problem of quickly delivering quality software, and then evolving it to meet business problems
   * Take proven practices to the extreme
@@ -67,7 +68,7 @@ Some popular Agile methodologies.
       + gets accurate feedback
       + can make business decisions and implement changes faster
 
-# DSDM (revised version, Atern)
+### DSDM (revised version, Atern)
   * **heavy approach**
   * Basic concept
     - User involvement ensures the right business solution
@@ -95,7 +96,7 @@ Some popular Agile methodologies.
     - Facilitated workshops
     - Modeling
 
-# Feature-Driven Development (FDD)
+### Feature-Driven Development (FDD)
   * **heavy approach**
   * Core Values
     - A system for building systems is essential
@@ -119,7 +120,7 @@ Some popular Agile methodologies.
       - Build by feature
   * Best for team with 10-250 developers, handy pool of talented workers, focus on good object model
 
-# Agile Unified Process
+### Agile Unified Process
   * **heavy approach**
   * Based on the Rational Unified Process (RUP), a method of managing Object Oriented Software Development
     - Develop iteratively – risk being the primary driver
@@ -145,7 +146,7 @@ Some popular Agile methodologies.
     - Configuration and Change management
     - Project Management
 
-# Scrum
+### Scrum
   * **lightweight approach**
   * Lifecycle
     1. Inputs from stakeholders

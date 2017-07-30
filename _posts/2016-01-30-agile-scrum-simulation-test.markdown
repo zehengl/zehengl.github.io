@@ -3,13 +3,14 @@ layout: post
 title:  "Agile Scrum Simulation Test"
 date:   2016-01-30
 author: Zeheng Li
+icon: /assets/post/icon-jira.svg
 ---
 
 A list of questions and answers about Agile Scrum.
 
 ---
 
-# Which of the following BEST explain the terms 'Lead time' and 'Cycle time' in Lean methodologies? 
+### Which of the following BEST explain the terms 'Lead time' and 'Cycle time' in Lean methodologies? 
 
 ***A. Lead time is the amount of time it takes for a unit of work to proceed from start to finish. Cycle time is the amount of time between two successive deliveries*** 
 
@@ -21,7 +22,7 @@ D. Lead time and cycle time mean the same thing.
 
 ---
 
-# During a daily standup meeting, you would normally answer which three questions?
+### During a daily standup meeting, you would normally answer which three questions?
 
 A. What did you do yesterday, What are you planning to do today, When will you finish your tasks for the Sprint?
 
@@ -33,7 +34,7 @@ D. For each task, report the status, percent complete and projected end date
 
 ---
 
-# If you are an Agile project manager, what is the BEST measure of success of your project?
+### If you are an Agile project manager, what is the BEST measure of success of your project?
 
 ***A. The project delivered maximum value to the customer***
 
@@ -45,7 +46,7 @@ D. All of the above
 
 ---
 
-# What happens during iteration planning meetings?
+### What happens during iteration planning meetings?
 
 A. Team members brainstorm about the design for the iteration
 
@@ -57,7 +58,7 @@ D. The Product owner gives the goal of the iteration and tells which need to be 
 
 ---
 
-# If a team is looking for quick 'time to market', what would be the basis for prioritizing features?
+### If a team is looking for quick 'time to market', what would be the basis for prioritizing features?
 
 A. Number of features
 
@@ -69,7 +70,7 @@ D. None of the above
 
 ---
 
-# A project's stakeholders have low confidence in the development team. Which of the following gives the MAXIMUM benefit in terms of building stakeholder confidence?
+### A project's stakeholders have low confidence in the development team. Which of the following gives the MAXIMUM benefit in terms of building stakeholder confidence?
 
 A. More meetings with the stakeholders to boost communication
 
@@ -81,7 +82,7 @@ C. By having a self-organized team
 
 ---
 
-# If the burndown chart showed an upward trend for two days in a row in the middle of the iteration, what might be the reason?
+### If the burndown chart showed an upward trend for two days in a row in the middle of the iteration, what might be the reason?
 
 A. The team is not completing the stories fast enough
 
@@ -93,7 +94,7 @@ D. The team is working overtime
 
 ---
 
-# A Scrum team wants the Scrum Master role to be re-defined so that it is more useful for the team. What should be done in this situation?
+### A Scrum team wants the Scrum Master role to be re-defined so that it is more useful for the team. What should be done in this situation?
 
 A. It should not be done
 
@@ -105,7 +106,7 @@ D. The Project Management Office should be consulted for guidance
 
 ---
 
-# A software company is building a new product to addresses an important function in the Healthcare industry. This is an example of:
+### A software company is building a new product to addresses an important function in the Healthcare industry. This is an example of:
 
 A. Horizontal-Market Software
 
@@ -118,7 +119,7 @@ D. Software-as-a-service
 
 ---
 
-# Which of the following are valid considerations for prioritization of stories:
+### Which of the following are valid considerations for prioritization of stories:
 
 A. The business value of the functionality added
 
@@ -130,7 +131,7 @@ C. The risk in adding the new functionality
 
 ---
 
-# Other things being constant, how does the time-to-market vary with the location of the team members?
+### Other things being constant, how does the time-to-market vary with the location of the team members?
 
 A. Time-to-market will reduce if a team is dispersed
 
@@ -142,7 +143,7 @@ D. It may increase or decrease depending upon the level of communication between
 
 ---
 
-# Agile techniques are based on the well-known principles of empirical process control, and incorporate many concepts from process control theory. What is the best representation of these principles?
+### Agile techniques are based on the well-known principles of empirical process control, and incorporate many concepts from process control theory. What is the best representation of these principles?
 
 ***A. Inspect and Adapt***
 
@@ -154,7 +155,7 @@ D. Introspect and retrospect
 
 ---
 
-# Process tailoring and process instantiation are both very common in Agile methodologies which advocate being flexible about the process to be followed. Which of the following BEST explains the difference between the two?
+### Process tailoring and process instantiation are both very common in Agile methodologies which advocate being flexible about the process to be followed. Which of the following BEST explains the difference between the two?
 
 A. Tailoring introduces new processes and instantiation is implementing a new process
 
@@ -166,7 +167,7 @@ D. Tailoring scraps existing processes, instantiation maintains status quo
 
 ---
 
-# Which of the following is the BEST role for the Project Management Office to play in an organization had widely adopted Agile methodologies?
+### Which of the following is the BEST role for the Project Management Office to play in an organization had widely adopted Agile methodologies?
 
 A. Collate data on the productivity of the teams and establishing organizational capability
 
@@ -178,7 +179,7 @@ D. Provide an organization-wide standard Agile process for teams to follow
 
 ---
 
-# A team is trying to come up with a Charter for its Agile project. What is LEAST important for the team at this stage?
+### A team is trying to come up with a Charter for its Agile project. What is LEAST important for the team at this stage?
 
 A. Visualizing the customer need to think of the best solution
 
@@ -191,7 +192,7 @@ C. Maintain the integrity of the Agile process to be followed
 ---
 
 
-# A Sprint Review is an important meeting in the Scrum methodology. What is the purpose of the Sprint review?
+### A Sprint Review is an important meeting in the Scrum methodology. What is the purpose of the Sprint review?
 
 A. The Scrum master reviews progress and gives guidance about corrective actions
 
@@ -203,7 +204,7 @@ D. The team members introspect on the Sprint that went by and decide on correcti
 
 ---
 
-# A team that has newly transitioned to Scrum. The Product Owner wants to know the level of detail he needs to put in the stories so that the team can work with them. What guidance would you give in this regard?
+### A team that has newly transitioned to Scrum. The Product Owner wants to know the level of detail he needs to put in the stories so that the team can work with them. What guidance would you give in this regard?
 
 A. Stories should be as detailed as possible, so that there is no room for ambiguity
 
@@ -214,7 +215,7 @@ D. Stories can contain less detail, because Agile relies on working software ove
 
 ---
 
-# What are the three main components of an Agile project that determine the success rate of the team?
+### What are the three main components of an Agile project that determine the success rate of the team?
 
 ***A. Product, Process, People***
 
@@ -226,7 +227,7 @@ D. Value, Risk, Cost
 
 ---
 
-# Which is the correct formula for calculating the Net Present Value for an Agile project?
+### Which is the correct formula for calculating the Net Present Value for an Agile project?
 
 ***A. NPV = ? (I = 0 to N) Net Cash Flow * (1 + r) -I***
 
@@ -238,7 +239,7 @@ D. NPV = ? (I = 0 to N) Net Cash Flow * (1 - r) -I
 
 ---
 
-# In the KANO model of prioritization, what are the priorities that you can assign to stories?
+### In the KANO model of prioritization, what are the priorities that you can assign to stories?
 
 A. Must ,Should, Could, Would
 
@@ -250,7 +251,7 @@ D. See if the stated quality level is really needed
 
 ---
 
-# In the MoSCoW model of prioritization, what does M stand for?
+### In the MoSCoW model of prioritization, what does M stand for?
 
 A. Most
 
@@ -262,7 +263,7 @@ C. Maximum
 
 ---
 
-# The Project Management Office in an organization that has adopted Agile regularly issues best practices and records performance data. They have just published a comparison of velocity data (story points completed per iteration) from different teams. As a Scrum Master for one of the teams, what would be your next steps?
+### The Project Management Office in an organization that has adopted Agile regularly issues best practices and records performance data. They have just published a comparison of velocity data (story points completed per iteration) from different teams. As a Scrum Master for one of the teams, what would be your next steps?
 
 A. Share this data with the team and discuss with them how to improve its numbers in relation to the rest of the organization
 
@@ -274,7 +275,7 @@ D. As the team is self-organizing, simply share the data with them and let them 
 
 ---
 
-# You are starting a new project with a new Agile team. Which would NOT be a good approach to develop an initial estimation of the team's velocity?
+### You are starting a new project with a new Agile team. Which would NOT be a good approach to develop an initial estimation of the team's velocity?
 
 A. Take a GUESS
 
@@ -286,7 +287,7 @@ D. Use historical data
 
 ---
 
-# Teams following Feature driven development often use a Parking Lot chart. What does a Project Parking Lot chart indicate?
+### Teams following Feature driven development often use a Parking Lot chart. What does a Project Parking Lot chart indicate?
 
 A. The features that you have decided to PARK for now for want of prioritization
 
@@ -299,7 +300,7 @@ C. The amount of time a feature is allowed to stay in the backlog before it is a
 ---
 
 
-# Many organizations already have a Product manager role. What would it take for a Product manager to become a Product Owner?
+### Many organizations already have a Product manager role. What would it take for a Product manager to become a Product Owner?
 
 ***A. A Product Owner needs to spend a lot more time explaining requirements and priorities to the team apart from working with the customers and stakeholders to define requirements***
 
@@ -311,7 +312,7 @@ D. A Product owner has more authority over the roadmap than the product manager
 
 ---
 
-# A company is trying to transition to Agile and is looking for a suitable project to pilot the transition. Which one would be the MOST suitable for the pilot?
+### A company is trying to transition to Agile and is looking for a suitable project to pilot the transition. Which one would be the MOST suitable for the pilot?
 
 A. Project A: Estimated duration: 1 year; Team size: 10
 
@@ -323,7 +324,7 @@ D. Project D: Estimated duration: 9 months; Team size: 7
 
 ---
 
-# Although Agile methodologies give a lot of flexibility to the team members to tailor their processes, teams are also required to comply with standards or regulations at the same time. Which of the following may be reasons for bringing the compliance angle into Agile projects?
+### Although Agile methodologies give a lot of flexibility to the team members to tailor their processes, teams are also required to comply with standards or regulations at the same time. Which of the following may be reasons for bringing the compliance angle into Agile projects?
 
 A. Federal government mandate
 
@@ -335,7 +336,7 @@ C. Customer-dictated process
 
 ---
 
-# The primary output of a Sprint Planning session is:
+### The primary output of a Sprint Planning session is:
 
 A. Product Backlog
 
@@ -347,7 +348,7 @@ D. All of the above
 
 ---
 
-# Who were the authors of the Agile manifesto?
+### Who were the authors of the Agile manifesto?
 
 ***A. A group of leaders in the software industry forming the Agile Alliance***
 
@@ -359,7 +360,7 @@ D. A consortium of software companies led by IBM Rational
 
 ---
 
-# For making a portfolio decision, senior management wants to know the approximate cost of a project. At what stage can we estimate the cost of an Agile project?
+### For making a portfolio decision, senior management wants to know the approximate cost of a project. At what stage can we estimate the cost of an Agile project?
 
 A. Not until the last iteration, because the backlog is changeable
 
@@ -371,7 +372,7 @@ D. During the business case, created by the Product owner
 
 ---
 
-# You are the manager of an Agile project. You find that a particular stakeholder is proving to be a major distraction to the team. He frequently calls the team to ask for status, get information, provide suggestions and sometimes to request changes. What should you do about this?
+### You are the manager of an Agile project. You find that a particular stakeholder is proving to be a major distraction to the team. He frequently calls the team to ask for status, get information, provide suggestions and sometimes to request changes. What should you do about this?
 
 A. Escalate the issue and keep the stakeholder off-limits
 
@@ -383,7 +384,7 @@ D. Tell the stakeholder directly not to disturb the team during the iteration
 
 ---
 
-# Which statement best describes the term 'Self-Organized' in Agile?
+### Which statement best describes the term 'Self-Organized' in Agile?
 
 A. A team that has no external dependencies
 
@@ -395,7 +396,7 @@ D.A team that does not need a manager to get along
 
 ---
 
-# How does pair-programming work in Extreme programming?
+### How does pair-programming work in Extreme programming?
 
 A. A developer and tester team up to work on a story
 
@@ -407,7 +408,7 @@ C. Tester writes the test as developer writes the code
 
 ---
 
-# During estimation process, a team first ordered the stories from smallest to largest and then slotted them in the appropriate buckets of estimates (Small, Medium, Large, Extra-Large). Which technique might be getting used here?
+### During estimation process, a team first ordered the stories from smallest to largest and then slotted them in the appropriate buckets of estimates (Small, Medium, Large, Extra-Large). Which technique might be getting used here?
 
 A. Story pointing
 
@@ -419,7 +420,7 @@ D. Expert estimation
 
 ---
 
-# A team is experiencing a lot of conflicts breaking out. What is the best statement you can make about conflict management in Agile?
+### A team is experiencing a lot of conflicts breaking out. What is the best statement you can make about conflict management in Agile?
 
 A. Conflicts are dangerous in Agile and must be prevented at source
 
@@ -431,7 +432,7 @@ D. The Manager must act as the arbitrator in such conflicts to ensure satisfacto
 
 ---
 
-# What is the primary role of a Product Owner on an Agile team?
+### What is the primary role of a Product Owner on an Agile team?
 
 A. To staff up the team and ensure that the morale of the team is good
 
@@ -443,7 +444,7 @@ C. To estimate the size of the requirements
 
 ---
 
-# A team is finding it difficult to comprehend Story points and continues to use Ideal days to estimate. Which of the following statements would you make to convince the team about the value of Story points as a measure of size?
+### A team is finding it difficult to comprehend Story points and continues to use Ideal days to estimate. Which of the following statements would you make to convince the team about the value of Story points as a measure of size?
   * I- Story points drive cross-functionality in the team 
   * II- Story point estimates do not decay with time 
   * III- Estimating in story points can be faster 
@@ -459,7 +460,7 @@ C. I, II and IV only
 
 ---
 
-# The objective of a Lean methodology with respect to work-in-progress is to?
+### The objective of a Lean methodology with respect to work-in-progress is to?
 
 A. Maximize WIP
 
@@ -471,7 +472,7 @@ D. Neutral to WIP considerations
 
 ---
 
-# What is a risk-burndown-chart?
+### What is a risk-burndown-chart?
 
 ***A. It plots the risk exposure against time for the duration of the project***
 
@@ -484,7 +485,7 @@ D. It helps prioritize which risks to ignore and which to plan for
 
 ---
 
-# Your organization has out-sourced work to a different organization which follows Agile methodologies. As the leader of the customer organization, which of the following is NOT your responsibility?
+### Your organization has out-sourced work to a different organization which follows Agile methodologies. As the leader of the customer organization, which of the following is NOT your responsibility?
 
 A. Ensuring that the right requirements are given
 
@@ -496,7 +497,7 @@ C. Ensuring that clarifications about requirements are given in a timely manner
 
 ---
 
-# What is the best way to facilitate communication between a pair of developers who are pair programming?
+### What is the best way to facilitate communication between a pair of developers who are pair programming?
 
 ***A. Put them in the same office***
 
@@ -508,7 +509,7 @@ D. Send them for communication skills training
 
 ---
 
-# While reading a business case for a project to release a new version of a software product, you find that one of the figures mentioned in the document is 'Incremental Revenue'. What is incremental revenue?
+### While reading a business case for a project to release a new version of a software product, you find that one of the figures mentioned in the document is 'Incremental Revenue'. What is incremental revenue?
 
 A. Additional revenue from expansion in Sales
 
@@ -520,7 +521,7 @@ D. A concept that emphasizes constantly growing revenues
 
 ---
 
-# Which of the following is NOT a feature of teams practicing Extreme Programming?
+### Which of the following is NOT a feature of teams practicing Extreme Programming?
 
 A. Onsite Customer
 
@@ -532,7 +533,7 @@ C. Test-driven development
 
 ---
 
-# At the end of the iteration, a team which committed to delivering 68 Story Points ended up not delivering anything. What could be the MOST LIKELY cause of this?
+### At the end of the iteration, a team which committed to delivering 68 Story Points ended up not delivering anything. What could be the MOST LIKELY cause of this?
 
 A. Most of the team members went on vacation
 
@@ -544,7 +545,7 @@ C. The Scrum Master did not manage the team well
 
 ---
 
-# DSDM uses a variant of the Pareto principle to guide the development process. Which of the following BEST expresses how the principle might be used in this context?
+### DSDM uses a variant of the Pareto principle to guide the development process. Which of the following BEST expresses how the principle might be used in this context?
 
 ***A. 20% of the features can deliver 80% of the value***
 
@@ -556,7 +557,7 @@ D. 20% causes result in 80% of project failures
 
 ---
 
-# A Product Owner along with the team has categorized the items in the product backlog in terms of Value and Risk. They decide to work on High Value and High risk items first, High Value and Low Risk next, followed by Low Value and Low risk. What should be done about the Low Value and High risk?
+### A Product Owner along with the team has categorized the items in the product backlog in terms of Value and Risk. They decide to work on High Value and High risk items first, High Value and Low Risk next, followed by Low Value and Low risk. What should be done about the Low Value and High risk?
 
 A. Do them last
 
@@ -568,7 +569,7 @@ D. Run some pilots to validate the assumptions about value and risk
 
 ---
 
-# A team is wondering whether they should use off-the-shelf components, share-ware or free-ware components instead of developing them from scratch. What technique in Agile project management will be useful to make that determination?
+### A team is wondering whether they should use off-the-shelf components, share-ware or free-ware components instead of developing them from scratch. What technique in Agile project management will be useful to make that determination?
 
 A. De-Bono's 6 thinking hats
 
@@ -580,7 +581,7 @@ D. Wide-band Delphi technique
 
 ---
 
-# Which of the following BEST represents the expected outcome of a release planning meeting?
+### Which of the following BEST represents the expected outcome of a release planning meeting?
 
 A. A detailed plan with identified deliverables and dependencies, budget reconciled with timelines, constitution of a change-control board to manage scope changes.
 
@@ -592,7 +593,7 @@ C. An aggressive plan that sets tough internal goals and sufficient buffer for e
 
 ---
 
-# The customer of an Agile project requires detailed and frequent reports about the progress of the team. What means would you use to achieve this?
+### The customer of an Agile project requires detailed and frequent reports about the progress of the team. What means would you use to achieve this?
 
 A. Information radiators
 
@@ -604,7 +605,7 @@ C. Informal information, delivered via email or telephone
 
 ---
 
-# Which of the following is a characteristic of meetings in Agile projects as opposed to conventional projects?
+### Which of the following is a characteristic of meetings in Agile projects as opposed to conventional projects?
 
 A. Transitioning to Agile leads to a lot of meetings. While planning such a project, one must make sure to allocate sufficient time for such meetings
 
@@ -616,7 +617,7 @@ D. Agile recommends notes from each meeting are collected and diligently followe
 
 ---
 
-# Which of the following is MOST true about Agile methodologies:
+### Which of the following is MOST true about Agile methodologies:
 
 A. It is the same as Lean principles; focusing on eliminating waste
 
@@ -628,7 +629,7 @@ D. It requires people to be co-located
 
 ---
 
-# The ideal size of a Scrum team is:
+### The ideal size of a Scrum team is:
 
 ***A. 5 to 9***
 
@@ -640,7 +641,7 @@ D. 9 to 11
 
 ---
 
-# The 'Scrum Team' consists of:
+### The 'Scrum Team' consists of:
 
 A. Team, Scrum Master and Customer
 
@@ -652,7 +653,7 @@ C. Team, Leads and Architect
 
 ---
 
-# During iteration planning, a team committed to implement 10 stories. Coding has been completed and basic regression tests are passing. There are 12 bugs pending. Some of them are blocking few tests that execute some of the paths in the story. The fixes for these bugs were checked in on the last day of the iteration, but they have not been tested. In such a scenario, the iteration is:
+### During iteration planning, a team committed to implement 10 stories. Coding has been completed and basic regression tests are passing. There are 12 bugs pending. Some of them are blocking few tests that execute some of the paths in the story. The fixes for these bugs were checked in on the last day of the iteration, but they have not been tested. In such a scenario, the iteration is:
 
 A. Successful, because the basic functionality is implemented and is working
 
@@ -664,7 +665,7 @@ D. Successful if the customer accepts it
 
 ---
 
-# The manager of a Scrum team is also playing the role of a Scrum Master. Which of the following things should he stop doing?
+### The manager of a Scrum team is also playing the role of a Scrum Master. Which of the following things should he stop doing?
 
 A. Protect the team from disturbances
 
@@ -676,7 +677,7 @@ D. Think about growing the company's business
 
 ---
 
-# The three pillars of Scrum theory are:
+### The three pillars of Scrum theory are:
 
 A. Customer value, Architectural purity, Management ownership
 
@@ -688,7 +689,7 @@ D. Standup, Retrospective, Backlog grooming
 
 ---
 
-# In which of the following meetings can design be discussed?
+### In which of the following meetings can design be discussed?
 
 A. Daily standup meeting
 
@@ -700,7 +701,7 @@ C. Retrospective meeting
 
 ---
 
-# Which of the following is NOT an essential attribute of an Agile Team?
+### Which of the following is NOT an essential attribute of an Agile Team?
 
 A. Self-Managing
 
@@ -712,7 +713,7 @@ D. Capable of delivering a potentially shippable product
 
 ---
 
-# Who in an Agile team can provide inputs for creating a backlog?
+### Who in an Agile team can provide inputs for creating a backlog?
 
 A. Product owner
 
@@ -724,7 +725,7 @@ C. Customer
 
 ---
 
-# Who can give directions to the team in terms of list of items to work on?
+### Who can give directions to the team in terms of list of items to work on?
 
 ***A. Product Owner***
 

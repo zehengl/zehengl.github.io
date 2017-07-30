@@ -3,11 +3,12 @@ layout: post
 title:  "Endianness and Bit Masking"
 date:   2016-06-09
 author: Zeheng Li
+icon : /assets/post/icon-binary.png
 ---
 
 Today I will write about how to handle some bit level data manipualtions in Python.
 
-# Endianness
+### Endianness
 
 See this [wiki](https://en.wikipedia.org/wiki/Endianness) for background knowledge about endianness. It refers to the ordering of bytes.
 
@@ -26,7 +27,7 @@ In big endianness, it shall be written as 0A0B0C0D
 
 In little endianness, it shall be written as 0D0C0B0A
 
-# Python
+### Python
 
 Python provides a handy library (**struct**) to handle such conversion. See [here](https://docs.python.org/2/library/struct.html) for deatil.
 
@@ -58,7 +59,7 @@ Therefore, these three numbers are represented:
 
 In order to extract the numbers, we use *unpack* with the corresponding formatted string
 
-# Bit Masking
+### Bit Masking
 
 Bit level and/or/xor manipualtions
 

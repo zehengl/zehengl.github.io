@@ -3,11 +3,12 @@ layout: post
 title:  "Agile Scrum Note 03: Roles"
 date:   2015-12-14
 author: Zeheng Li
+icon: /assets/post/icon-jira.svg
 ---
 
 Roles in Scrum.
 
-# Stakeholders
+### Stakeholders
   - Anybody whose interest is positively or negatively affected by the project OR who can exert an influence on the project
   - Examples:
     * Team (Product Owner, Scrum Master, Developers)
@@ -29,7 +30,7 @@ Roles in Scrum.
     * Getting their sign-off and formal acceptance during closure
     * Establishing a “rapport” with them!
 
-# Product Owner
+### Product Owner
   - One of most critical roles in Scrum
   - Part of the Scrum Team which includes Scrum Master and developers
   - Provides **direction** to the team
@@ -88,7 +89,7 @@ Roles in Scrum.
     * Developers rate the cost of producing the feature and the risk associated with producing it
     * After entering the numbers for all the features, the relative priority for each feature is calculated by considering the percentage of the weighted feature desirability to each feature
 
-# Scrum Master
+### Scrum Master
   - a critical role in the methodology
   - helps the team achieve its goals by doing the following
     * Serving the Team
@@ -119,7 +120,7 @@ Roles in Scrum.
     * Over-rule the team members
     * Direct product strategy
 
-# Developers
+### Developers
   - Each member of the team is called a **Developer**: because they all contribute to the development of the product
   - The team is SMALL (ideally 7 + or – 2)  
   - The team is cross-functional: should contain all skills necessary to deliver value to the customer
@@ -144,7 +145,7 @@ Roles in Scrum.
       + Doing the “Fun Parts” of someone else’s job
       + Freedom to unilaterally make decisions that impact others
 
-# Manager
+### Manager
   - The Scrum life-cycle does **NOT** mention the "manager" at all
   - The team in Scrum is supposed to be **self-managing** and is supported by the Scrum Master
   - The team takes directions from the Product Owner in terms of work needed and prioritization
@@ -160,7 +161,7 @@ Roles in Scrum.
     + Keep abreast of technology, industry and business trends and prepare for the future
     + Represent the team at external forums
 
-# Special roles
+### Special roles
   - Architect
     + Decides about framework, model, etc
     + Reviews designs, code

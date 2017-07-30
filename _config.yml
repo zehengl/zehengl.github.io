@@ -1,5 +1,9 @@
 title: zehengl
 
+footer: >
+  Hosted on Github,
+  Powered by Jekyll, Google Material Design, Google Custom Search Engine, Disqus, formspree, and more...
+
 author: Zeheng Li
 
 email: imzehengl@gmail.com
@@ -9,7 +13,7 @@ url: "https://zehengl.github.io"
 markdown: kramdown
 
 paginate_path: "/blog/page:num/"
-paginate: 10
+paginate: 9
 
 permalink: pretty
 

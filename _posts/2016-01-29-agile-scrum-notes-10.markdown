@@ -3,11 +3,12 @@ layout: post
 title:  "Agile Scrum Note 10: Advanced Concepts"
 date:   2016-01-29
 author: Zeheng Li
+icon: /assets/post/icon-jira.svg
 ---
 
 Some advanced concepts in Scrum.
 
-# Scrum on large projects
+### Scrum on large projects
   * Split into smaller teams each delivering a logical portion
   * Logical portion is determined by being able to deliver tangible customer value on their own
   * Bad division:
@@ -21,14 +22,14 @@ Some advanced concepts in Scrum.
   * Dependencies across teams have to be handled carefully
   * Some “look-ahead planning” helps
 
-# Scrum-of-Scrum
+### Scrum-of-Scrum
   * Useful in circumstances when multiple teams are working on the same system or systems with multiple integration points
   * It is essentially a meeting where representatives (1 or 2) from each Scrum team attends
     - Product Owner, Scrum Master/Architect
   * The focus of this meeting is on inter-dependencies and coordination
   * This meeting need not be daily – the frequency should be governed by the level of interaction required
 
-# Product coordination teams
+### Product coordination teams
   * Assign few members whose job is to coordinate across multiple teams
   * What to coordinate?
     - High priority stories or epics that go across multiple teams
@@ -38,7 +39,7 @@ Some advanced concepts in Scrum.
   * Coordination may either be a full-time or part-time role depending upon how tight the dependencies are
   * Sometimes works better than Scrum-of-Scrums because responsibility is assigned
 
-# Scrum on maintenance projects
+### Scrum on maintenance projects
   * Two questions:
     - Can you define a clear, prioritized backlog of enhancement requests?
     - Can you estimate the time required for the requests with reasonable certainty?
@@ -46,7 +47,7 @@ Some advanced concepts in Scrum.
     - Provide larger buffer for ad-hoc requests that are inevitable
     - Alternately, establish a “resolution” or “sustaining” team to shield the team working on new features
 
-# Distributed scrum teams
+### Distributed scrum teams
   * No doubt running a distributed Scrum team is challenging:
     - Scrum emphasizes face-to-face communication, cross- functional teams and close collaboration
     - Scrum rituals like daily stand-ups, sprint planning, review and retrospective become more challenging
@@ -54,7 +55,7 @@ Some advanced concepts in Scrum.
     - Distributed Scrum is still better than distributed waterfall
     - It is still possible to implement Scrum with distributed teams – with some best practices to help
 
-# Best practices in distributed scrum
+### Best practices in distributed scrum
   * If you had a distributed team with time zones nearly 12 hours away, what would you prefer?
     - Teams working away on huge requirements documents and come back with something after 6 months? OR
     - Frequent check points - preferably something tangible to see every week?
@@ -63,7 +64,7 @@ Some advanced concepts in Scrum.
     - Follow good software engineering practices
     - Work on the people-to-people equations
 
-# Scenario-1: Team in India; PO in US
+### Scenario-1: Team in India; PO in US
   * PO is remote and all or most of the team is in India
   * Suggested Approach
     - Co-locate the Scrum Master with the team
@@ -74,7 +75,7 @@ Some advanced concepts in Scrum.
     - Sprint planning split up into Pre-planning, offline analysis and finalization
     - Review and retrospectives on Webex
 
-# Scenario-2: Team split in two locations
+### Scenario-2: Team split in two locations
   * Say, 1 Dev and 3 Testers in India; 3 Dev and 1 Tester in US
   * Suggested Approach
     - 2 Scrum Masters (one in each location)
@@ -83,7 +84,7 @@ Some advanced concepts in Scrum.
     - Pay lot of attention to team dynamics
     - Pick and choose recommendations made for Scenario-1
 
-# People practices in distributed Scrum
+### People practices in distributed Scrum
   * Developing good relations between people is absolutely critical – more so in a distributed team
   * So you need to invest in developing the relations and ensuring good communication channels
   * Disagreement is OK; Perceiving the other as evil is dangerous
@@ -92,7 +93,7 @@ Some advanced concepts in Scrum.
     - Rotate team members periodically across locations
   * Cultural exchanges – Team wikis
 
-# Practices in distributed scrum
+### Practices in distributed scrum
   * Leverage technology:
     - Goodweb-conferencingtools
     - Good speaker phone to make tele-conferencing easier
@@ -102,7 +103,7 @@ Some advanced concepts in Scrum.
     - Working hours
     - Vacation times
 
-# Scrum-Contracting
+### Scrum-Contracting
   * Does the customer need to know about Scrum?
     - How to “sell” the methodology to the customer
     - How to tailor contracts to the methodology
@@ -114,7 +115,7 @@ Some advanced concepts in Scrum.
     - The team must be allowed to self-manage
     - They cannot expect instant gratification on change requests
 
-# Scrum in fixed price projects
+### Scrum in fixed price projects
   * Challenge: Scrum advocates being “responsive” to customer – but how does it work when the Price and Scope is “fixed”?
   * In the event of a change, you could:
     - Add Sprints to the project (additional cost)
@@ -123,7 +124,7 @@ Some advanced concepts in Scrum.
   * So change management would still work
     - But you get much more flexibility in absorbing changes
 
-# Transitioning a team/project to Scrum
+### Transitioning a team/project to Scrum
   * Ken Schwaber (co-founder of Scrum)
   - If waterfall is working for you, do not follow Scrum
   - 75% of the teams that use Scrum are not getting full value from it
@@ -131,7 +132,7 @@ Some advanced concepts in Scrum.
   - The successful implementation of Scrum will have a profound transformation
   - Start on the journey anticipating resistance, but also start only if you are convinced about the benefits
 
-# Steps for Transitioning a team/project to Scrum
+### Steps for Transitioning a team/project to Scrum
   * Step-1: Start with one or few teams that are willing to try it out
     - Do not start if customer AND/OR senior management is not willing
     - Skepticism is fine (even welcome), but resistance to change or closed mind is dangerous

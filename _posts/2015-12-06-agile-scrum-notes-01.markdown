@@ -3,11 +3,12 @@ layout: post
 title:  "Agile Scrum Note 01: Introduction"
 date:   2015-12-06
 author: Zeheng Li
+icon: /assets/post/icon-jira.svg
 ---
 
 Introduction of Agile.
 
-# Traditional Development
+### Traditional Development
   * Analysis
   * Design
   * Coding
@@ -15,13 +16,13 @@ Introduction of Agile.
   * Deploy
   * logically sound but assumes predictability, difficult to react to unforeseen changes*
 
-# Agile Manifesto
+### Agile Manifesto
   * Individuals and interactions over processes and tools
   * Working software over comprehensive documentation
   * Customer collaboration over contract negotiation
   * Responding to change over following a plan
 
-# Principles behind the Agile Manifesto
+### Principles behind the Agile Manifesto
   1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software
   2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage
   3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale
@@ -35,7 +36,7 @@ Introduction of Agile.
   11. The best architectures, requirements, and designs emerge from self-organizing teams
   12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly
 
-# APM (Agile Project Management) Framework
+### APM (Agile Project Management) Framework
   * **Envision**
     Determine the product vision and project scope, the project community, and how the team will work together
   * **Speculate**
@@ -47,5 +48,5 @@ Introduction of Agile.
   * **Close**
     Conclude the project, pass along key learning's, and celebrate
 
-# Scrum
+### Scrum
  * a methodology for software development that adheres to Agile principles of *iterative* and *incremental* development

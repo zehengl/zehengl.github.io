@@ -1,47 +1,71 @@
 - name : github
   link : https://github.com/zehengl
-  icon : /assets/svg/icon-github.svg
+  icon : /assets/img/icon-github.svg
 
 - name : twitter
   link : https://twitter.com/zehengl
-  icon : /assets/svg/icon-twitter.svg
+  icon : /assets/img/icon-twitter.svg
 
 - name : instagram
   link : https://instagram.com/zehengl
-  icon : /assets/svg/icon-instagram.svg
+  icon : /assets/img/icon-instagram.svg
 
 - name : facebook
   link : https://facebook.com/zehengl
-  icon : /assets/svg/icon-facebook.svg
+  icon : /assets/img/icon-facebook.svg
 
 - name : linkedin
   link : https://linkedin.com/in/zehengl
-  icon : /assets/svg/icon-linkedin.svg
+  icon : /assets/img/icon-linkedin.svg
 
 - name : youtube
   link : https://youtube.com/cefzhl
-  icon : /assets/svg/icon-youtube.svg
+  icon : /assets/img/icon-youtube.svg
 
 - name : smu
   link : http://lyle.smu.edu/~zehengl
-  icon : /assets/svg/icon-web.svg
+  icon : /assets/img/icon-web.svg
 
 - name : wordpress
   link : https://imzehengl.wordpress.com
-  icon : /assets/svg/icon-wordpress.svg
+  icon : /assets/img/icon-wordpress.svg
 
 - name : medium
   link : https://medium.com/@zehengl
-  icon : /assets/svg/icon-medium.svg
+  icon : /assets/img/icon-medium.svg
 
 - name : rpubs
   link : https://rpubs.com/zehengl
-  icon : /assets/svg/icon-rpubs.svg
+  icon : /assets/img/icon-rpubs.svg
 
 - name : yelp
   link : http://zehengl.yelp.ca
-  icon : /assets/svg/icon-yelp.svg
+  icon : /assets/img/icon-yelp.svg
 
 - name : keybase
   link : https://keybase.io/zehengl
-  icon : /assets/svg/icon-keybase.png
+  icon : /assets/img/icon-keybase.png
+
+- name : about.me
+  link : https://about.me/zehengl
+  icon : /assets/img/icon-aboutme.svg
+
+- name : tumblr
+  link : https://zehengl.tumblr.com
+  icon : /assets/img/icon-tumblr.svg
+
+- name : pinterest
+  link : https://www.pinterest.com/zehengl
+  icon : /assets/img/icon-pinterest.svg
+
+- name : hacker news
+  link : https://news.ycombinator.com/user?id=zehengl
+  icon : /assets/img/icon-hackernews.png
+
+- name : research gate
+  link : https://www.researchgate.net/profile/Zeheng_Li
+  icon : /assets/img/icon-researchgate.png
+
+- name : vimeo
+  link : https://vimeo.com/zehengl
+  icon : /assets/img/icon-vimeo.svg

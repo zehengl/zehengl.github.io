@@ -7,7 +7,7 @@ author: Zeheng Li
 
 In this post I will use two simple examples from LeetCode to illustrate the idea of Dynamic Programming.
 
-# Dynamic Programming
+### Dynamic Programming
 
 The idea of *Dynamic Programming* is to solve a problem by resolving its sub-problems **over and over**.
 
@@ -47,7 +47,7 @@ I first initialize a array (1x7 table).
 |:----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | F(n) | 0 | 1 | 1 | 2 | 3 | 5 | 8 |
 
-# The problems
+### The problems
 
 The Fibonacci number problem may be too simple. Let's take a look at two exmaples from [LeetCode](https://leetcode.com/).
 
@@ -61,7 +61,7 @@ Given a list of non-negative integers representing the amount of money of each h
 After robbing those houses on that street, the thief has found himself a new place for his thievery so that he will not get too much attention. This time, all houses at this place are arranged in a circle. That means the first house is the neighbor of the last one. Meanwhile, the security system for these houses remain the same as for those in the previous street.
 Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
 
-# Solution
+### Solution
 
 Let's use [1, 2, 5, 3, 9, 3, 2] as an example to represent the values (always greater than 0) of the houses.
 
@@ -142,7 +142,7 @@ whichever way from the above gives the larger gain, the robber follows
 
 Therefore we can reuse the codes from ***Situation 1***.
 
-# Implementation
+### Implementation
 
 <script src="https://gist.github.com/zehengl/b8594073d1119ceb829896d84fdde2db.js"></script>
 

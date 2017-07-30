@@ -3,11 +3,12 @@ layout: post
 title:  "Agile Scrum Note 05: Artifacts"
 date:   2016-01-10
 author: Zeheng Li
+icon: /assets/post/icon-jira.svg
 ---
 
 Some Artifacts that are used in Scrum projects.
 
-# Product backlog
+### Product backlog
   - Collection of everything that the team could do which adds value to the customer
   - Defined in terms of user stories and epics
   - All items in the backlog must be ranked in priority order
@@ -19,12 +20,12 @@ Some Artifacts that are used in Scrum projects.
     + Technical upgrades
     + Significant bug-fixes
 
-# Product, release and sprint backlog
+### Product, release and sprint backlog
   - Release backlog is a subset of the Product backlog (everything targeted to a release)
   - Sprint backlog is a subset of the Release backlog (everything targeted to a particular Sprint)
   - Product backlog may be in terms of epics, Release backlog may be in terms of stories and Sprint backlog should be down to the sub-story and "task" level
 
-# User story
+### User story
   - Is the most granular unit of requirement expressed by the Product Owner
   - Provides a simple medium for:
     + Gathering basic information about stories, 
@@ -52,7 +53,7 @@ Some Artifacts that are used in Scrum projects.
     + See Example:
       - **As an** employee, **I want to** be able to purchase a parking pass online **so that** I can save time AND be able to park my car safely in the basement.
 
-# Story card information
+### Story card information
   - Story identifier and name
   - Story description: A few sentences that describes the feature
   - Story type (C=customer domain, T=technology domain)
@@ -62,24 +63,24 @@ Some Artifacts that are used in Scrum projects.
   - Story dependencies:
   - Acceptance tests: Basis on which the customer team will accept or reject
 
-# Multiple stories may be required to complete a feature
+### Multiple stories may be required to complete a feature
 Feature: As a credit analyst I need the ability to check a customer's credit rating.
 
   - Story 1: As a credit analyst I need the ability to check the prior payment history with this customer.
   - Story 2: As a credit analyst I need the ability to check this customer's credit bureau status.
   - Story 3: As a credit analyst I need the ability to calculate our internal credit rating based on history and credit report.
 
-# Epics
+### Epics
 Way of grouping stories together - by a higher level goal or aggregating a large number of sub-stories into a big story
 
-# Writing good stories
+### Writing good stories
   - Use example templates – As a [role] I can [feature] so that [reason] •Make the stories small (use 3” X 5” index cards so that you don't write too much)
   - Make it testable by giving acceptance criteria
     + Given [context] &lt;and/or [some more context]&gt; When [event] Then [outcome] &lt;and/or [another outcome]&gt;
     + Example: Given account balance is negative and no direct deposit is scheduled on the day when the account holder tries to withdraw money then the bank will deny the request and send the account holder an alert
   - “Connect the dots” by thinking of all possible scenarios that could arise (use case thinking)
 
-# Splitting user stories
+### Splitting user stories
   - A story should be small (no more than 40 man hours of effort)
   - Keeping stories small allows the team to build incrementally, getting
 validation along the way

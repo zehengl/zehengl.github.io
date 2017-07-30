@@ -1,0 +1,22 @@
+---
+layout: default
+title: Project
+permalink: /project/
+---
+
+<table class="mdl-data-table mdl-js-data-table mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
+      <th class="mdl-data-table__cell--non-numeric">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for proj in site.data.projects %}
+      <tr>
+        <td class="mdl-data-table__cell--non-numeric"><strong><a href="{{ proj.link }}">{{ proj.name }}</a></strong></td>
+        <td class="mdl-data-table__cell--non-numeric">{{ proj.description }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

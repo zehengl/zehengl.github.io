@@ -3,23 +3,24 @@ title: "Super Bowl LI"
 layout: post
 date:   2017-01-23
 author: Zeheng Li
+icon: /assets/post/icon-superbowl.svg
 ---
 
 Something about roman numerals, inspired by Super Bowl LI.
 
-# Why
+### Why
 
 Cheer out for the Partiots and Falcons fans! I am excited about this year's super bowl. Will Tom Brady win his **FIFTHS** or Matt Ryan finish strong for his amazing season?
 
 When I was watching the conference finals on Sunday afternoon, my wife asked "why your name is with super bowl". For a second I was like, with a Nick Young face, "what?". Then I realized she was referring to "SB LI" and replied "that's roman 51".
 
-# Why Cont'd
+### Why Cont'd
 
 Answering why NFL uses roman numerals is not the main concern of this post. Clearly roman numerals should be easy to understand in early days but they may get complex later. For example, what does ```XXXVIII``` stand for or what is 39 in roman numeral?
 
 If you can tell within a blink. TL;DR
 
-# Roman Numerals
+### Roman Numerals
 
 Let's begin with a chart for roman numerals
 
@@ -37,7 +38,7 @@ Let's begin with a chart for roman numerals
 
 Alrighty. This makes sense. How about the values in between?
 
-# How to Read
+### How to Read
 
 Let's begin with the simple cases.
 
@@ -94,7 +95,7 @@ Looking good! But the rules seem to work only if the given roman numeral is <str
 
 We can also conclude that the biggest roman numeral constructed by the aforementioned letters is 3999 as in ```MMMCMXCIX```
 
-# How to Write
+### How to Write
 
 Given a number from 1 to 3999, constructing a legit roman numeral requires:
 
@@ -163,13 +164,13 @@ We know ```IIII``` is not a legit roman numeral, which should be written as ```I
 
 Hmm... to speed up the conversion, we may include ``` 9 x 10 ^ n ``` and ``` 4 x 10 ^ n ``` patterns in the matching process.
 
-# Python Implementation
+### Python Implementation
 
 See my implementation (and [test](https://oeis.org/A006968/a006968.txt)) at the following gist.
 
 <script src="https://gist.github.com/zehengl/4c86a11dcc0f530043e3261f6be5d95d.js"></script>
 
-# The End
+### The End
 
 Okay. ```XXXVIII``` is 38 and 39 is ```XXXIX```
 

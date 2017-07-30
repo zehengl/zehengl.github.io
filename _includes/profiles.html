@@ -1,8 +1,0 @@
-<div align="left">
-    {% for id in site.data.identities %}
-        {% assign a=id.name %}
-        {% assign h=id.link %}
-        {% assign i=id.icon %}
-        {% include profile-element.html alt=a href=h icon=i %}
-    {% endfor %}
-</div>

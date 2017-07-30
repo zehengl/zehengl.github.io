@@ -3,11 +3,12 @@ layout: post
 title:  "Agile Scrum Note 09: Monitoring Scrum Projects"
 date:   2016-01-28
 author: Zeheng Li
+icon: /assets/post/icon-jira.svg
 ---
 
 Tools and techniques to monitoring Scrum projects.
 
-# Principles in monitoring Scrum Projects
+### Principles in monitoring Scrum Projects
   * Ideally, the TEAM should monitor its own progress
     - The manager or Scrum Master should NOT micro- manage
   * The Scrum Master should try to provide the team visibility so that they can make informed decisions
@@ -18,7 +19,7 @@ Tools and techniques to monitoring Scrum projects.
     - Charts
     - Information radiators
 
-# Metrics
+### Metrics
   * A metric is a standard for measuring or evaluating something.
   * A measure is a quantity, a proportion, or a qualitative comparison of some kind.
     - Quantity: "There are 25 open defect reports on the application as of today."
@@ -59,7 +60,7 @@ Tools and techniques to monitoring Scrum projects.
       + Do NOT use metrics for performance appraisals
         * It will usually result in perverse incentive to manipulate the number
 
-# Charts in Scrum
+### Charts in Scrum
   * Commonly used charts: 
     - Burn-down, Burn-up charts 
     - Cumulative Flow Diagrams 
@@ -71,43 +72,43 @@ Tools and techniques to monitoring Scrum projects.
     - It is more "visual" (a picture is worth a thousand words) 
     - Management loves charts!
 
-# Burn-down chart
+### Burn-down chart
 
 ![Burn-down chart](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/burn-down-chart.png)
 
-# Burn-down chart Bar Style
+### Burn-down chart Bar Style
 
 ![urn-down chart Bar Style](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/Release%20Enhanced%20Burndown%20Chart.png)
 
-# Burn-up and Burn-down chart
+### Burn-up and Burn-down chart
  
 ![Burn-up and Burn-down chart](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/scrum-burndown-graph-7.png)
 
-# Cumulative Flow Diagram
+### Cumulative Flow Diagram
 
 ![Cumulative Flow Diagram](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/cumulativeflowdiagram.png)
 
-# Parking Lot Diagram
+### Parking Lot Diagram
 
 ![Parking Lot Diagram](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/parking_lot_diagram.png)
 
-# Escaped defects found
+### Escaped defects found
 
 Escaped Defects Found counts number of new escaped defects found over period of time (day, week, month).
 
-# Velocity chart
+### Velocity chart
 
 ![Velocity chart](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/Velocity%20Bar%20Chart.png)
 
-# Progress Chart / Kanban
+### Progress Chart / Kanban
 
 ![Progress Chart / Kanban](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/simple-physical-board-w-card-types-e87dbe30.png)
 
-# Niko Niko Calendar
+### Niko Niko Calendar
 
 ![Niko Niko Calendar](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/niko-niko_calendar.png)
 
-# Information radiators
+### Information radiators
 
 "An information radiator displays information in a place where passers by can see it. With information radiators, the passers by don't need to ask any question; the information simply hits them as they pass."
   

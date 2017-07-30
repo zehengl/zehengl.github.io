@@ -1,15 +1,19 @@
 - title : Software Developer
   company : Blackline Safety 
-  link : "https://www.blacklinesafety.com/"
+  link : https://www.blacklinesafety.com/
+  icon : /assets/img/icon-blackline.png
 
 - title : Research Developer
   company : HireGround Software Solution
-  link : "http://hiregroundsoftware.com/"
+  link : http://hiregroundsoftware.com/
+  icon : /assets/img/icon-hireground.png
 
 - title : Teaching Assistant
   company : Southern Methodist University
-  link : "http://www.smu.edu/"
+  link : http://www.smu.edu/
+  icon : /assets/img/icon-smu.png
 
 - title : Graduate Assistant
   company : Abilene Christian University
-  link : "http://www.acu.edu/"
+  link : http://www.acu.edu/
+  icon : /assets/img/icon-acu.png

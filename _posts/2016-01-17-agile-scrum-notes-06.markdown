@@ -3,11 +3,12 @@ layout: post
 title:  "Agile Scrum Note 06: Best Practices"
 date:   2016-01-17
 author: Zeheng Li
+icon: /assets/post/icon-jira.svg
 ---
 
 Some Scrum best practices you should know.
 
-# Continuous Refactoring
+### Continuous Refactoring
  * Cleaning up the code (changes that do not change the expected inputs or outputs) for one or more of the following reasons:
     + Better readability
     + Optimizing processing logic
@@ -19,7 +20,7 @@ Some Scrum best practices you should know.
   * Extreme Programming advocates continuous re-factoring
     + Remember the Agile principle: "Continuous attention to technical excellence and good design enhances agility"
 
-# Pair Programming
+### Pair Programming
   * Two people looking at one machine with one keyboard and one mouse
     + One driver and one navigator
     + One implements, one strategizes
@@ -32,7 +33,7 @@ Some Scrum best practices you should know.
     + Writing complex logic
     + Debugging "hard-to-solve" problems
 
-# Continuous Integration
+### Continuous Integration
   * Originated with the Extreme Programming development process, as one of its original twelve practices.
   * Continuous integration is an approach that keeps everybody's code integrated and builds release infrastructure along with the rest of the application.
   * Practices of continuous integration
@@ -47,7 +48,7 @@ Some Scrum best practices you should know.
     + Everyone can see what's happening
     + Automate deployment
 
-# Configuration Management
+### Configuration Management
   * Best practices
     + Invest in automation tools (automate the build, automate the tests)
     + Enforce discipline in code check-ins (mandatory code review workflow, mandatory tests and code coverage reports)
@@ -55,14 +56,14 @@ Some Scrum best practices you should know.
     + Use tools that allow multiple check-outs and safe merges
   * Hire a good configuration manager to automate and then recede into the background
 
-# Quality in Agile
+### Quality in Agile
   * Quality is defined as "conformance to specifications and fitness of purpose"
     + Extrinsic or Customer perceived quality is perceived when the product is delivered to the customer and measured by the extent to which they realize "value" from it
     + Intrinsic or Technical quality is the quality that is perceived by the team
     + Technical quality has many facets including modularity, maintainability, scalability, reliability, etc.
     + Extrinsic quality is non-negotiable, but Intrinsic quality is also critical to ensure that you can continue to deliver value
 
-# Scrum Quality - Home truths
+### Scrum Quality - Home truths
   * Building in "near releasable quality" Sprint after Sprint is **DIFFICULT** - but it is an important goal
   * There is no separate QA team - there is ONE team and each member of the team is responsible for quality
   * Quality has to be built into the development process
@@ -70,7 +71,7 @@ Some Scrum best practices you should know.
   * Inspections have to be early and continuous - the later you give feedback, the harder (and costlier) it is to fix
   * Inspections must incorporate verification (are we building the product right) and validation (are we building the right product)
 
-# Test Driven Development (TDD)
+### Test Driven Development (TDD)
   * The goal of every team should be to move towards Test-Driven Development
   * Also known as Test first programming
   * It is an evolutionary (iterative and incremental) approach to programming where agile software developers must first write a test that fails before they write new functional code.
@@ -92,7 +93,7 @@ Some Scrum best practices you should know.
     + Research shows that TDD substantially reduces the incidence of defects [Janzen & Saiedian].
     + It also helps improve your design, documents your public interfaces, and guards against future mistakes.
 
-# Done criteria
+### Done criteria
   * It is a good idea to clearly define the meaning of the term "Done"
   * The Scrum Master can help the team come up with these guidelines
   * For example, a story can be DONE when:

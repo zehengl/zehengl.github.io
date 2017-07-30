@@ -3,6 +3,7 @@ layout: post
 title:  "Using Naive Bayes Model for Language Dectection"
 date:   2016-05-07
 author: Zeheng Li
+icon: /assets/post/icon-ml.svg
 ---
 
 Tonight I will write about how to use one of simplest supervised learning model (Naive Bayes) to perform language detection.
@@ -14,7 +15,7 @@ Tonight I will write about how to use one of simplest supervised learning model 
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
 
-# Background
+### Background
 *Naive Bayes* is one of the simple techniques to construct a classifier, which is based on Bayes' rule. It is a supervised learning method and assumes features contribute to classification independently. Such naive generative model sometimes oversimplies the task but, be that as it may, it is proved to work well in many tasks, including spam email filtering and sentimental analysis.
 
 The underlying math is
@@ -40,15 +41,15 @@ In practice, we can use the log probality to simplify the computation.
 $$ \log {P(C_k|x)} = \log {P(C_k) + \sum_{i=1}^n \log {P(x_i|C_k)}} - \log{P(x)}$$
 
 
-# Task
+### Task
 
 In this post I will use naive bayes model to train a classifier to detect text language from a corpus that contains different languages.
 
-# Dataset
+### Dataset
 
 I use the [Wikicorpus v.1.0](http://www.cs.upc.edu/~nlp/wikicorpus/) dataset, which is a trilingual corpus in Catalan, Spanish, and English. Each portion contains tens or hundreds of millions words. It should be more than enough for my demo.
 
-# Feature Selection
+### Feature Selection
 
 Each document consists of multiple words. Intuitively we may use words as features. However it requires a large collection for training because if a word is not seen in the training set it is of little use in the testing set. Image you have a document with words that have never occured in the training set. How can the model handle such case? I think it makes more sense to use the characters as features. In this way, we treat each word as a sequence of characters (**ngram**) and learn a model from the structure of characters in different languages.
 
@@ -60,7 +61,7 @@ hello   bigram     ['$h', 'he', 'el', 'll', 'lo', 'o$']
 hello   trigram    ['$$h', '$he', 'hel', 'ell', 'llo', 'lo$', 'o$$']
 {% endraw %} {% endhighlight %}
 
-# Implementation
+### Implementation
 
 Example codes, as well as the downloading script for dataset, can be found on [Github](https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7).
 
@@ -92,7 +93,7 @@ Run the script as follow
 python language_detect.py
 {% endhighlight %}
 
-# Result
+### Result
 
 I only use **10** documents from each language as training set. Catalan, English, and Spanish documents have 6709, 2437, and 2377 words respectively.
 

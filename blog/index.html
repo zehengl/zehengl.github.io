@@ -3,27 +3,84 @@ layout: default
 title: posts by zehengl
 ---
 
-{% include google_custom_engine.html %}
+<div class="content">
+  {% include google_custom_engine.html %}
+</div>
 
-{% for post in paginator.posts %}
-  <h1>
-    <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-  </h1>
-  <blockquote>
-    <p><span class="glyphicon glyphicon-calendar" ></span> {{ post.date | date: "%b %d, %Y" }}</p>
-    <p>{{post.excerpt}}</p>
-  </blockquote>
-{% endfor %}
+<div class="mdl-grid">
+  {% for post in paginator.posts %}
+    {% capture title %}
+      <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+    {% endcapture %}
+    {% capture supporting_text %}
+      <i class="material-icons">date_range</i>{{ post.date | date: "%b %d, %Y" }}
+      <div>{{post.excerpt | truncate: 100}}</div>
+    {% endcapture %}
+    {% capture img %}
+      {{ exp.icon | prepend: site.url }}
+    {% endcapture %}
+    {% capture action_href %}
+      {{ post.url | prepend: site.url }}
+    {% endcapture %}
+    {% capture action_text %}
+      Read {{ post.content | number_of_words }} words...
+    {% endcapture %}
+    {% capture img %}
+      {% if post.icon %}
+        {{ post.icon }}
+      {% else %}
+        /assets/img/icon-post.svg
+      {% endif %}
+    {% endcapture %}
+    {% 
+      include card.html
+      title=title
+      img=img
+      alt=alt
+      supporting_text=supporting_text
+      action_text=action_text
+      action_href=action_href
+    %}
+  {% endfor %}
+</div>
 
-
-{% if paginator.previous_page_path %}
-  <a class="prev" href="{{paginator.previous_page_path}}">
-    previous {{ site.paginate }}...<span class="glyphicon glyphicon-menu-left" ></span>
-  </a>
-{% endif %}
-{% if paginator.next_page_path %}
-  <a class="next" href="{{paginator.next_page_path}}">
-    <span class="glyphicon glyphicon-menu-right" ></span>next {{ site.paginate }}...
-  </a>
-{% endif %}
-
+<div class="content">
+  <div class="paginator-left">
+    {% if paginator.previous_page_path %}
+    <div id="tt-left" class="icon material-icons">
+      <a class="paginator-link" href="{{ paginator.previous_page_path }}">
+        keyboard_arrow_left
+      </a>
+    </div>
+    <div class="mdl-tooltip mdl-tooltip--large" for="tt-left">
+      previous page
+    </div>
+    {% else %}
+    <div id="tt-left" class="icon material-icons">
+        keyboard_arrow_left
+    </div>
+    <div class="mdl-tooltip mdl-tooltip--large" for="tt-left">
+      no previous page
+    </div>
+    {% endif %}
+  </div>
+  <div class="paginator-right" >
+    {% if paginator.next_page_path %}
+    <div id="tt-right" class="icon material-icons">
+      <a class="paginator-link" href="{{ paginator.next_page_path }}">
+        keyboard_arrow_right
+      </a>
+    </div>
+    <div class="mdl-tooltip mdl-tooltip--large" for="tt-right">
+      next page
+    </div>
+    {% else %}
+    <div id="tt-right" class="icon material-icons">
+        keyboard_arrow_right
+    </div>
+    <div class="mdl-tooltip mdl-tooltip--large" for="tt-right">
+      no next page
+    </div>
+    {% endif %}
+  </div>
+</div>

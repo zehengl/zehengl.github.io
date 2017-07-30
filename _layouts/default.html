@@ -1,48 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     {% include head.html %}
   </head>
-
   <body>
-
-    {% include header.html %}
-
-    <div class="container">
-      {{ content }}
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-100">
+      {% include header.html %}  
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          {{ content }}
+        </div>
+        <footer class="mdl-mini-footer sticky-footer">
+          <p>{{ site.footer }}</p>
+        </footer>
+      </main>
     </div>
-
-    <footer>
-      <div class="container">
-        <p class="text-muted">Hosted on Github, Powered by Jekyll</p>
-      </div>
-    </footer>
-
-    <div class="btn back-to-top">Back to Top</div>
-
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script>
-      jQuery(document).ready(function() {
-        var offset = 400;
-        var duration = 800;
-        jQuery(window).scroll(function() {
-          if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-          } else {
-            jQuery('.back-to-top').fadeOut(duration);
-          }
-        });
-
-        jQuery('.back-to-top').click(function(event) {
-          event.preventDefault();
-          jQuery('html, body').animate({scrollTop: 0}, duration);
-          return false;
-        })
-      });
-    </script>
-
   </body>
-
 </html>

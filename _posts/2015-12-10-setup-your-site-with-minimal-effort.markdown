@@ -13,7 +13,7 @@ Once upon a time I had a domain and a hosting account on U.S. [GoDaddy](https://
 
 I prefer something minimal and hackable at the same time. That's the reason I decide to use Github and Jekyll, alongside with other ready-made tools such Disqus and Google Analytics to create this website.
 
-# Getting started
+### Getting started
 
 Assume you have ruby installed, open your terminal and fetch jekyll.
 
@@ -31,7 +31,7 @@ jekyll serve
 
 You should be able to browse the site at http://locahost:4000
 
-# Add a comment section for each post
+### Add a comment section for each post
 
 You may need to create a Disqus account to begin with. Then go to [https://disqus.com/admin/create/](https://disqus.com/admin/create/) to register a site profile. Once finished, head to *installation* for *Universal Code* where you can find the following. You may want to set up the URL and identifier variable.
 
@@ -62,7 +62,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 It simply plugs and plays. In other words, create a **"comments.html"** within **"_includes"** folder, paste the code above, and {% raw %} {% include comments.html %} {% endraw %} wherever you want to display the comment section. In my case, it is placed in the layout of post, **"_layouts/post.html"**.
 
-# Add share buttons for social networks
+### Add share buttons for social networks
 
 It's a good idea to put some share buttons that give readers easy access to promote your site. You only need to include few lines of code that are generated automatically by the social networks. 
 
@@ -163,7 +163,7 @@ fjs.parentNode.insertBefore(js, fjs);
 
 [4]: https://developers.google.com/+/web/share/
 
-# Add Google Analytics
+### Add Google Analytics
 
 Finally, I want to enable [Google Analytics](https://www.google.com/analytics/) on the site. It cannot be easier. Register your Google Analytics, get the tracking code, and place it wherever you like.
 
@@ -184,7 +184,7 @@ I save the following code to **"_includes/google_analytics.html"**
 
 and {% raw %} {% include google_analytics.html %} {% endraw %} in **"_layouts/default.html"**.
 
-# One more thing
+### One more thing
 
 You want Github to host your jekyll site. Following is pretty standard if you know git.
 
@@ -196,7 +196,7 @@ git remote add origin "remote repository URL"
 git push origin master
 {% endhighlight %}
 
-# THANKS FOR READING
+### THANKS FOR READING
 
 You can also checkout my site on Github: [https://github.com/zehengl/zehengl.github.io](https://github.com/zehengl/zehengl.github.io)
 

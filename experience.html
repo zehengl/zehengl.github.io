@@ -1,0 +1,32 @@
+---
+layout: default
+title: Experience
+permalink: /experience/
+---
+
+<div class="mdl-grid">
+  {% for exp in site.data.experiences %}
+    {% capture title %}
+      {{ exp.title }}
+    {% endcapture %}
+    {% capture supporting_text %}
+      Check out <a href="{{ exp.link }}">{{ exp.company }}</a>
+    {% endcapture %}
+    {% capture img %}
+      {{ exp.icon | prepend: site.url }}
+    {% endcapture %}
+    {% capture alt %}
+      {{ exp.company }}
+    {% endcapture %}
+    {% capture img %}
+      {{ exp.icon }}
+    {% endcapture %}
+    {% 
+      include card.html
+      title=title
+      img=img
+      alt=alt
+      supporting_text=supporting_text
+    %}
+  {% endfor %}
+</div>

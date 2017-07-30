@@ -3,23 +3,24 @@ layout: post
 title: "My Mac Setup"
 date:   2017-01-18
 author: Zeheng Li
+icon : /assets/post/icon-config.svg
 ---
 
 This is my basic mac setup, heavily depending on Homebrew. (Updated as of 2017-01-21)
 
-# Reinstall macOS
+### Reinstall macOS
 
 If you need a bootable use drive for macOS Sierra to begin with, see this instruction.
 
 <script src="https://gist.github.com/zehengl/78882986e17766240653052adb9be0a0.js"></script>
 
-# Package Manager
+### Package Manager
 
 You cannot go wrong with [Homebrew](http://brew.sh/).
 
 ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
-# Packages
+### Packages
 
 There are tons of useful packages already managed in homebrew. Here is a list of my frequent items.
 
@@ -44,7 +45,7 @@ There are tons of useful packages already managed in homebrew. Here is a list of
 * vagrant-manager
 * vectr
 
-# Programming Languages
+### Programming Languages
 
 * Ruby
 	* ```brew install rbenv```
@@ -64,21 +65,21 @@ There are tons of useful packages already managed in homebrew. Here is a list of
 * Java
 	* [ORACLE](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-# Database
+### Database
 
 * MySQL
 	* ```brew install mysql```
 	* ```brew services start mysql```
 	* ```brew cask install mysqlworkbench```
 
-# PaaS
+### PaaS
 
 * Heroku
 	* ```brew install heroku```
 * Openshift
 	* ```brew install openshift-cli```
 
-# Apps
+### Apps
 
 * [iTerm2](https://www.iterm2.com/downloads.html)
 	* Dracula from [https://github.com/mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
