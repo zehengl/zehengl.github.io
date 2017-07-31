@@ -29,7 +29,7 @@ title: posts by zehengl
       {% if post.icon %}
         {{ post.icon | prepend: site.url }}
       {% else %}
-        {{ /assets/img/icon-post.svg | prepend: site.url }}
+        {{ '/assets/img/icon-post.svg' | prepend: site.url }}
       {% endif %}
     {% endcapture %}
     {% 
