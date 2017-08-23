@@ -66,5 +66,5 @@
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 /* with some modification  */
-.highlight pre { border: 0; }
+.highlight pre { border: 0; white-space: pre-wrap;}
 .lineno { color: #000000; border: none;}
