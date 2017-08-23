@@ -1,6 +1,6 @@
 # zehengl.github.io
 
-[![Travis](https://img.shields.io/travis/zehengl/zehengl.github.io.svg)](zehengl.github.io)
+[![Travis](https://img.shields.io/travis/zehengl/zehengl.github.io.svg)](https://travis-ci.org/zehengl/zehengl.github.io)
 
 My github page
 
