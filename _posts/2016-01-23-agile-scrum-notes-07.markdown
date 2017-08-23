@@ -16,14 +16,10 @@ Information about Scrum planning.
   * Try not to pack too much into the plan - allow space to accommodate changes
 
 ### Iterations allow for mid-course corrections
-![iterations_allow_for_mid_course_corrections](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/iterations_allow_for_mid_course_corrections.jpg)
-
-[Credits: http://www.slideshare.net/SmartBizVN/lesson-03-nugget-2-agile-planning-monitoring-and-adopting](http://www.slideshare.net/SmartBizVN/lesson-03-nugget-2-agile-planning-monitoring-and-adopting)
+![iterations_allow_for_mid_course_corrections](https://image.slidesharecdn.com/lesson03nugget2agileplanningmonitoringandadopting-150630031207-lva1-app6891/95/pmiacp-lesson-03-nugget-2-agile-planning-monitoring-and-adopting-12-638.jpg?cb=1435664113)
 
 ### Multiple levels of planning
-![planning_onion](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/planning_onion.png)
-
-[Credits: http://www.payton-consulting.com/agile-planning-answer-managements-concerns-long-term-planning/](http://www.payton-consulting.com/agile-planning-answer-managements-concerns-long-term-planning/)
+![planning_onion](https://myagilemind.files.wordpress.com/2011/10/image18.png)
 
   * Iteration planning considers the tasks that are needed to transform a **Feature Request** into working, tested software
   * Iteration Planning occurs at the start of each iteration
@@ -39,16 +35,12 @@ A Release Plan presents a roadmap of how the team intends to achieve the product
   * A release plan serves as a guidepost toward which the project team can progress
 
 ### Steps to planning a release
-![steps_to_planning_a_release](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/steps_to_planning_a_release.png)
-
-[Credits: https://www.linkedin.com/pulse/release-planning-agile-project-management-satish-agrawal](https://www.linkedin.com/pulse/release-planning-agile-project-management-satish-agrawal)
+![steps_to_planning_a_release](https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAATDAAAAJDA2MDk4OGFiLTNmMGQtNDg0Yy04OTM1LWM2ZWY5NDczYTgyNg.png)
 
 The team and product owner collaboratively explore the product owner's conditions of satisfaction that include scope, schedule, budget, and quality.
 
 ### Release Planning
-![release_planning_meeting](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/release_planning_meeting.jpg)
-
-[Credits: https://scalingsoftwareagility.wordpress.com/tag/agile-release-planning/](https://scalingsoftwareagility.wordpress.com/tag/agile-release-planning/)
+![release_planning_meeting](https://scalingsoftwareagility.files.wordpress.com/2008/03/revised-release-plan1.jpg)
 
 The purpose of Release Planning is to define the contents of a release or a specific shippable product increment.
 
@@ -67,25 +59,21 @@ The purpose of Release Planning is to define the contents of a release or a spec
   * A Sprint pre-planning meeting and preparations would help
 
 ### Velocity driven sprint planning
-![velocity_driven_sprint_planning](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/velocity_driven_sprint_planning.png)
-
-[Credits: http://www.se.rit.edu/~sqlwikiplug/site/Estimation%20Techniques.html](http://www.se.rit.edu/~sqlwikiplug/site/Estimation%20Techniques.html)
+![velocity_driven_sprint_planning](http://www.se.rit.edu/~sqlwikiplug/site/download/temp/graphviz69961.png)
 
 ### Commitment driven sprint planning
-![commitment_driven_sprint_planning](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/commitment_driven_sprint_planning.gif)
-
-[Credits: http://blog.vsharing.com/agiledo/A969385.html](http://blog.vsharing.com/agiledo/A969385.html)
+![commitment_driven_sprint_planning](http://blog.vsharing.com/Uploads/UserDirs/1/140/55941/Commitment-driven%20iteration%20planning.gif)
 
 In Commitment driven sprint planning, the team is asked to add stories to the sprint one-by-one until they can commit to completing no more.
 
 ### Find out how much time is available
 Allow time for:
 
-  - Hacking, reading blogs, 20% time? 
+  - Hacking, reading blogs, 20% time?
   - Lunch, tea breaks
   - Email
   - Meetings
-  - Fixing P1 bugs from previous version 
+  - Fixing P1 bugs from previous version
   - Time committed to other teams
 
 ### Planning for each story

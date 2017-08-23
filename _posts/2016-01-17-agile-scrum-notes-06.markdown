@@ -78,7 +78,7 @@ Some Scrum best practices you should know.
   * When adding a feature, a pair may perform dozens of these cycles, implementing and refining the software in baby steps until there is nothing left to add and nothing left to take away.
   * Step:
 
-    ![TDD](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/TDD.svg)
+    ![TDD](http://www.agiledata.org/images/tddSteps.jpg)
 
     1. Quickly add a test, basically just enough code to so that the tests now fail.
     2. Run the tests, often the complete test suite, although for sake of speed they may run only a subset to ensure that the new test does in fact fail.

@@ -9,13 +9,13 @@ icon: /assets/post/icon-jira.svg
 How to estimate efforts in Scrum projects.
 
 ### Principles behind Scrum estimation
-  * Achieving "precision" in estimates is neither possible nor necessary – being "predictable" is good enough 
+  * Achieving "precision" in estimates is neither possible nor necessary – being "predictable" is good enough
   * The team which is going to do the work has the final word about estimates – it does not matter what others think
   * Just like planning, estimation gets progressively closer to the actual as more and more information becomes available
   * Scrum accelerates feedback about estimates, i.e., bad estimation will be exposed faster
 
 ### Estimation techniques
-  * Estimates are classified as Top-Down or Bottom-Up 
+  * Estimates are classified as Top-Down or Bottom-Up
   * Top-Down
     + Expert estimation
     + Analogous estimation
@@ -34,9 +34,7 @@ How to estimate efforts in Scrum projects.
   * Remember there is always a "range of values" to estimates – be sure to understand this and factor in while planning
 
 ### Uncertainty in estimates
-![TheConeOfUncertainty](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/TheConeOfUncertainty.gif)
-
-[Credits: http://blog.karmona.com/index.php/2010/04/18/the-cone-of-uncertainty-in-pastel/](http://blog.karmona.com/index.php/2010/04/18/the-cone-of-uncertainty-in-pastel/)
+![TheConeOfUncertainty](http://blog.karmona.com/wp-content/uploads/2010/04/TheConeOfUncertainty.gif)
 
 ### Over-estimation and under-estimation
   * Underestimation is typically underestimated (i.e., overestimation is overestimated)
@@ -46,7 +44,7 @@ How to estimate efforts in Scrum projects.
   * It always takes longer than you expect, even if you take into account Hofstadter’s law
 
 ### What contributes to size
-  * Size or "bigness" of work is governed by: 
+  * Size or "bigness" of work is governed by:
     + How complex is it
     + How risky it is?
     + How much of it is there?
@@ -54,10 +52,10 @@ How to estimate efforts in Scrum projects.
 Raw size can be "adjusted" as follows:
 
 {% highlight bash %}
-Adjusted estimate = 
-  Raw estimate * ( 1 + Complexity Factor + 
+Adjusted estimate =
+  Raw estimate * ( 1 + Complexity Factor +
     Drag (unfamiliarity of the team) +
-    Working environment (lack of co-location and good work conditions) + 
+    Working environment (lack of co-location and good work conditions) +
     Multiple teams (Overhead caused by working on multiple teams) )
 {% endhighlight %}
 
@@ -75,12 +73,12 @@ Adjusted estimate =
     + Examples of distractions
       - Email
       - Personal work (e.g. reading Facebook updates)
-      - Meetings not connected to actual work 
+      - Meetings not connected to actual work
       - Breaks for tea, coffee, lunch, etc.
 
 ### Converting ideal days to actual days
   * Converting ideal to actual days needs to take into account the following
-    + How much distraction needs to be considered? 
+    + How much distraction needs to be considered?
     + Does the resource have other tasks?
     + Who is actually doing the work (expert or novice)?
   * Example: What are the "ideal days" for this story
@@ -89,7 +87,7 @@ Adjusted estimate =
 
 
 ### Story points
-  * Story points uses "analogous" estimation techniques 
+  * Story points uses "analogous" estimation techniques
   * Establish a small story as a benchmark and assign it one story point
   * Then assign story points to other stories relative to the benchmark
     + If it is twice as big, give it 2 story points, if it is thrice as big, give it 3 story points and so on
@@ -106,9 +104,9 @@ Adjusted estimate =
 
 ### Using story points
   * Do not use a single gold standard: Triangulate instead
-    + Choose a small story – assign it 1 story point 
-    + Choose a medium story – assign it 5 story points 
-    + Choose a large story – assign it 13 story points 
+    + Choose a small story – assign it 1 story point
+    + Choose a medium story – assign it 5 story points
+    + Choose a large story – assign it 13 story points
     + Now where does a story stand in comparison to the three?
   * Story points are usually assigned in a non-linear scale
     + Doubling scale: 1, 2, 4, 8, 16, 32, ...
@@ -125,7 +123,7 @@ Adjusted estimate =
   * Ideal days can force companies to confront time wasting activities
 
 ### Estimation techniques – Planning poker
-  * An iterative approach to estimating 
+  * An iterative approach to estimating
   * Steps
     - Each estimator is given a deck of cards, each card has a valid estimate written on it
     - Customer/Product owner reads a story and it’s discussed briefly
@@ -159,7 +157,7 @@ Affinity Estimating is a technique many teams use to quickly and easily estimate
   * Is Quick and Easy
   * Decision making process is visible
   * Creates a positive experience rather than confrontational one
- 
+
 ### Affinity estimation - process
 
 [Credits: http://www.gettingagile.com/2008/07/04/affinity-estimating-a-how-to/](http://www.gettingagile.com/2008/07/04/affinity-estimating-a-how-to/)
@@ -170,7 +168,7 @@ Affinity Estimating is a technique many teams use to quickly and easily estimate
   * Ask the team members to rank the stories from smallest to largest
   * It may require discussion and few iterations to get the team to agree on the order
 
-![relativesizingwall-empty-spectrum](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/relativesizingwall-empty-spectrum.png)
+![relativesizingwall-empty-spectrum](http://www.gettingagile.com/wp-content/uploads/2008/07/relativesizingwall-empty-spectrum.png)
 
 ---
 
@@ -178,6 +176,6 @@ Affinity Estimating is a technique many teams use to quickly and easily estimate
   * A story can only be in one bucket
   * Collect the information and summarize
 
-![relativesizeditems-inbuckets](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/relativesizeditems-inbuckets.png)
+![relativesizeditems-inbuckets](http://www.gettingagile.com/wp-content/uploads/2008/07/relativesizeditems-inbuckets.png)
 
 ---

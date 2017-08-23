@@ -14,7 +14,7 @@ Tools and techniques to monitoring Scrum projects.
   * The Scrum Master should try to provide the team visibility so that they can make informed decisions
   * Common tracking mechanisms in Scrum
     - Daily stand-up meetings
-    - Reviews and retrospectives 
+    - Reviews and retrospectives
     - Metrics
     - Charts
     - Information radiators
@@ -41,11 +41,11 @@ Tools and techniques to monitoring Scrum projects.
       + Velocity
       + Backlog size
     - Project Testing
-      + Acceptance tests per story 
-      + Defects count per story 
-      + Escaped Defects per cycle 
+      + Acceptance tests per story
+      + Defects count per story
+      + Escaped Defects per cycle
       + Tests time to run
-      + Tests run per frequency 
+      + Tests run per frequency
       + Time to fix tests
     - Do's and Don'ts
       + Measure only a few things that matter (just because it can be measured doesn’t mean it is important)
@@ -55,42 +55,42 @@ Tools and techniques to monitoring Scrum projects.
       + It should result in tangible action
         * Behavior that you want to encourage OR
         * Behavior that you want to discourage
-      + Use metrics to guide action, not for witch-hunts 
+      + Use metrics to guide action, not for witch-hunts
       + In Scrum, team metrics are preferred
       + Do NOT use metrics for performance appraisals
         * It will usually result in perverse incentive to manipulate the number
 
 ### Charts in Scrum
-  * Commonly used charts: 
-    - Burn-down, Burn-up charts 
-    - Cumulative Flow Diagrams 
+  * Commonly used charts:
+    - Burn-down, Burn-up charts
+    - Cumulative Flow Diagrams
     - Progress Charts
     - Risk profile graphs
     - Others
   * Charts are useful because:
     - It indicates trends (trends are more important than absolute numbers)
-    - It is more "visual" (a picture is worth a thousand words) 
+    - It is more "visual" (a picture is worth a thousand words)
     - Management loves charts!
 
 ### Burn-down chart
 
-![Burn-down chart](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/burn-down-chart.png)
+![Burn-down chart](https://upload.wikimedia.org/wikipedia/commons/8/8c/Burn_down_chart.png)
 
 ### Burn-down chart Bar Style
 
-![urn-down chart Bar Style](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/Release%20Enhanced%20Burndown%20Chart.png)
+![Burn-down chart Bar Style](https://agilewarrior.files.wordpress.com/2013/06/burndown-5-workcomplete.png?w=540)
 
 ### Burn-up and Burn-down chart
- 
-![Burn-up and Burn-down chart](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/scrum-burndown-graph-7.png)
+
+![Burn-up and Burn-down chart](https://image.slidesharecdn.com/agile-metrics-v6-100210042200-phpapp01/95/agile-metrics-v6-53-728.jpg?cb=1265775801)
 
 ### Cumulative Flow Diagram
 
-![Cumulative Flow Diagram](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/cumulativeflowdiagram.png)
+![Cumulative Flow Diagram](http://static.kanbantool.com/library/analytics-metrics/cumulative-flow-diagram.jpg)
 
 ### Parking Lot Diagram
 
-![Parking Lot Diagram](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/parking_lot_diagram.png)
+![Parking Lot Diagram](http://www.featuredrivendevelopment.com/files/images/img_b4ea12e835ecb80e728192097509a172.preview.png)
 
 ### Escaped defects found
 
@@ -98,25 +98,25 @@ Escaped Defects Found counts number of new escaped defects found over period of 
 
 ### Velocity chart
 
-![Velocity chart](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/Velocity%20Bar%20Chart.png)
+![Velocity chart](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAjHAAAAJDk1YWIxNTRmLWNhOWYtNDViYy05MWVlLTVhYzhlZmY2MmE0YQ.png)
 
 ### Progress Chart / Kanban
 
-![Progress Chart / Kanban](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/simple-physical-board-w-card-types-e87dbe30.png)
+![Progress Chart / Kanban](http://kanbanblog.com/explained/image/kanban-board-2.png)
 
 ### Niko Niko Calendar
 
-![Niko Niko Calendar](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/niko-niko_calendar.png)
+![Niko Niko Calendar](https://cdn.slidehunter.com/wp-content/uploads/niko-niko-calendar.png)
 
 ### Information radiators
 
 "An information radiator displays information in a place where passers by can see it. With information radiators, the passers by don't need to ask any question; the information simply hits them as they pass."
-  
+
   - Invented by Alistair Cockburn
   - Team members can view the current state of the project : schedules, tasks, progress, issues
   - Scrum teams should use it to make progress (or lack of) visible
 
-![Information radiators](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/information-radiators-8-638.jpg)
+![Information radiators](https://image.slidesharecdn.com/informationradiators-150601115937-lva1-app6892/95/information-radiators-8-638.jpg?cb=1433160070)
 
 Most popular Information radiators are:
 
@@ -124,7 +124,7 @@ Most popular Information radiators are:
   - Big Visible charts (Includes burn down charts)
   - Continuous Integration build health Indicators (Including lava lamps and street lights)
 
-![Information radiators](https://dl.dropboxusercontent.com/u/2746648/github/zehengl/agile-formanagers-bybhawaninandanprasad-20-638.jpg)
+![Information radiators](https://image.slidesharecdn.com/agileformanagers-by-bhawaninandanprasad-140719151411-phpapp02/95/agile-formanagers-bybhawaninandanprasad-20-638.jpg?cb=1405782921)
 
 Effective Information Radiators should be :
 
