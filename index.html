@@ -12,7 +12,7 @@ title: zehengl
   {% capture about_action_text %}
     See more
   {% endcapture%}
-  {% 
+  {%
     include card.html
     title='About'
     img='/assets/img/icon-about.svg'
@@ -29,7 +29,7 @@ title: zehengl
   {% capture experience_action_text %}
     See all {{ site.data.experiences | size }} jobs
   {% endcapture%}
-  {% 
+  {%
     include card.html
     title='Experience'
     img='/assets/img/icon-experience.svg'
@@ -48,7 +48,7 @@ title: zehengl
   {% capture project_action_text %}
     See all {{ site.data.projects | size }} projects
   {% endcapture%}
-  {% 
+  {%
     include card.html
     title='Project'
     img='/assets/img/icon-project.svg'
@@ -67,7 +67,7 @@ title: zehengl
   {% capture publication_action_text %}
     See all {{ site.data.publications | size }} published works
   {% endcapture%}
-  {% 
+  {%
     include card.html
     title='Publication'
     img='/assets/img/icon-publication.svg'
@@ -86,7 +86,7 @@ title: zehengl
   {% capture profile_action_text %}
     See all {{ site.data.identities | size }} profiles
   {% endcapture%}
-  {% 
+  {%
     include card.html
     title='Profile'
     img='/assets/img/icon-profile.svg'
@@ -97,48 +97,3 @@ title: zehengl
   %}
 
 </div>
-
-
-
-<!-- <section>
-  <div>
-    <h1>Projects</h1>
-    <ul>
-      {% for proj in site.data.projects %}
-        <li>
-          <strong><a href="{{ proj.link }}">{{ proj.name }}</a></strong>
-          <br>{{ proj.description }}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
-<section>
-  <div>
-    <h1>Miscellaneous</h1>
-    <ul>
-      <li>
-        Reviewer of <strong><a href="https://www.packtpub.com/game-development/corona-sdk-mobile-game-development-second-edition">Corona SDK Mobile Game Development: Beginner's Guide - Second Edition</a></strong>
-        <br>Packt Publishing, 2014 - 2015
-      </li>
-    </ul>
-  </div>
-</section>
-
-<section>
-  <div>
-    <h1>Batteries Included</h1>
-    <ul>
-      <li>Machine Learning, Natrual Language Processing, Software Engineering</li>
-      <li>C++, C#, Java</li>
-      <li>Python, Lua</li>
-      <li>R</li>
-      <li>HTML, CSS</li>
-      <li>Ubuntu, macOS</li>
-      <li>PyCharm, Atom, Sublime Text 3, VS Code, Xcode</li>
-    </ul>
-  </div>
-</section> -->
-
-

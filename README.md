@@ -11,5 +11,5 @@ POWERED BY
 * Github
 * Google Analytics
 * Google Custom Search Engine
-* Google Meterial Design Lite
+* Google Material Design Lite
 * Jekyll
