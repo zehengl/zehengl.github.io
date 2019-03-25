@@ -1,7 +1,0 @@
-- name : ezapi-yelp
-  link : https://pypi.python.org/pypi/ezapi-yelp
-  description : A Python wrapper for Yelp API, supporting v2 and Fusion (v3)
-
-- name : ezapi-tmdb
-  link : https://pypi.python.org/pypi/ezapi-tmdb
-  description : A Python wrapper for TMDb API 
