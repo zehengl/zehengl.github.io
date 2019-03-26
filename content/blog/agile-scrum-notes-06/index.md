@@ -9,9 +9,13 @@ description: "Scrum best practices you should know."
 - Cleaning up the code (changes that do not change the expected inputs or outputs) for one or more of the following reasons:
 
   - Better readability
+
   - Optimizing processing logic
+
   - Improving maintainability
+
   - Improving performance
+
   - Complying with design guidelines and framework
 
 - Re-factoring is a best practice - particularly important in Agile, as the code gets built incrementally
@@ -19,6 +23,7 @@ description: "Scrum best practices you should know."
 - The team should write re-factoring stories and request the Product owner to prioritize
 
 - Extreme Programming advocates continuous re-factoring
+
   - Remember the Agile principle: "Continuous attention to technical excellence and good design enhances agility"
 
 ## Pair Programming
@@ -26,17 +31,23 @@ description: "Scrum best practices you should know."
 - Two people looking at one machine with one keyboard and one mouse
 
   - One driver and one navigator
+
   - One implements, one strategizes
+
   - All code written in pairs
 
 - Produces 15% less output, but:
 
   - Leads to better design, quality
+
   - Succession planning
+
   - Training opportunities
 
 - Especially useful while
+
   - Writing complex logic
+
   - Debugging "hard-to-solve" problems
 
 ## Continuous Integration
@@ -46,15 +57,25 @@ description: "Scrum best practices you should know."
 - Continuous integration is an approach that keeps everybody's code integrated and builds release infrastructure along with the rest of the application.
 
 - Practices of continuous integration
+
   - Maintain a single source repository
+
   - Automate the build
+
   - Make your build self- testing
+
   - Everyone commits to the mainline every day
+
   - Every commit should build the mainline on an integration machine
+
   - Keep the build fast
+
   - Test in a clone of the production environment
+
   - Make it easy for anyone to get the latest executable
+
   - Everyone can see what's happening
+
   - Automate deployment
 
 ## Configuration Management
@@ -62,8 +83,11 @@ description: "Scrum best practices you should know."
 - Best practices
 
   - Invest in automation tools (automate the build, automate the tests)
+
   - Enforce discipline in code check-ins (mandatory code review workflow, mandatory tests and code coverage reports)
+
   - Use static code analyzers
+
   - Use tools that allow multiple check-outs and safe merges
 
 - Hire a good configuration manager to automate and then recede into the background
@@ -71,9 +95,13 @@ description: "Scrum best practices you should know."
 ## Quality in Agile
 
 - Quality is defined as "conformance to specifications and fitness of purpose"
+
   - Extrinsic or Customer perceived quality is perceived when the product is delivered to the customer and measured by the extent to which they realize "value" from it
+
   - Intrinsic or Technical quality is the quality that is perceived by the team
+
   - Technical quality has many facets including modularity, maintainability, scalability, reliability, etc.
+
   - Extrinsic quality is non-negotiable, but Intrinsic quality is also critical to ensure that you can continue to deliver value
 
 ## Scrum Quality - Home truths
@@ -102,21 +130,30 @@ description: "Scrum best practices you should know."
 
 - Step:
 
-  ![TDD](http://www.agiledata.org/images/tddSteps.jpg)
+  ![TDD](./tdd.jpg)
 
   1. Quickly add a test, basically just enough code to so that the tests now fail.
+
   2. Run the tests, often the complete test suite, although for sake of speed they may run only a subset to ensure that the new test does in fact fail.
+
   3. Update the functional code so it passes the new test.
+
   4. Run the tests again.
+
   5. If the tests fail return to step 3.
+
   6. Once the tests pass the next step is to start over (agilists may also want to refactor any duplication out of their design as needed).
 
 - Advantages of TDD:
 
   - TDD forces developers to do detailed design just in time (JIT) before writing the code.
+
   - It ensures that agile developers have testing code available to validate their work, ensuring that they test as often and early as possible.
+
   - It gives developers the courage to refactor their code to keep it the highest quality possible, because they know there is a test suite in place that will detect if they have "broken" anything as the result of refactoring.
+
   - Research shows that TDD substantially reduces the incidence of defects [Janzen & Saiedian].
+
   - It also helps improve your design, documents your public interfaces, and guards against future mistakes.
 
 ## Done criteria
@@ -128,10 +165,15 @@ description: "Scrum best practices you should know."
 - For example, a story can be DONE when:
 
   - Design is completed and reviewed by the architect
+
   - Coding is completed for 100% of the paths described in the story
+
   - Testing is completed for the story
+
   - Regression testing is done to ensure no unexpected impacts
+
   - All identified bugs are fixed
+
   - Technical and user documentation is updated for the added/changed functionality
 
 - Similarly, you can define _DONE_ criteria for Sprints or Releases

@@ -21,12 +21,19 @@ description: "Details of the Scrum ceremonies."
 - Advantages
 
   - Focus
+
     - Helps one to focus his attention on the job at hand for the specified period of time
+
   - Increased productivity
+
     - Defining a fixed time period and working diligently in a focused manner on the identified task, helps one to work smarter and harder and get more done. It helps to get away with "Parkinson's Law" and "Student Syndrome"
+
   - Realization of time spent
+
     - Defining a fixed time period helps you identify how much work is done in the specific time and avoids the idling time
+
   - Time available
+
     - Helps one to be consciously aware of the time available to perform the task at hand
 
 ## Release
@@ -78,6 +85,7 @@ The concept of a “Release” has been removed from the latest Scrum Guide. The
 - The Product owner can:
 
   - Make changes to the product backlog (add, remove or change stories that are not in the Sprint)
+
   - Terminate a Sprint and re-plan (under extreme circumstances)
 
 ## Daily Scrum
@@ -85,7 +93,9 @@ The concept of a “Release” has been removed from the latest Scrum Guide. The
 - Each participant answers 3 questions:
 
   1. What did you do yesterday?
+
   2. What will you do today?
+
   3. What’s in your way?
 
 - These are not status sessions for the manager
@@ -95,15 +105,21 @@ The concept of a “Release” has been removed from the latest Scrum Guide. The
 - They are important because
 
   - G: It Gets the team together
+
   - I: Information is shared
+
   - F: It helps them Focus
+
   - T: It builds the Team
 
 - Best practices:
 
   - 15 minutes or less
+
   - The whole team stands (so that the meeting ends soon!)
+
   - Even remote participants are required and they stand too!
+
   - No side conversation until the end of the meeting
 
 ## Sprint Review
@@ -119,15 +135,21 @@ The concept of a “Release” has been removed from the latest Scrum Guide. The
 - Purpose of a Sprint Review:
 
   - Validate understanding of requirements
+
   - Get feedback
+
   - Check that the team is on track (or find out if it is not)
 
 - Also check
 
   - Items which were on the Sprint backlog but not completed (partially or totally) are added to the Product backlog
+
   - Product owner triages feedback and adds those to the backlog
+
   - If a customer (or stakeholder) wants to start using the product (or a feature in the product), the Product Owner takes a call about releasing it (alpha or beta)
+
   - Optionally record the demo and make it available to others who could not attend
+
   - The team formally closes the Sprint after doing the retrospective
 
 ## Sprint Retrospectives
@@ -135,6 +157,7 @@ The concept of a “Release” has been removed from the latest Scrum Guide. The
 - A 1-2 hour meeting at the end of each Sprint
 
   - To review what is working and what is not
+
   - To come up with actions to improve
 
 - Attended by the Team, Scrum Master and optionally a neutral facilitator
@@ -142,21 +165,31 @@ The concept of a “Release” has been removed from the latest Scrum Guide. The
 - What it is NOT
 
   - A meeting to assign blame
+
   - A performance review for senior management
 
 - Why are retrospectives important?
 
   - Provides the team visibility
+
   - Enables them to take control of actions
 
 - Making retrospectives effective
 
   - Create lists
+
     - What is working (Keep these)
+
     - What is not working
+
     - What could we try in the next Sprint
+
   - Get input from everybody
+
   - Prioritize the list and agree upon few things to try
+
   - Assign actions and follow up
+
   - Agree on token penalty of actions are incomplete
+
   - Find a way to make the meeting fun

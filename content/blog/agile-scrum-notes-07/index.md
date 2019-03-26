@@ -18,11 +18,11 @@ description: "Information about Scrum planning."
 
 ## Iterations allow for mid-course corrections
 
-![iterations_allow_for_mid_course_corrections](https://image.slidesharecdn.com/lesson03nugget2agileplanningmonitoringandadopting-150630031207-lva1-app6891/95/pmiacp-lesson-03-nugget-2-agile-planning-monitoring-and-adopting-12-638.jpg?cb=1435664113)
+![iterations-allow-for-mid-course-corrections](./iterations-allow-for-mid-course-corrections.jpg)
 
 ## Multiple levels of planning
 
-![planning_onion](https://myagilemind.files.wordpress.com/2011/10/image18.png)
+![planning-onion](./planning-onion.png)
 
 - Iteration planning considers the tasks that are needed to transform a **Feature Request** into working, tested software
 
@@ -44,13 +44,13 @@ A Release Plan presents a roadmap of how the team intends to achieve the product
 
 ## Steps to planning a release
 
-![steps_to_planning_a_release](https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAATDAAAAJDA2MDk4OGFiLTNmMGQtNDg0Yy04OTM1LWM2ZWY5NDczYTgyNg.png)
+![steps-to-planning-a-release](./steps-in-release-planning.jpg)
 
 The team and product owner collaboratively explore the product owner's conditions of satisfaction that include scope, schedule, budget, and quality.
 
 ## Release Planning
 
-![release_planning_meeting](https://scalingsoftwareagility.files.wordpress.com/2008/03/revised-release-plan1.jpg)
+![release-planning-meeting](./revised-release-plan.jpg)
 
 The purpose of Release Planning is to define the contents of a release or a specific shippable product increment.
 
@@ -67,22 +67,24 @@ The purpose of Release Planning is to define the contents of a release or a spec
 - A "good commitment" means:
 
   - Everybody is clear about the goals
+
   - Everybody agrees that it is "achievable"
 
 - It should be achievable without sacrificing:
 
   - Sustainable pace
+
   - Quality (near releasable quality)
 
 - A Sprint pre-planning meeting and preparations would help
 
 ## Velocity driven sprint planning
 
-![velocity_driven_sprint_planning](http://www.se.rit.edu/~sqlwikiplug/site/download/temp/graphviz69961.png)
+![velocity-driven-sprint-planning](./velocity-driven-sprint-planning.png)
 
 ## Commitment driven sprint planning
 
-![commitment_driven_sprint_planning](http://blog.vsharing.com/Uploads/UserDirs/1/140/55941/Commitment-driven%20iteration%20planning.gif)
+![commitment-driven-sprint-planning](./commitment-driven-sprint-planning.gif)
 
 In Commitment driven sprint planning, the team is asked to add stories to the sprint one-by-one until they can commit to completing no more.
 
@@ -107,10 +109,15 @@ Allow time for:
 - Find out what "tasks" are needed
 
   - Design / Design review
+
   - Code
+
   - Unit test
+
   - System and regression test
+
   - Documentation
+
   - Bug fixing
 
 - Assign tasks to resources and re-estimate the tasks
