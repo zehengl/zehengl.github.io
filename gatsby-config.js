@@ -92,5 +92,6 @@ module.exports = {
         shortname: `zehengl`,
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }
