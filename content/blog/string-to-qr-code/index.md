@@ -1,7 +1,7 @@
 ---
 title: "String to QR Code"
 date: "2016-11-13"
-description: "Setup a webapp to generate QR code. Demo available at https://serene-escarpment-19853.herokuapp.com/"
+description: "Setup a webapp to generate QR code. Demo available at https://ez-qrcode-generator.herokuapp.com/"
 ---
 
 ## The Design
@@ -24,8 +24,6 @@ Life is short, use Python
 - [python-qrcode](https://github.com/lincolnloop/python-qrcode)
 
 ## The Implementation
-
-`gist:zehengl/7abba6aff362a390a172280b9f8645e8`
 
 - python-qrcode does all the dirty work to generate QR code from string
 
