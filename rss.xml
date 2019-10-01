@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[zehengl]]></title><description><![CDATA[Zeheng Li's GitHub Pages.]]></description><link>https://zehengl.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 Sep 2019 06:18:04 GMT</lastBuildDate><item><title><![CDATA[What's Cooking?]]></title><description><![CDATA[Data The training data is from kaggle’s Recipe Ingredients Dataset. Modelling My first take is to use some classifiers out of the box from…]]></description><link>https://zehengl.github.io/what-is-cooking/</link><guid isPermaLink="false">https://zehengl.github.io/what-is-cooking/</guid><pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Data&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[zehengl]]></title><description><![CDATA[Zeheng Li's GitHub Pages.]]></description><link>https://zehengl.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Oct 2019 05:40:28 GMT</lastBuildDate><item><title><![CDATA[What's Cooking?]]></title><description><![CDATA[Data The training data is from kaggle’s Recipe Ingredients Dataset. Modelling My first take is to use some classifiers out of the box from…]]></description><link>https://zehengl.github.io/what-is-cooking/</link><guid isPermaLink="false">https://zehengl.github.io/what-is-cooking/</guid><pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Data&lt;/h2&gt;
 &lt;p&gt;The training data is from kaggle’s &lt;a href=&quot;https://www.kaggle.com/kaggle/recipe-ingredients-dataset&quot;&gt;Recipe Ingredients Dataset&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Modelling&lt;/h2&gt;
-&lt;p&gt;My first take is to use some classifiers out of the box from scikit-learn even without any hyperparameter tuning. The result seems acceptable.&lt;/p&gt;
-&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;My first take is to use some classifiers out of the box from scikit-learn even without any hyperparameter tuning. The result seems acceptable. Checkout the &lt;a href=&quot;https://github.com/zehengl/ez-cuisine-classifier/blob/master/try_sklearn.py&quot;&gt;scikit-learn script&lt;/a&gt;.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -33,6 +32,10 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;&lt;strong style=&quot;color:green;&quot;&gt;0.790&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;LinearSVC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;0.673&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;MultinomialNB&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -61,7 +64,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;I have noticed the default &lt;code class=&quot;language-text&quot;&gt;rbf&lt;/code&gt; kernel does not work with different parameters. Hence I try out a few penalty values and the results are as follow.&lt;/p&gt;
+&lt;p&gt;I have noticed the SVM’s &lt;code class=&quot;language-text&quot;&gt;rbf&lt;/code&gt; kernel does not work with default parameters. Hence I try out a few penalty values and the results are better, shown as follow.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -88,8 +91,238 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2&gt;Another approach of modelling&lt;/h2&gt;
+&lt;p&gt;Transfer learning is a trending topic nowadays in machine learning domain. It allows us to take advantage of pre-trained models and fine tune them for another domain/task.
+This dataset may not be the best case to apply transfer learning practise because the ingreidents are not written in natural language. I did it anyway for the sake of demonstration.
+For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;fast.ai&lt;/strong&gt;’s learning rate finding function is pretty handy. And I only use the 1cycle policy to fit the model. Checkout the &lt;a href=&quot;https://github.com/zehengl/ez-cuisine-classifier/blob/master/try_language_models.py&quot;&gt;language model script&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Fine tune the pre-trained model&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/a5a7c/find_lr_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 514px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.09338521400778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABQUlEQVQ4y52T25KDIAyG8QwoIJ7GUXe07/+KjGlC647drV3di38iBD5zgnHOnVLKGWudbWqnS/MqY5wUwgk8l+e5k1Ieijis73vABYRJDKkUkBU58KIArp7Cb2E0JJwDY+yj6romy1aMciV7pCAMV6n1KrT6eK6qqpVN0wSYyp9/J8nSQCqOI0UgsDiOQQhxCkgqKgsY8TGwLMtLwDhNfaSHwKZpLgF96tSkLHsPDIIA+IkO7kV3itq+B3Zdd7ope6WYFXb9NzDEAl9NeVNuS6xp8gq01v4buEFDnJQoSYBYzBgDJKojgX+K9jNswKb9OY7rQinovkbQCK4pQl8PHIXb7ebBVNNhGHxdl2UBrbW3tEe+eZ79U6UHQSPXti2M6MO3DuFjPh+hR1H03cGnw1sC0mUCjuPoo9x8/jza7S7pDtUMKcsDa5s6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;find lr 1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/a5a7c/find_lr_1.png&quot;
+        srcset=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/cf440/find_lr_1.png 148w,
+/static/d5ba490f38e9824046c3c5ed0a385676/d2d38/find_lr_1.png 295w,
+/static/d5ba490f38e9824046c3c5ed0a385676/a5a7c/find_lr_1.png 514w&quot;
+        sizes=&quot;(max-width: 514px) 100vw, 514px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Choosing learning rate 0.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;epoch&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;train_loss&lt;/th&gt;
+&lt;th&gt;valid_loss&lt;/th&gt;
+&lt;th&gt;accuracy&lt;/th&gt;
+&lt;th&gt;time&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;0&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;4.911732&lt;/td&gt;
+&lt;td&gt;3.926325&lt;/td&gt;
+&lt;td&gt;0.341775&lt;/td&gt;
+&lt;td&gt;00:14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e5687d70ec212c395597454aa1f85be2/90647/find_lr_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 531px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 65.91337099811676%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABWElEQVQ4y6VTy5KDIBBEIaKC4iNGzW5S2UP+/+84Wcz2TB573TKHLpkHbTcMSim1VVW1hRA27/0+OLc1bbu1APgUdV1Hp9OJeL0XprTk2obXKkFdOh6PKcuyxPEeWFenJrRJFEIqgfAjhUVdkwePEEIhTdP0MWEDHjWOI/V9T8MwECzvJrTOkfOeVA1mVsjEe8myPKey8WQL+7DcNM1HltlZhRsWQg5YIV9KrrU0hPkkDf8l1MaIZVsUf5fCli3sd+tCfhzID71A/ow8b+JejuvQUonzsnVFxhbSlxtNxZMwOecSCGUO9eHwnq0sz4A8YXOqMGNhnhLIkrE21V1Ih6pEzUnM/Xhxjzl8ncO6rrQuKw1Qe7lcRPn1eqWA+TqjNs+zOFmXRXLfX9/P2pkW5MqyFIXxBSQibj0aYyJUR621fDFW8X6/x5/bLd4AvFup4R2/e3kvc/wCGdYVspIzX8IAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;find lr 2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e5687d70ec212c395597454aa1f85be2/90647/find_lr_2.png&quot;
+        srcset=&quot;/static/e5687d70ec212c395597454aa1f85be2/cf440/find_lr_2.png 148w,
+/static/e5687d70ec212c395597454aa1f85be2/d2d38/find_lr_2.png 295w,
+/static/e5687d70ec212c395597454aa1f85be2/90647/find_lr_2.png 531w&quot;
+        sizes=&quot;(max-width: 531px) 100vw, 531px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;To train a bit further, choose learning rate (1e-2)/2.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;epoch&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;train_loss&lt;/th&gt;
+&lt;th&gt;valid_loss&lt;/th&gt;
+&lt;th&gt;accuracy&lt;/th&gt;
+&lt;th&gt;time&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;0&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;3.331526&lt;/td&gt;
+&lt;td&gt;3.207970&lt;/td&gt;
+&lt;td&gt;0.397344&lt;/td&gt;
+&lt;td&gt;00:19&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Apply the tuned model for classification&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/adad40ddf15f16347ed2b63a14336a48/a5a7c/find_lr_3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 514px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.09338521400778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABSUlEQVQ4y5VT226DMAwNMC4hDbmtgAqV+tL//8EI9zgSXce2wh6OYmJzfGzHQmsdGZ2z0Z/P0YYQjXexszZqY6KUMrZtewjMI6wxhA8qqopK2SRUqqX6pEh2mhpACHEIIQQSeZ4vTdMsuPgVlZTLybs//a/w3i9iHEdSSr3NXEOx1PtKQUgiyzKCwt1g5Sx9VOU+IdeNxu/3CIn1Z9gnHIbhGCFQ1nVS+paQjSMlr5BdR5X8GV+CIxEeGcoWOnjK8uxbO1pryDtHoiiKfylkFGWZSL/U1XgJipxFO/C6D/dwS6q8e6rLICwRGmwKo0bDmZjBil9t9q1YfQ3sE8T080QW02df2pQkGdlutxtZZHDowzzPaR2v12sK6vue7vc7dRgI+/iORUzTRC3IeQ6Xy4X4TYtnCZC8tbGWiYSD+Wc+Wck2jk+OZfsBZ4Ap/1mHGOsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;find lr 3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/adad40ddf15f16347ed2b63a14336a48/a5a7c/find_lr_3.png&quot;
+        srcset=&quot;/static/adad40ddf15f16347ed2b63a14336a48/cf440/find_lr_3.png 148w,
+/static/adad40ddf15f16347ed2b63a14336a48/d2d38/find_lr_3.png 295w,
+/static/adad40ddf15f16347ed2b63a14336a48/a5a7c/find_lr_3.png 514w&quot;
+        sizes=&quot;(max-width: 514px) 100vw, 514px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Choosing learning rate 5e-1.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;epoch&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;train_loss&lt;/th&gt;
+&lt;th&gt;valid_loss&lt;/th&gt;
+&lt;th&gt;accuracy&lt;/th&gt;
+&lt;th&gt;time&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;0&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;1.524449&lt;/td&gt;
+&lt;td&gt;1.477003&lt;/td&gt;
+&lt;td&gt;0.578630&lt;/td&gt;
+&lt;td&gt;02:51&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/58266/find_lr_4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 523px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.92160611854685%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABgElEQVQ4y52T3XKCMBCFwUI0JPwEguLU2nY6ZRzf/+3CZHt2VcaL1qoXmYVN8nH27JIkSTJVVTU55yZjzKS1fmoZa6e6rifwEgKQ8EL8/OxaWkNVXfFzEruui23bxjRNI78/utJFGnVVxrIsoyhkdSiZAHxIFSASM5WTMgWZoqC55KZp7gJWvad605MqNJW+o5W1pPRKShYgK+v7nlDyv8CXPCfjGkA7qte95FalpdfDSDmgAkTdoo5VXl+GL78CV8ac9q8+nikl0ULt7GHnvUi/HGIFSuvZI4lLJYr+qmAGsjouuRk2Z18MDd9ftDseoHQhOds6iRc1N4HsYw2of9vR+vOd+o89FHoqzrkCFTDMbYebHl+A0XsfW+diXuiYZlk0rZtnDOMQAbtrHgE8zWHO3YPZw2Yjais0arvdkkUchkE85sbhB6ACneQ9tglCJMd3+BxHBobLwmZA1wMuBRwOWZZJxOEwjmM4Ho9hv98HjFlQSgV8KEBVwL8sOQgLP4wVGoqnb481AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;find lr 4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/58266/find_lr_4.png&quot;
+        srcset=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/cf440/find_lr_4.png 148w,
+/static/e664b6fefb68d5cf1928a1aad19cc55b/d2d38/find_lr_4.png 295w,
+/static/e664b6fefb68d5cf1928a1aad19cc55b/58266/find_lr_4.png 523w&quot;
+        sizes=&quot;(max-width: 523px) 100vw, 523px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;To train a bit further, choose learning rate 2e-4.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;epoch&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;train_loss&lt;/th&gt;
+&lt;th&gt;valid_loss&lt;/th&gt;
+&lt;th&gt;accuracy&lt;/th&gt;
+&lt;th&gt;time&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;0&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;1.284334&lt;/td&gt;
+&lt;td&gt;1.164963&lt;/td&gt;
+&lt;td&gt;0.652546&lt;/td&gt;
+&lt;td&gt;03:09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Explanation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Accuracy being about 40% after fine tuning means that the tuned language model is able to predict the next word based on context 2 out of 5 times.
+For example, &lt;code class=&quot;language-text&quot;&gt;lm_learner.predict(&amp;quot;green bell&amp;quot;)&lt;/code&gt; would return &lt;code class=&quot;language-text&quot;&gt;&amp;quot;green bell pepper&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Accuracy being about 65% after fitting for classification means that the classifier is able to predict the correct cuisine based on input ingredients 3 out of 5 times.
+For example, &lt;code class=&quot;language-text&quot;&gt;clf.predict(&amp;quot;warp avacado beef&amp;quot;)&lt;/code&gt; would return &lt;code class=&quot;language-text&quot;&gt;&amp;quot;southern_us&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Demo&lt;/h2&gt;
-&lt;p&gt;Demo available at &lt;a href=&quot;https://ez-cuisine-classifier.herokuapp.com/&quot;&gt;https://ez-cuisine-classifier.herokuapp.com&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Switching to Windows]]></title><description><![CDATA[It has been 2 weeks since I switched my home machine to a Windows laptop. After years of leisure and working experience with macOS and…]]></description><link>https://zehengl.github.io/switching-to-windows/</link><guid isPermaLink="false">https://zehengl.github.io/switching-to-windows/</guid><pubDate>Thu, 19 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It has been 2 weeks since I switched my home machine to a Windows laptop. After years of leisure and working experience with macOS and Ubuntu, I find my journey so far with this mid-range Dell Inspiron 5480 is not that bad at all.&lt;/p&gt;
+&lt;p&gt;Demo with &lt;strong&gt;LinearSVC&lt;/strong&gt; model is available at &lt;a href=&quot;https://ez-cuisine-classifier.herokuapp.com/&quot;&gt;https://ez-cuisine-classifier.herokuapp.com&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Switching to Windows]]></title><description><![CDATA[It has been 2 weeks since I switched my home machine to a Windows laptop. After years of leisure and working experience with macOS and…]]></description><link>https://zehengl.github.io/switching-to-windows/</link><guid isPermaLink="false">https://zehengl.github.io/switching-to-windows/</guid><pubDate>Thu, 19 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It has been 2 weeks since I switched my home machine to a Windows laptop. After years of leisure and working experience with macOS and Ubuntu, I find my journey so far with this mid-range Dell Inspiron 5480 is not that bad at all.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Package manager: &lt;a href=&quot;https://chocolatey.org&quot;&gt;chocolatery&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Python version manager: &lt;a href=&quot;https://github.com/pyenv-win/pyenv-win&quot;&gt;pyenv-win&lt;/a&gt;&lt;/li&gt;
