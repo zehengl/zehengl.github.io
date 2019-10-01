@@ -25,7 +25,7 @@ In little endianness, it shall be written as 0D0C0B0A
 
 ## Python
 
-Python provides a handy library (**struct**) to handle such conversion. See [here](https://docs.python.org/2/library/struct.html) for deatil.
+Python provides a handy library (**struct**) to handle such conversion. See [here](https://docs.python.org/3/library/struct.html) for deatil.
 
 `gist:zehengl/1c592f9e3f3cc5797f03c02e8e953b28`
 

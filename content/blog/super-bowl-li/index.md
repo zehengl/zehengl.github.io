@@ -146,7 +146,7 @@ Hmm... to speed up the conversion, we may include `9 x 10 ^ n` and `4 x 10 ^ n` 
 
 ## Python Implementation
 
-See my Python 2.7 implementation (and [test](https://oeis.org/A006968/a006968.txt)) at the following gist.
+See my Python implementation (and [test](https://oeis.org/A006968/a006968.txt)) at the following gist.
 
 `gist:zehengl/4c86a11dcc0f530043e3261f6be5d95d`
 
