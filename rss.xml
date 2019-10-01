@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[zehengl]]></title><description><![CDATA[Zeheng Li's GitHub Pages.]]></description><link>https://zehengl.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Oct 2019 05:40:28 GMT</lastBuildDate><item><title><![CDATA[What's Cooking?]]></title><description><![CDATA[Data The training data is from kaggle’s Recipe Ingredients Dataset. Modelling My first take is to use some classifiers out of the box from…]]></description><link>https://zehengl.github.io/what-is-cooking/</link><guid isPermaLink="false">https://zehengl.github.io/what-is-cooking/</guid><pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Data&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[zehengl]]></title><description><![CDATA[Zeheng Li's GitHub Pages.]]></description><link>https://zehengl.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Oct 2019 06:38:50 GMT</lastBuildDate><item><title><![CDATA[What's Cooking?]]></title><description><![CDATA[Data The training data is from kaggle’s Recipe Ingredients Dataset. Modelling My first take is to use some classifiers out of the box from…]]></description><link>https://zehengl.github.io/what-is-cooking/</link><guid isPermaLink="false">https://zehengl.github.io/what-is-cooking/</guid><pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Data&lt;/h2&gt;
 &lt;p&gt;The training data is from kaggle’s &lt;a href=&quot;https://www.kaggle.com/kaggle/recipe-ingredients-dataset&quot;&gt;Recipe Ingredients Dataset&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Modelling&lt;/h2&gt;
 &lt;p&gt;My first take is to use some classifiers out of the box from scikit-learn even without any hyperparameter tuning. The result seems acceptable. Checkout the &lt;a href=&quot;https://github.com/zehengl/ez-cuisine-classifier/blob/master/try_sklearn.py&quot;&gt;scikit-learn script&lt;/a&gt;.&lt;/p&gt;
@@ -691,7 +691,7 @@ For pkg-config to find this software you may need to set:
 &lt;p&gt;We know &lt;code class=&quot;language-text&quot;&gt;IIII&lt;/code&gt; is not a legit roman numeral, which should be written as &lt;code class=&quot;language-text&quot;&gt;IV&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Hmm… to speed up the conversion, we may include &lt;code class=&quot;language-text&quot;&gt;9 x 10 ^ n&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;4 x 10 ^ n&lt;/code&gt; patterns in the matching process.&lt;/p&gt;
 &lt;h2&gt;Python Implementation&lt;/h2&gt;
-&lt;p&gt;See my Python 2.7 implementation (and &lt;a href=&quot;https://oeis.org/A006968/a006968.txt&quot;&gt;test&lt;/a&gt;) at the following gist.&lt;/p&gt;
+&lt;p&gt;See my Python implementation (and &lt;a href=&quot;https://oeis.org/A006968/a006968.txt&quot;&gt;test&lt;/a&gt;) at the following gist.&lt;/p&gt;
 &lt;p&gt;&lt;div id=&quot;gist44148125&quot; class=&quot;gist&quot;&gt;
     &lt;div class=&quot;gist-file&quot;&gt;
       &lt;div class=&quot;gist-data&quot;&gt;
@@ -1089,7 +1089,7 @@ For pkg-config to find this software you may need to set:
 &lt;p&gt;In big endianness, it shall be written as 0A0B0C0D&lt;/p&gt;
 &lt;p&gt;In little endianness, it shall be written as 0D0C0B0A&lt;/p&gt;
 &lt;h2&gt;Python&lt;/h2&gt;
-&lt;p&gt;Python provides a handy library (&lt;strong&gt;struct&lt;/strong&gt;) to handle such conversion. See &lt;a href=&quot;https://docs.python.org/2/library/struct.html&quot;&gt;here&lt;/a&gt; for deatil.&lt;/p&gt;
+&lt;p&gt;Python provides a handy library (&lt;strong&gt;struct&lt;/strong&gt;) to handle such conversion. See &lt;a href=&quot;https://docs.python.org/3/library/struct.html&quot;&gt;here&lt;/a&gt; for deatil.&lt;/p&gt;
 &lt;p&gt;&lt;div id=&quot;gist41274836&quot; class=&quot;gist&quot;&gt;
     &lt;div class=&quot;gist-file&quot;&gt;
       &lt;div class=&quot;gist-data&quot;&gt;
