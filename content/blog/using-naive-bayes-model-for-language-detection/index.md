@@ -62,7 +62,7 @@ hello trigram ['$$h', '$he', 'hel', 'ell', 'llo', 'lo$', 'o$$']
 
 ## Implementation
 
-Example codes, as well as the downloading script for dataset, can be found on [Github](https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7).
+Example codes, as well as the downloading script for dataset, can be found on [Github](https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7). Note that the code is written in Python **2.7**.
 
 `gist:zehengl/1ed4701239fa848c42007e13a23d72a7`
 
