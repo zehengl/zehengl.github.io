@@ -109,3 +109,9 @@ Later I apply the model and predict on a total number of 19479 documents. The re
 | Unigram |          es           |          en          |          es          |           0.9461            |
 | Bigram  |          en           |          es          |          ca          |           0.9805            |
 | Trigram |          en           |          es          |          ca          |           0.9694            |
+
+## One More Thing
+
+There is a more comprehensive version of this idea already implemented. See [github.com/shuyo/language-detection](https://github.com/shuyo/language-detection) and its port to Python [github.com/Mimino666/langdetect](https://github.com/Mimino666/langdetect).
+
+I made a demo app using the Python port, which is availabe on [https://ez-language-detector.herokuapp.com](https://ez-language-detector.herokuapp.com)
