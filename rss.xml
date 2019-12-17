@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[zehengl]]></title><description><![CDATA[Zeheng Li's GitHub Pages.]]></description><link>https://zehengl.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Oct 2019 14:38:13 GMT</lastBuildDate><item><title><![CDATA[What's Cooking?]]></title><description><![CDATA[Data The training data is from kaggle’s Recipe Ingredients Dataset. Modelling My first take is to use some classifiers out of the box from…]]></description><link>https://zehengl.github.io/what-is-cooking/</link><guid isPermaLink="false">https://zehengl.github.io/what-is-cooking/</guid><pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Data&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[zehengl]]></title><description><![CDATA[Zeheng Li's GitHub Pages.]]></description><link>https://zehengl.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 Dec 2019 06:39:55 GMT</lastBuildDate><item><title><![CDATA[What's Cooking?]]></title><description><![CDATA[Data The training data is from kaggle’s Recipe Ingredients Dataset. Modelling My first take is to use some classifiers out of the box from…]]></description><link>https://zehengl.github.io/what-is-cooking/</link><guid isPermaLink="false">https://zehengl.github.io/what-is-cooking/</guid><pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Data&lt;/h2&gt;
 &lt;p&gt;The training data is from kaggle’s &lt;a href=&quot;https://www.kaggle.com/kaggle/recipe-ingredients-dataset&quot;&gt;Recipe Ingredients Dataset&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Modelling&lt;/h2&gt;
 &lt;p&gt;My first take is to use some classifiers out of the box from scikit-learn even without any hyperparameter tuning. The result seems acceptable. Checkout the &lt;a href=&quot;https://github.com/zehengl/ez-cuisine-classifier/blob/master/try_sklearn.py&quot;&gt;scikit-learn script&lt;/a&gt;.&lt;/p&gt;
@@ -100,7 +100,7 @@ For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/a5a7c/find_lr_1.png&quot;
+    href=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/e5e91/find_lr_1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -119,10 +119,10 @@ For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;find lr 1&quot;
         title=&quot;&quot;
-        src=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/a5a7c/find_lr_1.png&quot;
-        srcset=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/cf440/find_lr_1.png 148w,
-/static/d5ba490f38e9824046c3c5ed0a385676/d2d38/find_lr_1.png 295w,
-/static/d5ba490f38e9824046c3c5ed0a385676/a5a7c/find_lr_1.png 514w&quot;
+        src=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/e5e91/find_lr_1.png&quot;
+        srcset=&quot;/static/d5ba490f38e9824046c3c5ed0a385676/00d96/find_lr_1.png 148w,
+/static/d5ba490f38e9824046c3c5ed0a385676/0b23c/find_lr_1.png 295w,
+/static/d5ba490f38e9824046c3c5ed0a385676/e5e91/find_lr_1.png 514w&quot;
         sizes=&quot;(max-width: 514px) 100vw, 514px&quot;
       /&gt;
     &lt;/span&gt;
@@ -154,7 +154,7 @@ For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e5687d70ec212c395597454aa1f85be2/90647/find_lr_2.png&quot;
+    href=&quot;/static/e5687d70ec212c395597454aa1f85be2/7696d/find_lr_2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -173,10 +173,10 @@ For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;find lr 2&quot;
         title=&quot;&quot;
-        src=&quot;/static/e5687d70ec212c395597454aa1f85be2/90647/find_lr_2.png&quot;
-        srcset=&quot;/static/e5687d70ec212c395597454aa1f85be2/cf440/find_lr_2.png 148w,
-/static/e5687d70ec212c395597454aa1f85be2/d2d38/find_lr_2.png 295w,
-/static/e5687d70ec212c395597454aa1f85be2/90647/find_lr_2.png 531w&quot;
+        src=&quot;/static/e5687d70ec212c395597454aa1f85be2/7696d/find_lr_2.png&quot;
+        srcset=&quot;/static/e5687d70ec212c395597454aa1f85be2/00d96/find_lr_2.png 148w,
+/static/e5687d70ec212c395597454aa1f85be2/0b23c/find_lr_2.png 295w,
+/static/e5687d70ec212c395597454aa1f85be2/7696d/find_lr_2.png 531w&quot;
         sizes=&quot;(max-width: 531px) 100vw, 531px&quot;
       /&gt;
     &lt;/span&gt;
@@ -209,7 +209,7 @@ For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/adad40ddf15f16347ed2b63a14336a48/a5a7c/find_lr_3.png&quot;
+    href=&quot;/static/adad40ddf15f16347ed2b63a14336a48/e5e91/find_lr_3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -228,10 +228,10 @@ For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;find lr 3&quot;
         title=&quot;&quot;
-        src=&quot;/static/adad40ddf15f16347ed2b63a14336a48/a5a7c/find_lr_3.png&quot;
-        srcset=&quot;/static/adad40ddf15f16347ed2b63a14336a48/cf440/find_lr_3.png 148w,
-/static/adad40ddf15f16347ed2b63a14336a48/d2d38/find_lr_3.png 295w,
-/static/adad40ddf15f16347ed2b63a14336a48/a5a7c/find_lr_3.png 514w&quot;
+        src=&quot;/static/adad40ddf15f16347ed2b63a14336a48/e5e91/find_lr_3.png&quot;
+        srcset=&quot;/static/adad40ddf15f16347ed2b63a14336a48/00d96/find_lr_3.png 148w,
+/static/adad40ddf15f16347ed2b63a14336a48/0b23c/find_lr_3.png 295w,
+/static/adad40ddf15f16347ed2b63a14336a48/e5e91/find_lr_3.png 514w&quot;
         sizes=&quot;(max-width: 514px) 100vw, 514px&quot;
       /&gt;
     &lt;/span&gt;
@@ -263,7 +263,7 @@ For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/58266/find_lr_4.png&quot;
+    href=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/6920c/find_lr_4.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -282,10 +282,10 @@ For simplicity, I choose &lt;strong&gt;fast.ai&lt;/strong&gt;.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;find lr 4&quot;
         title=&quot;&quot;
-        src=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/58266/find_lr_4.png&quot;
-        srcset=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/cf440/find_lr_4.png 148w,
-/static/e664b6fefb68d5cf1928a1aad19cc55b/d2d38/find_lr_4.png 295w,
-/static/e664b6fefb68d5cf1928a1aad19cc55b/58266/find_lr_4.png 523w&quot;
+        src=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/6920c/find_lr_4.png&quot;
+        srcset=&quot;/static/e664b6fefb68d5cf1928a1aad19cc55b/00d96/find_lr_4.png 148w,
+/static/e664b6fefb68d5cf1928a1aad19cc55b/0b23c/find_lr_4.png 295w,
+/static/e664b6fefb68d5cf1928a1aad19cc55b/6920c/find_lr_4.png 523w&quot;
         sizes=&quot;(max-width: 523px) 100vw, 523px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1030,7 +1030,7 @@ For pkg-config to find this software you may need to set:
 
       &lt;/div&gt;
       &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/zehengl/4c86a11dcc0f530043e3261f6be5d95d/raw/906b520f04fcd6a575c33e3be803204a2f9fed39/roman_numeral.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/zehengl/4c86a11dcc0f530043e3261f6be5d95d/raw/3ef7ceb76d057e1ae17b7c4f4128c20eba11db3c/roman_numeral.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
         &lt;a href=&quot;https://gist.github.com/zehengl/4c86a11dcc0f530043e3261f6be5d95d#file-roman_numeral-py&quot;&gt;roman_numeral.py&lt;/a&gt;
         hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
@@ -1182,7 +1182,7 @@ For pkg-config to find this software you may need to set:
 
       &lt;/div&gt;
       &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/zehengl/1c592f9e3f3cc5797f03c02e8e953b28/raw/c1c062da278754dc57cb043e17a3767b12d3282c/endianness_and_bit_masking.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/zehengl/1c592f9e3f3cc5797f03c02e8e953b28/raw/61d72383963c2be6436a798a646426189925251e/endianness_and_bit_masking.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
         &lt;a href=&quot;https://gist.github.com/zehengl/1c592f9e3f3cc5797f03c02e8e953b28#file-endianness_and_bit_masking-py&quot;&gt;endianness_and_bit_masking.py&lt;/a&gt;
         hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
@@ -1913,7 +1913,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 
       &lt;/div&gt;
       &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7/raw/78006b6448262b7fc6267b8d9f41437e38e8e371/download_corpus.sh&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7/raw/b1c3f2b21f0754297a5bdf650ccfeaaa25d6741a/download_corpus.sh&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
         &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7#file-download_corpus-sh&quot;&gt;download_corpus.sh&lt;/a&gt;
         hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
@@ -2096,7 +2096,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 
       &lt;/div&gt;
       &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7/raw/78006b6448262b7fc6267b8d9f41437e38e8e371/extract.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7/raw/b1c3f2b21f0754297a5bdf650ccfeaaa25d6741a/extract.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
         &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7#file-extract-py&quot;&gt;extract.py&lt;/a&gt;
         hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
@@ -2620,7 +2620,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 
       &lt;/div&gt;
       &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7/raw/78006b6448262b7fc6267b8d9f41437e38e8e371/language_detect.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7/raw/b1c3f2b21f0754297a5bdf650ccfeaaa25d6741a/language_detect.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
         &lt;a href=&quot;https://gist.github.com/zehengl/1ed4701239fa848c42007e13a23d72a7#file-language_detect-py&quot;&gt;language_detect.py&lt;/a&gt;
         hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
@@ -3414,7 +3414,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/59a5731fc82b2a5ccb56f285f069f717/8a209/burn-down-chart.png&quot;
+    href=&quot;/static/59a5731fc82b2a5ccb56f285f069f717/42d7b/burn-down-chart.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3433,11 +3433,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;burn-down-chart&quot;
         title=&quot;&quot;
-        src=&quot;/static/59a5731fc82b2a5ccb56f285f069f717/b9e4f/burn-down-chart.png&quot;
-        srcset=&quot;/static/59a5731fc82b2a5ccb56f285f069f717/cf440/burn-down-chart.png 148w,
-/static/59a5731fc82b2a5ccb56f285f069f717/d2d38/burn-down-chart.png 295w,
-/static/59a5731fc82b2a5ccb56f285f069f717/b9e4f/burn-down-chart.png 590w,
-/static/59a5731fc82b2a5ccb56f285f069f717/8a209/burn-down-chart.png 636w&quot;
+        src=&quot;/static/59a5731fc82b2a5ccb56f285f069f717/799d3/burn-down-chart.png&quot;
+        srcset=&quot;/static/59a5731fc82b2a5ccb56f285f069f717/00d96/burn-down-chart.png 148w,
+/static/59a5731fc82b2a5ccb56f285f069f717/0b23c/burn-down-chart.png 295w,
+/static/59a5731fc82b2a5ccb56f285f069f717/799d3/burn-down-chart.png 590w,
+/static/59a5731fc82b2a5ccb56f285f069f717/42d7b/burn-down-chart.png 636w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3449,7 +3449,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/7ec06/burn-down-chart-bar-style.png&quot;
+    href=&quot;/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/25138/burn-down-chart-bar-style.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3468,11 +3468,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;burn-down-chart-bar-style&quot;
         title=&quot;&quot;
-        src=&quot;/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/b9e4f/burn-down-chart-bar-style.png&quot;
-        srcset=&quot;/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/cf440/burn-down-chart-bar-style.png 148w,
-/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/d2d38/burn-down-chart-bar-style.png 295w,
-/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/b9e4f/burn-down-chart-bar-style.png 590w,
-/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/7ec06/burn-down-chart-bar-style.png 732w&quot;
+        src=&quot;/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/799d3/burn-down-chart-bar-style.png&quot;
+        srcset=&quot;/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/00d96/burn-down-chart-bar-style.png 148w,
+/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/0b23c/burn-down-chart-bar-style.png 295w,
+/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/799d3/burn-down-chart-bar-style.png 590w,
+/static/ea72c0fd4f1979c21dfa7a6b13feeeaf/25138/burn-down-chart-bar-style.png 732w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3484,7 +3484,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ce646e7e7f2a32992bab1994d54c508b/e2ef7/burn-up-burn-down-chart.jpg&quot;
+    href=&quot;/static/ce646e7e7f2a32992bab1994d54c508b/eec3f/burn-up-burn-down-chart.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3503,11 +3503,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;burn-up-burn-down-chart&quot;
         title=&quot;&quot;
-        src=&quot;/static/ce646e7e7f2a32992bab1994d54c508b/c739e/burn-up-burn-down-chart.jpg&quot;
-        srcset=&quot;/static/ce646e7e7f2a32992bab1994d54c508b/8ee9c/burn-up-burn-down-chart.jpg 148w,
-/static/ce646e7e7f2a32992bab1994d54c508b/ebbe7/burn-up-burn-down-chart.jpg 295w,
-/static/ce646e7e7f2a32992bab1994d54c508b/c739e/burn-up-burn-down-chart.jpg 590w,
-/static/ce646e7e7f2a32992bab1994d54c508b/e2ef7/burn-up-burn-down-chart.jpg 728w&quot;
+        src=&quot;/static/ce646e7e7f2a32992bab1994d54c508b/88218/burn-up-burn-down-chart.jpg&quot;
+        srcset=&quot;/static/ce646e7e7f2a32992bab1994d54c508b/7237a/burn-up-burn-down-chart.jpg 148w,
+/static/ce646e7e7f2a32992bab1994d54c508b/0cfdf/burn-up-burn-down-chart.jpg 295w,
+/static/ce646e7e7f2a32992bab1994d54c508b/88218/burn-up-burn-down-chart.jpg 590w,
+/static/ce646e7e7f2a32992bab1994d54c508b/eec3f/burn-up-burn-down-chart.jpg 728w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3519,7 +3519,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/12a9d56955e1d4d9c30ef35a89ebea61/a111b/cumulative-flow-diagram.jpg&quot;
+    href=&quot;/static/12a9d56955e1d4d9c30ef35a89ebea61/53025/cumulative-flow-diagram.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3538,11 +3538,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;cumulative-flow-diagram&quot;
         title=&quot;&quot;
-        src=&quot;/static/12a9d56955e1d4d9c30ef35a89ebea61/c739e/cumulative-flow-diagram.jpg&quot;
-        srcset=&quot;/static/12a9d56955e1d4d9c30ef35a89ebea61/8ee9c/cumulative-flow-diagram.jpg 148w,
-/static/12a9d56955e1d4d9c30ef35a89ebea61/ebbe7/cumulative-flow-diagram.jpg 295w,
-/static/12a9d56955e1d4d9c30ef35a89ebea61/c739e/cumulative-flow-diagram.jpg 590w,
-/static/12a9d56955e1d4d9c30ef35a89ebea61/a111b/cumulative-flow-diagram.jpg 650w&quot;
+        src=&quot;/static/12a9d56955e1d4d9c30ef35a89ebea61/88218/cumulative-flow-diagram.jpg&quot;
+        srcset=&quot;/static/12a9d56955e1d4d9c30ef35a89ebea61/7237a/cumulative-flow-diagram.jpg 148w,
+/static/12a9d56955e1d4d9c30ef35a89ebea61/0cfdf/cumulative-flow-diagram.jpg 295w,
+/static/12a9d56955e1d4d9c30ef35a89ebea61/88218/cumulative-flow-diagram.jpg 590w,
+/static/12a9d56955e1d4d9c30ef35a89ebea61/53025/cumulative-flow-diagram.jpg 650w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3554,7 +3554,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/93e5cf95039c064091d52629ace801f6/e49a9/parking-lot-diagram.png&quot;
+    href=&quot;/static/93e5cf95039c064091d52629ace801f6/70d1f/parking-lot-diagram.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3573,11 +3573,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;parking-lot-diagram&quot;
         title=&quot;&quot;
-        src=&quot;/static/93e5cf95039c064091d52629ace801f6/b9e4f/parking-lot-diagram.png&quot;
-        srcset=&quot;/static/93e5cf95039c064091d52629ace801f6/cf440/parking-lot-diagram.png 148w,
-/static/93e5cf95039c064091d52629ace801f6/d2d38/parking-lot-diagram.png 295w,
-/static/93e5cf95039c064091d52629ace801f6/b9e4f/parking-lot-diagram.png 590w,
-/static/93e5cf95039c064091d52629ace801f6/e49a9/parking-lot-diagram.png 640w&quot;
+        src=&quot;/static/93e5cf95039c064091d52629ace801f6/799d3/parking-lot-diagram.png&quot;
+        srcset=&quot;/static/93e5cf95039c064091d52629ace801f6/00d96/parking-lot-diagram.png 148w,
+/static/93e5cf95039c064091d52629ace801f6/0b23c/parking-lot-diagram.png 295w,
+/static/93e5cf95039c064091d52629ace801f6/799d3/parking-lot-diagram.png 590w,
+/static/93e5cf95039c064091d52629ace801f6/70d1f/parking-lot-diagram.png 640w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3591,7 +3591,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a700c8a4b3e69f70c983cf3ee9bcf96c/300a7/velocity-chart.png&quot;
+    href=&quot;/static/a700c8a4b3e69f70c983cf3ee9bcf96c/f11cd/velocity-chart.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3610,13 +3610,13 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;velocity-chart&quot;
         title=&quot;&quot;
-        src=&quot;/static/a700c8a4b3e69f70c983cf3ee9bcf96c/b9e4f/velocity-chart.png&quot;
-        srcset=&quot;/static/a700c8a4b3e69f70c983cf3ee9bcf96c/cf440/velocity-chart.png 148w,
-/static/a700c8a4b3e69f70c983cf3ee9bcf96c/d2d38/velocity-chart.png 295w,
-/static/a700c8a4b3e69f70c983cf3ee9bcf96c/b9e4f/velocity-chart.png 590w,
-/static/a700c8a4b3e69f70c983cf3ee9bcf96c/f9b6a/velocity-chart.png 885w,
-/static/a700c8a4b3e69f70c983cf3ee9bcf96c/2d849/velocity-chart.png 1180w,
-/static/a700c8a4b3e69f70c983cf3ee9bcf96c/300a7/velocity-chart.png 1340w&quot;
+        src=&quot;/static/a700c8a4b3e69f70c983cf3ee9bcf96c/799d3/velocity-chart.png&quot;
+        srcset=&quot;/static/a700c8a4b3e69f70c983cf3ee9bcf96c/00d96/velocity-chart.png 148w,
+/static/a700c8a4b3e69f70c983cf3ee9bcf96c/0b23c/velocity-chart.png 295w,
+/static/a700c8a4b3e69f70c983cf3ee9bcf96c/799d3/velocity-chart.png 590w,
+/static/a700c8a4b3e69f70c983cf3ee9bcf96c/2a3d6/velocity-chart.png 885w,
+/static/a700c8a4b3e69f70c983cf3ee9bcf96c/ae92f/velocity-chart.png 1180w,
+/static/a700c8a4b3e69f70c983cf3ee9bcf96c/f11cd/velocity-chart.png 1340w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3628,7 +3628,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/06c02e051ed9fdd689509fa65d506ce8/fad88/kanban-board.png&quot;
+    href=&quot;/static/06c02e051ed9fdd689509fa65d506ce8/deabe/kanban-board.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3647,11 +3647,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;kanban-board&quot;
         title=&quot;&quot;
-        src=&quot;/static/06c02e051ed9fdd689509fa65d506ce8/b9e4f/kanban-board.png&quot;
-        srcset=&quot;/static/06c02e051ed9fdd689509fa65d506ce8/cf440/kanban-board.png 148w,
-/static/06c02e051ed9fdd689509fa65d506ce8/d2d38/kanban-board.png 295w,
-/static/06c02e051ed9fdd689509fa65d506ce8/b9e4f/kanban-board.png 590w,
-/static/06c02e051ed9fdd689509fa65d506ce8/fad88/kanban-board.png 615w&quot;
+        src=&quot;/static/06c02e051ed9fdd689509fa65d506ce8/799d3/kanban-board.png&quot;
+        srcset=&quot;/static/06c02e051ed9fdd689509fa65d506ce8/00d96/kanban-board.png 148w,
+/static/06c02e051ed9fdd689509fa65d506ce8/0b23c/kanban-board.png 295w,
+/static/06c02e051ed9fdd689509fa65d506ce8/799d3/kanban-board.png 590w,
+/static/06c02e051ed9fdd689509fa65d506ce8/deabe/kanban-board.png 615w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3663,7 +3663,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2368e988ed57d1fbafa0e5a5795ed72e/8ff1e/niko-niko-calendar.png&quot;
+    href=&quot;/static/2368e988ed57d1fbafa0e5a5795ed72e/11d19/niko-niko-calendar.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3682,11 +3682,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;niko-niko-calendar&quot;
         title=&quot;&quot;
-        src=&quot;/static/2368e988ed57d1fbafa0e5a5795ed72e/b9e4f/niko-niko-calendar.png&quot;
-        srcset=&quot;/static/2368e988ed57d1fbafa0e5a5795ed72e/cf440/niko-niko-calendar.png 148w,
-/static/2368e988ed57d1fbafa0e5a5795ed72e/d2d38/niko-niko-calendar.png 295w,
-/static/2368e988ed57d1fbafa0e5a5795ed72e/b9e4f/niko-niko-calendar.png 590w,
-/static/2368e988ed57d1fbafa0e5a5795ed72e/8ff1e/niko-niko-calendar.png 800w&quot;
+        src=&quot;/static/2368e988ed57d1fbafa0e5a5795ed72e/799d3/niko-niko-calendar.png&quot;
+        srcset=&quot;/static/2368e988ed57d1fbafa0e5a5795ed72e/00d96/niko-niko-calendar.png 148w,
+/static/2368e988ed57d1fbafa0e5a5795ed72e/0b23c/niko-niko-calendar.png 295w,
+/static/2368e988ed57d1fbafa0e5a5795ed72e/799d3/niko-niko-calendar.png 590w,
+/static/2368e988ed57d1fbafa0e5a5795ed72e/11d19/niko-niko-calendar.png 800w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3704,7 +3704,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3b8f7ac400e3e905730e2da8261453c5/c0b12/information-radiators1.jpg&quot;
+    href=&quot;/static/3b8f7ac400e3e905730e2da8261453c5/aca76/information-radiators1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3723,11 +3723,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;information-radiators1&quot;
         title=&quot;&quot;
-        src=&quot;/static/3b8f7ac400e3e905730e2da8261453c5/c739e/information-radiators1.jpg&quot;
-        srcset=&quot;/static/3b8f7ac400e3e905730e2da8261453c5/8ee9c/information-radiators1.jpg 148w,
-/static/3b8f7ac400e3e905730e2da8261453c5/ebbe7/information-radiators1.jpg 295w,
-/static/3b8f7ac400e3e905730e2da8261453c5/c739e/information-radiators1.jpg 590w,
-/static/3b8f7ac400e3e905730e2da8261453c5/c0b12/information-radiators1.jpg 638w&quot;
+        src=&quot;/static/3b8f7ac400e3e905730e2da8261453c5/88218/information-radiators1.jpg&quot;
+        srcset=&quot;/static/3b8f7ac400e3e905730e2da8261453c5/7237a/information-radiators1.jpg 148w,
+/static/3b8f7ac400e3e905730e2da8261453c5/0cfdf/information-radiators1.jpg 295w,
+/static/3b8f7ac400e3e905730e2da8261453c5/88218/information-radiators1.jpg 590w,
+/static/3b8f7ac400e3e905730e2da8261453c5/aca76/information-radiators1.jpg 638w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -3744,7 +3744,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/81434d20c506df69a63e6b7cc427eb68/c0b12/information-radiators2.jpg&quot;
+    href=&quot;/static/81434d20c506df69a63e6b7cc427eb68/aca76/information-radiators2.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -3763,11 +3763,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;information-radiators2&quot;
         title=&quot;&quot;
-        src=&quot;/static/81434d20c506df69a63e6b7cc427eb68/c739e/information-radiators2.jpg&quot;
-        srcset=&quot;/static/81434d20c506df69a63e6b7cc427eb68/8ee9c/information-radiators2.jpg 148w,
-/static/81434d20c506df69a63e6b7cc427eb68/ebbe7/information-radiators2.jpg 295w,
-/static/81434d20c506df69a63e6b7cc427eb68/c739e/information-radiators2.jpg 590w,
-/static/81434d20c506df69a63e6b7cc427eb68/c0b12/information-radiators2.jpg 638w&quot;
+        src=&quot;/static/81434d20c506df69a63e6b7cc427eb68/88218/information-radiators2.jpg&quot;
+        srcset=&quot;/static/81434d20c506df69a63e6b7cc427eb68/7237a/information-radiators2.jpg 148w,
+/static/81434d20c506df69a63e6b7cc427eb68/0cfdf/information-radiators2.jpg 295w,
+/static/81434d20c506df69a63e6b7cc427eb68/88218/information-radiators2.jpg 590w,
+/static/81434d20c506df69a63e6b7cc427eb68/aca76/information-radiators2.jpg 638w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -4023,7 +4023,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1b5ead64f7af3b48de1517b16dd80894/53236/relativesizingwall-empty-spectrum.png&quot;
+    href=&quot;/static/1b5ead64f7af3b48de1517b16dd80894/3af27/relativesizingwall-empty-spectrum.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -4042,10 +4042,10 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;relativesizingwall-empty-spectrum&quot;
         title=&quot;&quot;
-        src=&quot;/static/1b5ead64f7af3b48de1517b16dd80894/53236/relativesizingwall-empty-spectrum.png&quot;
-        srcset=&quot;/static/1b5ead64f7af3b48de1517b16dd80894/cf440/relativesizingwall-empty-spectrum.png 148w,
-/static/1b5ead64f7af3b48de1517b16dd80894/d2d38/relativesizingwall-empty-spectrum.png 295w,
-/static/1b5ead64f7af3b48de1517b16dd80894/53236/relativesizingwall-empty-spectrum.png 545w&quot;
+        src=&quot;/static/1b5ead64f7af3b48de1517b16dd80894/3af27/relativesizingwall-empty-spectrum.png&quot;
+        srcset=&quot;/static/1b5ead64f7af3b48de1517b16dd80894/00d96/relativesizingwall-empty-spectrum.png 148w,
+/static/1b5ead64f7af3b48de1517b16dd80894/0b23c/relativesizingwall-empty-spectrum.png 295w,
+/static/1b5ead64f7af3b48de1517b16dd80894/3af27/relativesizingwall-empty-spectrum.png 545w&quot;
         sizes=&quot;(max-width: 545px) 100vw, 545px&quot;
       /&gt;
     &lt;/span&gt;
@@ -4061,7 +4061,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/258936dbda1be9171daedd701f0fdfc8/53236/relativesizeditems-inbuckets.png&quot;
+    href=&quot;/static/258936dbda1be9171daedd701f0fdfc8/3af27/relativesizeditems-inbuckets.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -4080,10 +4080,10 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;relativesizeditems-inbuckets&quot;
         title=&quot;&quot;
-        src=&quot;/static/258936dbda1be9171daedd701f0fdfc8/53236/relativesizeditems-inbuckets.png&quot;
-        srcset=&quot;/static/258936dbda1be9171daedd701f0fdfc8/cf440/relativesizeditems-inbuckets.png 148w,
-/static/258936dbda1be9171daedd701f0fdfc8/d2d38/relativesizeditems-inbuckets.png 295w,
-/static/258936dbda1be9171daedd701f0fdfc8/53236/relativesizeditems-inbuckets.png 545w&quot;
+        src=&quot;/static/258936dbda1be9171daedd701f0fdfc8/3af27/relativesizeditems-inbuckets.png&quot;
+        srcset=&quot;/static/258936dbda1be9171daedd701f0fdfc8/00d96/relativesizeditems-inbuckets.png 148w,
+/static/258936dbda1be9171daedd701f0fdfc8/0b23c/relativesizeditems-inbuckets.png 295w,
+/static/258936dbda1be9171daedd701f0fdfc8/3af27/relativesizeditems-inbuckets.png 545w&quot;
         sizes=&quot;(max-width: 545px) 100vw, 545px&quot;
       /&gt;
     &lt;/span&gt;
@@ -4102,7 +4102,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/01e61f957ccf747a55ee7c732c690868/c0b12/iterations-allow-for-mid-course-corrections.jpg&quot;
+    href=&quot;/static/01e61f957ccf747a55ee7c732c690868/aca76/iterations-allow-for-mid-course-corrections.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -4121,11 +4121,11 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;iterations-allow-for-mid-course-corrections&quot;
         title=&quot;&quot;
-        src=&quot;/static/01e61f957ccf747a55ee7c732c690868/c739e/iterations-allow-for-mid-course-corrections.jpg&quot;
-        srcset=&quot;/static/01e61f957ccf747a55ee7c732c690868/8ee9c/iterations-allow-for-mid-course-corrections.jpg 148w,
-/static/01e61f957ccf747a55ee7c732c690868/ebbe7/iterations-allow-for-mid-course-corrections.jpg 295w,
-/static/01e61f957ccf747a55ee7c732c690868/c739e/iterations-allow-for-mid-course-corrections.jpg 590w,
-/static/01e61f957ccf747a55ee7c732c690868/c0b12/iterations-allow-for-mid-course-corrections.jpg 638w&quot;
+        src=&quot;/static/01e61f957ccf747a55ee7c732c690868/88218/iterations-allow-for-mid-course-corrections.jpg&quot;
+        srcset=&quot;/static/01e61f957ccf747a55ee7c732c690868/7237a/iterations-allow-for-mid-course-corrections.jpg 148w,
+/static/01e61f957ccf747a55ee7c732c690868/0cfdf/iterations-allow-for-mid-course-corrections.jpg 295w,
+/static/01e61f957ccf747a55ee7c732c690868/88218/iterations-allow-for-mid-course-corrections.jpg 590w,
+/static/01e61f957ccf747a55ee7c732c690868/aca76/iterations-allow-for-mid-course-corrections.jpg 638w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -4137,7 +4137,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a04785fda9baf49a2a5293c635cf7bf3/d19c0/planning-onion.png&quot;
+    href=&quot;/static/a04785fda9baf49a2a5293c635cf7bf3/7217d/planning-onion.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -4156,10 +4156,10 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;planning-onion&quot;
         title=&quot;&quot;
-        src=&quot;/static/a04785fda9baf49a2a5293c635cf7bf3/d19c0/planning-onion.png&quot;
-        srcset=&quot;/static/a04785fda9baf49a2a5293c635cf7bf3/cf440/planning-onion.png 148w,
-/static/a04785fda9baf49a2a5293c635cf7bf3/d2d38/planning-onion.png 295w,
-/static/a04785fda9baf49a2a5293c635cf7bf3/d19c0/planning-onion.png 500w&quot;
+        src=&quot;/static/a04785fda9baf49a2a5293c635cf7bf3/7217d/planning-onion.png&quot;
+        srcset=&quot;/static/a04785fda9baf49a2a5293c635cf7bf3/00d96/planning-onion.png 148w,
+/static/a04785fda9baf49a2a5293c635cf7bf3/0b23c/planning-onion.png 295w,
+/static/a04785fda9baf49a2a5293c635cf7bf3/7217d/planning-onion.png 500w&quot;
         sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
       /&gt;
     &lt;/span&gt;
@@ -4184,7 +4184,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/fd27399ea26b6fdca788107d8c00594f/2c041/steps-in-release-planning.jpg&quot;
+    href=&quot;/static/fd27399ea26b6fdca788107d8c00594f/08c74/steps-in-release-planning.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -4203,12 +4203,12 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;steps-to-planning-a-release&quot;
         title=&quot;&quot;
-        src=&quot;/static/fd27399ea26b6fdca788107d8c00594f/c739e/steps-in-release-planning.jpg&quot;
-        srcset=&quot;/static/fd27399ea26b6fdca788107d8c00594f/8ee9c/steps-in-release-planning.jpg 148w,
-/static/fd27399ea26b6fdca788107d8c00594f/ebbe7/steps-in-release-planning.jpg 295w,
-/static/fd27399ea26b6fdca788107d8c00594f/c739e/steps-in-release-planning.jpg 590w,
-/static/fd27399ea26b6fdca788107d8c00594f/5413e/steps-in-release-planning.jpg 885w,
-/static/fd27399ea26b6fdca788107d8c00594f/2c041/steps-in-release-planning.jpg 1078w&quot;
+        src=&quot;/static/fd27399ea26b6fdca788107d8c00594f/88218/steps-in-release-planning.jpg&quot;
+        srcset=&quot;/static/fd27399ea26b6fdca788107d8c00594f/7237a/steps-in-release-planning.jpg 148w,
+/static/fd27399ea26b6fdca788107d8c00594f/0cfdf/steps-in-release-planning.jpg 295w,
+/static/fd27399ea26b6fdca788107d8c00594f/88218/steps-in-release-planning.jpg 590w,
+/static/fd27399ea26b6fdca788107d8c00594f/77d57/steps-in-release-planning.jpg 885w,
+/static/fd27399ea26b6fdca788107d8c00594f/08c74/steps-in-release-planning.jpg 1078w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -4221,7 +4221,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7f309196a2420984755ef1413d0772eb/5bf4f/revised-release-plan.jpg&quot;
+    href=&quot;/static/7f309196a2420984755ef1413d0772eb/60187/revised-release-plan.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -4240,10 +4240,10 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;release-planning-meeting&quot;
         title=&quot;&quot;
-        src=&quot;/static/7f309196a2420984755ef1413d0772eb/5bf4f/revised-release-plan.jpg&quot;
-        srcset=&quot;/static/7f309196a2420984755ef1413d0772eb/8ee9c/revised-release-plan.jpg 148w,
-/static/7f309196a2420984755ef1413d0772eb/ebbe7/revised-release-plan.jpg 295w,
-/static/7f309196a2420984755ef1413d0772eb/5bf4f/revised-release-plan.jpg 424w&quot;
+        src=&quot;/static/7f309196a2420984755ef1413d0772eb/60187/revised-release-plan.jpg&quot;
+        srcset=&quot;/static/7f309196a2420984755ef1413d0772eb/7237a/revised-release-plan.jpg 148w,
+/static/7f309196a2420984755ef1413d0772eb/0cfdf/revised-release-plan.jpg 295w,
+/static/7f309196a2420984755ef1413d0772eb/60187/revised-release-plan.jpg 424w&quot;
         sizes=&quot;(max-width: 424px) 100vw, 424px&quot;
       /&gt;
     &lt;/span&gt;
@@ -4280,7 +4280,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bb7babde65bc8c06c0da8b3113d8d5ef/002e9/velocity-driven-sprint-planning.png&quot;
+    href=&quot;/static/bb7babde65bc8c06c0da8b3113d8d5ef/a9608/velocity-driven-sprint-planning.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -4299,10 +4299,10 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;velocity-driven-sprint-planning&quot;
         title=&quot;&quot;
-        src=&quot;/static/bb7babde65bc8c06c0da8b3113d8d5ef/002e9/velocity-driven-sprint-planning.png&quot;
-        srcset=&quot;/static/bb7babde65bc8c06c0da8b3113d8d5ef/cf440/velocity-driven-sprint-planning.png 148w,
-/static/bb7babde65bc8c06c0da8b3113d8d5ef/d2d38/velocity-driven-sprint-planning.png 295w,
-/static/bb7babde65bc8c06c0da8b3113d8d5ef/002e9/velocity-driven-sprint-planning.png 309w&quot;
+        src=&quot;/static/bb7babde65bc8c06c0da8b3113d8d5ef/a9608/velocity-driven-sprint-planning.png&quot;
+        srcset=&quot;/static/bb7babde65bc8c06c0da8b3113d8d5ef/00d96/velocity-driven-sprint-planning.png 148w,
+/static/bb7babde65bc8c06c0da8b3113d8d5ef/0b23c/velocity-driven-sprint-planning.png 295w,
+/static/bb7babde65bc8c06c0da8b3113d8d5ef/a9608/velocity-driven-sprint-planning.png 309w&quot;
         sizes=&quot;(max-width: 309px) 100vw, 309px&quot;
       /&gt;
     &lt;/span&gt;
@@ -4458,7 +4458,7 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ef93856b0c0ea7770576b3ad37f6b5f9/622bd/tdd.jpg&quot;
+    href=&quot;/static/ef93856b0c0ea7770576b3ad37f6b5f9/feca4/tdd.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -4477,10 +4477,10 @@ hello trigram [&amp;#39;$$h&amp;#39;, &amp;#39;$he&amp;#39;, &amp;#39;hel&amp;#3
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;TDD&quot;
         title=&quot;&quot;
-        src=&quot;/static/ef93856b0c0ea7770576b3ad37f6b5f9/622bd/tdd.jpg&quot;
-        srcset=&quot;/static/ef93856b0c0ea7770576b3ad37f6b5f9/8ee9c/tdd.jpg 148w,
-/static/ef93856b0c0ea7770576b3ad37f6b5f9/ebbe7/tdd.jpg 295w,
-/static/ef93856b0c0ea7770576b3ad37f6b5f9/622bd/tdd.jpg 380w&quot;
+        src=&quot;/static/ef93856b0c0ea7770576b3ad37f6b5f9/feca4/tdd.jpg&quot;
+        srcset=&quot;/static/ef93856b0c0ea7770576b3ad37f6b5f9/7237a/tdd.jpg 148w,
+/static/ef93856b0c0ea7770576b3ad37f6b5f9/0cfdf/tdd.jpg 295w,
+/static/ef93856b0c0ea7770576b3ad37f6b5f9/feca4/tdd.jpg 380w&quot;
         sizes=&quot;(max-width: 380px) 100vw, 380px&quot;
       /&gt;
     &lt;/span&gt;
