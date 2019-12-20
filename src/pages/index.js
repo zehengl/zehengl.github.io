@@ -19,6 +19,7 @@ class Index extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <Bio />
+        <Link to="/tags">All tags</Link>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

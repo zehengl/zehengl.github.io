@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 03: Roles"
 date: "2015-12-14"
 description: "Roles in Scrum."
+tags: ["agile", "scrum"]
 ---
 
 ## Stakeholders

@@ -2,6 +2,7 @@
 title: "String to QR Code"
 date: "2016-11-13"
 description: "Setup a webapp to generate QR code. Demo available at https://ez-qrcode-generator.herokuapp.com/"
+tags: ["qr code", "python"]
 ---
 
 ## The Design

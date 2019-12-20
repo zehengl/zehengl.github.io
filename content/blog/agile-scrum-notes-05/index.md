@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 05: Artifacts"
 date: "2016-01-10"
 description: "Artifacts that are used in Scrum projects."
+tags: ["agile", "scrum"]
 ---
 
 ## Product backlog

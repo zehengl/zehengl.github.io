@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 02: Methodologies"
 date: "2015-12-07"
 description: "Popular Agile methodologies."
+tags: ["agile", "scrum"]
 ---
 
 ## Crystal

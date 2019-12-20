@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 04: Ceremonies"
 date: "2015-12-24"
 description: "Details of the Scrum ceremonies."
+tags: ["agile", "scrum"]
 ---
 
 ## Time-boxing

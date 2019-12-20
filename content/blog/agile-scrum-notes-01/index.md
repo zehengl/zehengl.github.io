@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 01: Introduction"
 date: "2015-12-06"
 description: "Introduction of Agile."
+tags: ["agile", "scrum"]
 ---
 
 ## Traditional Development

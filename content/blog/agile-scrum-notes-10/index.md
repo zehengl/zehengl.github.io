@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 10: Advanced Concepts"
 date: "2016-01-29"
 description: "Advanced concepts in Scrum."
+tags: ["agile", "scrum"]
 ---
 
 ## Scrum on large projects

@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 07: Planning"
 date: "2016-01-23"
 description: "Information about Scrum planning."
+tags: ["agile", "scrum"]
 ---
 
 ## Principles behind Agile planning

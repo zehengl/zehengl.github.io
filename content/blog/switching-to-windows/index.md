@@ -2,6 +2,7 @@
 title: "Switching to Windows"
 date: "2019-09-19"
 description: "A Windows laptop is not that bad."
+tags: ["miscellaneous"]
 ---
 
 It has been 2 weeks since I switched my home machine to a Windows laptop. After years of leisure and working experience with macOS and Ubuntu, I find my journey so far with this mid-range Dell Inspiron 5480 is not that bad at all.

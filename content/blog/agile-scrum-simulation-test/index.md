@@ -2,6 +2,7 @@
 title: "Agile Scrum Simulation Test"
 date: "2016-01-30"
 description: "A list of questions and answers about Agile Scrum."
+tags: ["agile", "scrum"]
 ---
 
 ---

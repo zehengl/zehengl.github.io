@@ -2,6 +2,7 @@
 title: "How to pip install MYSQL-python/mysqlclient on macOS"
 date: "2017-12-17"
 description: "Some tweaks to pip install MYSQL-python/mysqlclient on macOS, without installing mysql"
+tags: ["pip"]
 ---
 
 ## Background

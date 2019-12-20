@@ -2,6 +2,7 @@
 title: "What's Cooking?"
 date: "2019-09-25"
 description: "Predict the type of cuisine based on the ingredients.<br>Demo available at https://ez-cuisine-classifier.herokuapp.com/"
+tags: ["machine learning", "python"]
 ---
 
 ## Data

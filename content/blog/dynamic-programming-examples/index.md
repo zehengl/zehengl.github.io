@@ -2,6 +2,7 @@
 title: "Dynamic Programming Examples"
 date: "2016-05-12"
 description: "Two simple examples from LeetCode to illustrate the idea of Dynamic Programming."
+tags: ["dynamic programming", "python"]
 ---
 
 ## Dynamic Programming

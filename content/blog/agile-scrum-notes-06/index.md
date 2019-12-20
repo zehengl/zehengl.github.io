@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 06: Best Practices"
 date: "2016-01-17"
 description: "Scrum best practices you should know."
+tags: ["agile", "scrum"]
 ---
 
 ## Continuous Refactoring

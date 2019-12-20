@@ -2,6 +2,7 @@
 title: "Agile Scrum Note 08: Estimation"
 date: "2016-01-26"
 description: "How to estimate efforts in Scrum projects."
+tags: ["agile", "scrum"]
 ---
 
 ## Principles behind Scrum estimation

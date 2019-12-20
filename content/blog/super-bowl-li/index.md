@@ -2,6 +2,7 @@
 title: "Super Bowl LI"
 date: "2017-01-23"
 description: "Something about roman numerals, inspired by Super Bowl LI."
+tags: ["python"]
 ---
 
 ## Why

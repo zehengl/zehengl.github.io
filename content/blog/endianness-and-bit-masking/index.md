@@ -2,6 +2,7 @@
 title: "Endianness and Bit Masking"
 date: "2016-06-09"
 description: "How to handle some bit level data manipualtions in Python."
+tags: ["endianness", "python"]
 ---
 
 ## Endianness
