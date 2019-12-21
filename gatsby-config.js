@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://zehengl.github.io`,
     social: {
       twitter: `zehengl`,
+      github: `zehengl`,
     },
   },
   plugins: [
