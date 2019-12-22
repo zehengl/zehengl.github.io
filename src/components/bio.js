@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import { FaGithub, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaRss, FaTwitter } from "react-icons/fa"
 import { StaticQuery, graphql } from "gatsby"
 
 import Image from "gatsby-image"
@@ -17,7 +17,7 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author, social, siteUrl } = data.site.siteMetadata
         return (
           <div
             style={{
@@ -54,6 +54,20 @@ function Bio() {
               >
                 <FaGithub />
               </a>
+              {` `}
+              <a
+                style={{ boxShadow: `none`, textDecoration: `none` }}
+                href={`https://linkedin.com/in/${social.linkedin}`}
+              >
+                <FaLinkedin />
+              </a>
+              {` `}
+              <a
+                style={{ boxShadow: `none`, textDecoration: `none` }}
+                href={`${siteUrl}/rss.xml`}
+              >
+                <FaRss />
+              </a>
             </p>
           </div>
         )
@@ -74,9 +88,11 @@ const bioQuery = graphql`
     site {
       siteMetadata {
         author
+        siteUrl
         social {
           twitter
           github
+          linkedin
         }
       }
     }

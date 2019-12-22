@@ -7,6 +7,7 @@ module.exports = {
     social: {
       twitter: `zehengl`,
       github: `zehengl`,
+      linkedin: `zehengl`,
     },
   },
   plugins: [
