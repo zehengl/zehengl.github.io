@@ -1,6 +1,6 @@
 ---
 title: "Agile Scrum Note 09: Monitoring Scrum Projects"
-date: 2016-01-28
+date: "2016-01-28"
 description: "Tools and techniques to monitoring Scrum projects."
 tags: ["agile", "scrum"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Rework GitHub Page with Gatsbyjs"
 date: "2019-03-21"
+description: "Rework GitHub Page with Gatsbyjs"
 tags: ["miscellaneous"]
 ---
 
