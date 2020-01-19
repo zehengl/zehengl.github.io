@@ -24,11 +24,11 @@
 <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="file-endianness_and_bit_masking-py-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-endianness_and_bit_masking-py-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> struct <span class="pl-k">import</span> pack, unpack</td>
+        <td id="file-endianness_and_bit_masking-py-LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>struct</span> <span class=pl-k>import</span> <span class=pl-s1>pack</span>, <span class=pl-s1>unpack</span></td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-endianness_and_bit_masking-py-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> binascii <span class="pl-k">import</span> hexlify</td>
+        <td id="file-endianness_and_bit_masking-py-LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>binascii</span> <span class=pl-k>import</span> <span class=pl-s1>hexlify</span></td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L3" class="blob-num js-line-number" data-line-number="3"></td>
@@ -37,7 +37,7 @@
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-endianness_and_bit_masking-py-LC4" class="blob-code blob-code-inner js-file-line">var1, var2, var3 <span class="pl-k">=</span> <span class="pl-c1">1025</span>, <span class="pl-c1">2050</span>, <span class="pl-c1">4099</span></td>
+        <td id="file-endianness_and_bit_masking-py-LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>var1</span>, <span class=pl-s1>var2</span>, <span class=pl-s1>var3</span> <span class=pl-c1>=</span> <span class=pl-c1>1025</span>, <span class=pl-c1>2050</span>, <span class=pl-c1>4099</span></td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L5" class="blob-num js-line-number" data-line-number="5"></td>
@@ -46,15 +46,15 @@
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-endianness_and_bit_masking-py-LC6" class="blob-code blob-code-inner js-file-line">data_big_endian <span class="pl-k">=</span> pack(<span class="pl-s"><span class="pl-pds">&quot;</span>&gt;3h<span class="pl-pds">&quot;</span></span>, var1, var2, var3)</td>
+        <td id="file-endianness_and_bit_masking-py-LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>data_big_endian</span> <span class=pl-c1>=</span> <span class=pl-en>pack</span>(<span class=pl-s>&quot;&gt;3h&quot;</span>, <span class=pl-s1>var1</span>, <span class=pl-s1>var2</span>, <span class=pl-s1>var3</span>)</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-endianness_and_bit_masking-py-LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span>(hexlify(data_big_endian))</td>
+        <td id="file-endianness_and_bit_masking-py-LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-en>hexlify</span>(<span class=pl-s1>data_big_endian</span>))</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-endianness_and_bit_masking-py-LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span>(unpack(<span class="pl-s"><span class="pl-pds">&quot;</span>&gt;3h<span class="pl-pds">&quot;</span></span>, data_big_endian))</td>
+        <td id="file-endianness_and_bit_masking-py-LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-en>unpack</span>(<span class=pl-s>&quot;&gt;3h&quot;</span>, <span class=pl-s1>data_big_endian</span>))</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L9" class="blob-num js-line-number" data-line-number="9"></td>
@@ -63,15 +63,15 @@
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-endianness_and_bit_masking-py-LC10" class="blob-code blob-code-inner js-file-line">data_little_endian <span class="pl-k">=</span> pack(<span class="pl-s"><span class="pl-pds">&quot;</span>&lt;3h<span class="pl-pds">&quot;</span></span>, var1, var2, var3)</td>
+        <td id="file-endianness_and_bit_masking-py-LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>data_little_endian</span> <span class=pl-c1>=</span> <span class=pl-en>pack</span>(<span class=pl-s>&quot;&lt;3h&quot;</span>, <span class=pl-s1>var1</span>, <span class=pl-s1>var2</span>, <span class=pl-s1>var3</span>)</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-endianness_and_bit_masking-py-LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span>(hexlify(data_little_endian))</td>
+        <td id="file-endianness_and_bit_masking-py-LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-en>hexlify</span>(<span class=pl-s1>data_little_endian</span>))</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="file-endianness_and_bit_masking-py-LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span>(unpack(<span class="pl-s"><span class="pl-pds">&quot;</span>&lt;3h<span class="pl-pds">&quot;</span></span>, data_little_endian))</td>
+        <td id="file-endianness_and_bit_masking-py-LC12" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-en>unpack</span>(<span class=pl-s>&quot;&lt;3h&quot;</span>, <span class=pl-s1>data_little_endian</span>))</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L13" class="blob-num js-line-number" data-line-number="13"></td>
@@ -80,19 +80,19 @@
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="file-endianness_and_bit_masking-py-LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span>(<span class="pl-c1">bin</span>(var1), var1)</td>
+        <td id="file-endianness_and_bit_masking-py-LC14" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-en>bin</span>(<span class=pl-s1>var1</span>), <span class=pl-s1>var1</span>)</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="file-endianness_and_bit_masking-py-LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span>(<span class="pl-c1">bin</span>(var1 <span class="pl-k">&amp;</span> <span class="pl-c1"><span class="pl-k">0b</span>111</span>), var1 <span class="pl-k">&amp;</span> <span class="pl-c1"><span class="pl-k">0b</span>111</span>)</td>
+        <td id="file-endianness_and_bit_masking-py-LC15" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-en>bin</span>(<span class=pl-s1>var1</span> <span class=pl-c1>&amp;</span> <span class=pl-c1>0b111</span>), <span class=pl-s1>var1</span> <span class=pl-c1>&amp;</span> <span class=pl-c1>0b111</span>)</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="file-endianness_and_bit_masking-py-LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span>(<span class="pl-c1">bin</span>(var1 <span class="pl-k">|</span> <span class="pl-c1"><span class="pl-k">0b</span>111</span>), var1 <span class="pl-k">|</span> <span class="pl-c1"><span class="pl-k">0b</span>111</span>)</td>
+        <td id="file-endianness_and_bit_masking-py-LC16" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-en>bin</span>(<span class=pl-s1>var1</span> <span class=pl-c1>|</span> <span class=pl-c1>0b111</span>), <span class=pl-s1>var1</span> <span class=pl-c1>|</span> <span class=pl-c1>0b111</span>)</td>
       </tr>
       <tr>
         <td id="file-endianness_and_bit_masking-py-L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="file-endianness_and_bit_masking-py-LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span>(<span class="pl-c1">bin</span>(var1 <span class="pl-k">^</span> <span class="pl-c1"><span class="pl-k">0b</span>111</span>), var1 <span class="pl-k">^</span> <span class="pl-c1"><span class="pl-k">0b</span>111</span>)</td>
+        <td id="file-endianness_and_bit_masking-py-LC17" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-en>bin</span>(<span class=pl-s1>var1</span> <span class=pl-c1>^</span> <span class=pl-c1>0b111</span>), <span class=pl-s1>var1</span> <span class=pl-c1>^</span> <span class=pl-c1>0b111</span>)</td>
       </tr>
 </table>
 

@@ -83,23 +83,23 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
 <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="file-extract-py-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-extract-py-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> bs4 <span class="pl-k">import</span> BeautifulSoup</td>
+        <td id="file-extract-py-LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>bs4</span> <span class=pl-k>import</span> <span class=pl-v>BeautifulSoup</span></td>
       </tr>
       <tr>
         <td id="file-extract-py-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-extract-py-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> glob</td>
+        <td id="file-extract-py-LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>glob</span></td>
       </tr>
       <tr>
         <td id="file-extract-py-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-extract-py-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> argparse</td>
+        <td id="file-extract-py-LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>argparse</span></td>
       </tr>
       <tr>
         <td id="file-extract-py-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-extract-py-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> pickle</td>
+        <td id="file-extract-py-LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>pickle</span></td>
       </tr>
       <tr>
         <td id="file-extract-py-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-extract-py-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> random <span class="pl-k">import</span> seed, randint</td>
+        <td id="file-extract-py-LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>random</span> <span class=pl-k>import</span> <span class=pl-s1>seed</span>, <span class=pl-s1>randint</span></td>
       </tr>
       <tr>
         <td id="file-extract-py-L6" class="blob-num js-line-number" data-line-number="6"></td>
@@ -108,7 +108,7 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-extract-py-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-extract-py-LC7" class="blob-code blob-code-inner js-file-line">seed(<span class="pl-c1">5</span>)</td>
+        <td id="file-extract-py-LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-en>seed</span>(<span class=pl-c1>5</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L8" class="blob-num js-line-number" data-line-number="8"></td>
@@ -117,23 +117,23 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-extract-py-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-extract-py-LC9" class="blob-code blob-code-inner js-file-line">parser <span class="pl-k">=</span> argparse.ArgumentParser(</td>
+        <td id="file-extract-py-LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>parser</span> <span class=pl-c1>=</span> <span class=pl-s1>argparse</span>.<span class=pl-v>ArgumentParser</span>(</td>
       </tr>
       <tr>
         <td id="file-extract-py-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-extract-py-LC10" class="blob-code blob-code-inner js-file-line">    <span class="pl-v">description</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>Extract documents from wikicorpus V1.0<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="file-extract-py-LC10" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>description</span><span class=pl-c1>=</span><span class=pl-s>&#39;Extract documents from wikicorpus V1.0&#39;</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-extract-py-LC11" class="blob-code blob-code-inner js-file-line">parser.add_argument(</td>
+        <td id="file-extract-py-LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>parser</span>.<span class=pl-en>add_argument</span>(</td>
       </tr>
       <tr>
         <td id="file-extract-py-L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="file-extract-py-LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&#39;</span>folders<span class="pl-pds">&#39;</span></span>, <span class="pl-v">type</span><span class="pl-k">=</span><span class="pl-c1">str</span>, <span class="pl-v">nargs</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>+<span class="pl-pds">&#39;</span></span>,</td>
+        <td id="file-extract-py-LC12" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&#39;folders&#39;</span>, <span class=pl-s1>type</span><span class=pl-c1>=</span><span class=pl-s1>str</span>, <span class=pl-s1>nargs</span><span class=pl-c1>=</span><span class=pl-s>&#39;+&#39;</span>,</td>
       </tr>
       <tr>
         <td id="file-extract-py-L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="file-extract-py-LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-v">help</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>folder (raw.ca, raw.en, raw.es)<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="file-extract-py-LC13" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>help</span><span class=pl-c1>=</span><span class=pl-s>&#39;folder (raw.ca, raw.en, raw.es)&#39;</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L14" class="blob-num js-line-number" data-line-number="14"></td>
@@ -142,11 +142,11 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-extract-py-L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="file-extract-py-LC15" class="blob-code blob-code-inner js-file-line">args <span class="pl-k">=</span> parser.parse_args()</td>
+        <td id="file-extract-py-LC15" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>args</span> <span class=pl-c1>=</span> <span class=pl-s1>parser</span>.<span class=pl-en>parse_args</span>()</td>
       </tr>
       <tr>
         <td id="file-extract-py-L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="file-extract-py-LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span>process<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span> <span class="pl-pds">&#39;</span></span>.join(args.folders)</td>
+        <td id="file-extract-py-LC16" class="blob-code blob-code-inner js-file-line"><span class=pl-k>print</span> <span class=pl-s>&#39;process&#39;</span>, <span class=pl-s>&#39; &#39;</span>.<span class=pl-en>join</span>(<span class=pl-s1>args</span>.<span class=pl-s1>folders</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L17" class="blob-num js-line-number" data-line-number="17"></td>
@@ -155,11 +155,11 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-extract-py-L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="file-extract-py-LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-k">for</span> folder <span class="pl-k">in</span> args.folders:</td>
+        <td id="file-extract-py-LC18" class="blob-code blob-code-inner js-file-line"><span class=pl-k>for</span> <span class=pl-s1>folder</span> <span class=pl-c1>in</span> <span class=pl-s1>args</span>.<span class=pl-s1>folders</span>:</td>
       </tr>
       <tr>
         <td id="file-extract-py-L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="file-extract-py-LC19" class="blob-code blob-code-inner js-file-line">    files <span class="pl-k">=</span> glob.glob(folder<span class="pl-k">+</span><span class="pl-s"><span class="pl-pds">&#39;</span>/*<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="file-extract-py-LC19" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>files</span> <span class=pl-c1>=</span> <span class=pl-s1>glob</span>.<span class=pl-en>glob</span>(<span class=pl-s1>folder</span><span class=pl-c1>+</span><span class=pl-s>&#39;/*&#39;</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L20" class="blob-num js-line-number" data-line-number="20"></td>
@@ -168,11 +168,11 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-extract-py-L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="file-extract-py-LC21" class="blob-code blob-code-inner js-file-line">    ind_train <span class="pl-k">=</span> randint(<span class="pl-c1">0</span>, <span class="pl-c1">len</span>(files)<span class="pl-k">-</span><span class="pl-c1">1</span>)</td>
+        <td id="file-extract-py-LC21" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>ind_train</span> <span class=pl-c1>=</span> <span class=pl-en>randint</span>(<span class=pl-c1>0</span>, <span class=pl-en>len</span>(<span class=pl-s1>files</span>)<span class=pl-c1>-</span><span class=pl-c1>1</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="file-extract-py-LC22" class="blob-code blob-code-inner js-file-line">    ind_test <span class="pl-k">=</span> randint(<span class="pl-c1">0</span>, <span class="pl-c1">len</span>(files)<span class="pl-k">-</span><span class="pl-c1">1</span>)</td>
+        <td id="file-extract-py-LC22" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>ind_test</span> <span class=pl-c1>=</span> <span class=pl-en>randint</span>(<span class=pl-c1>0</span>, <span class=pl-en>len</span>(<span class=pl-s1>files</span>)<span class=pl-c1>-</span><span class=pl-c1>1</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L23" class="blob-num js-line-number" data-line-number="23"></td>
@@ -181,31 +181,31 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-extract-py-L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="file-extract-py-LC24" class="blob-code blob-code-inner js-file-line">    soup <span class="pl-k">=</span> BeautifulSoup(<span class="pl-c1">open</span>(files[ind_train]).read(), <span class="pl-s"><span class="pl-pds">&#39;</span>html.parser<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="file-extract-py-LC24" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>soup</span> <span class=pl-c1>=</span> <span class=pl-v>BeautifulSoup</span>(<span class=pl-en>open</span>(<span class=pl-s1>files</span>[<span class=pl-s1>ind_train</span>]).<span class=pl-en>read</span>(), <span class=pl-s>&#39;html.parser&#39;</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="file-extract-py-LC25" class="blob-code blob-code-inner js-file-line">    docs <span class="pl-k">=</span> soup.find_all(<span class="pl-s"><span class="pl-pds">&#39;</span>doc<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="file-extract-py-LC25" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>docs</span> <span class=pl-c1>=</span> <span class=pl-s1>soup</span>.<span class=pl-en>find_all</span>(<span class=pl-s>&#39;doc&#39;</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="file-extract-py-LC26" class="blob-code blob-code-inner js-file-line">    content <span class="pl-k">=</span> []</td>
+        <td id="file-extract-py-LC26" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>content</span> <span class=pl-c1>=</span> []</td>
       </tr>
       <tr>
         <td id="file-extract-py-L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="file-extract-py-LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> doc <span class="pl-k">in</span> docs:</td>
+        <td id="file-extract-py-LC27" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>doc</span> <span class=pl-c1>in</span> <span class=pl-s1>docs</span>:</td>
       </tr>
       <tr>
         <td id="file-extract-py-L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="file-extract-py-LC28" class="blob-code blob-code-inner js-file-line">        content.append(doc.get_text())</td>
+        <td id="file-extract-py-LC28" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>content</span>.<span class=pl-en>append</span>(<span class=pl-s1>doc</span>.<span class=pl-en>get_text</span>())</td>
       </tr>
       <tr>
         <td id="file-extract-py-L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="file-extract-py-LC29" class="blob-code blob-code-inner js-file-line">    pickle.dump(content, <span class="pl-c1">open</span>(folder<span class="pl-k">+</span><span class="pl-s"><span class="pl-pds">&#39;</span>.train.pkl<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>wb<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-extract-py-LC29" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>pickle</span>.<span class=pl-en>dump</span>(<span class=pl-s1>content</span>, <span class=pl-en>open</span>(<span class=pl-s1>folder</span><span class=pl-c1>+</span><span class=pl-s>&#39;.train.pkl&#39;</span>, <span class=pl-s>&#39;wb&#39;</span>))</td>
       </tr>
       <tr>
         <td id="file-extract-py-L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="file-extract-py-LC30" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span>use<span class="pl-pds">&#39;</span></span>, files[ind_train], <span class="pl-s"><span class="pl-pds">&#39;</span>as training set<span class="pl-pds">&#39;</span></span></td>
+        <td id="file-extract-py-LC30" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>print</span> <span class=pl-s>&#39;use&#39;</span>, <span class=pl-s1>files</span>[<span class=pl-s1>ind_train</span>], <span class=pl-s>&#39;as training set&#39;</span></td>
       </tr>
       <tr>
         <td id="file-extract-py-L31" class="blob-num js-line-number" data-line-number="31"></td>
@@ -214,31 +214,31 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-extract-py-L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="file-extract-py-LC32" class="blob-code blob-code-inner js-file-line">    soup <span class="pl-k">=</span> BeautifulSoup(<span class="pl-c1">open</span>(files[ind_test]).read(), <span class="pl-s"><span class="pl-pds">&#39;</span>html.parser<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="file-extract-py-LC32" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>soup</span> <span class=pl-c1>=</span> <span class=pl-v>BeautifulSoup</span>(<span class=pl-en>open</span>(<span class=pl-s1>files</span>[<span class=pl-s1>ind_test</span>]).<span class=pl-en>read</span>(), <span class=pl-s>&#39;html.parser&#39;</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="file-extract-py-LC33" class="blob-code blob-code-inner js-file-line">    docs <span class="pl-k">=</span> soup.find_all(<span class="pl-s"><span class="pl-pds">&#39;</span>doc<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="file-extract-py-LC33" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>docs</span> <span class=pl-c1>=</span> <span class=pl-s1>soup</span>.<span class=pl-en>find_all</span>(<span class=pl-s>&#39;doc&#39;</span>)</td>
       </tr>
       <tr>
         <td id="file-extract-py-L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="file-extract-py-LC34" class="blob-code blob-code-inner js-file-line">    content <span class="pl-k">=</span> []</td>
+        <td id="file-extract-py-LC34" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>content</span> <span class=pl-c1>=</span> []</td>
       </tr>
       <tr>
         <td id="file-extract-py-L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="file-extract-py-LC35" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> doc <span class="pl-k">in</span> docs:</td>
+        <td id="file-extract-py-LC35" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>doc</span> <span class=pl-c1>in</span> <span class=pl-s1>docs</span>:</td>
       </tr>
       <tr>
         <td id="file-extract-py-L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="file-extract-py-LC36" class="blob-code blob-code-inner js-file-line">        content.append(doc.get_text())</td>
+        <td id="file-extract-py-LC36" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>content</span>.<span class=pl-en>append</span>(<span class=pl-s1>doc</span>.<span class=pl-en>get_text</span>())</td>
       </tr>
       <tr>
         <td id="file-extract-py-L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="file-extract-py-LC37" class="blob-code blob-code-inner js-file-line">    pickle.dump(content, <span class="pl-c1">open</span>(folder<span class="pl-k">+</span><span class="pl-s"><span class="pl-pds">&#39;</span>.test.pkl<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>wb<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-extract-py-LC37" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>pickle</span>.<span class=pl-en>dump</span>(<span class=pl-s1>content</span>, <span class=pl-en>open</span>(<span class=pl-s1>folder</span><span class=pl-c1>+</span><span class=pl-s>&#39;.test.pkl&#39;</span>, <span class=pl-s>&#39;wb&#39;</span>))</td>
       </tr>
       <tr>
         <td id="file-extract-py-L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="file-extract-py-LC38" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span>use<span class="pl-pds">&#39;</span></span>, files[ind_test], <span class="pl-s"><span class="pl-pds">&#39;</span>as testing set<span class="pl-pds">&#39;</span></span></td>
+        <td id="file-extract-py-LC38" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>print</span> <span class=pl-s>&#39;use&#39;</span>, <span class=pl-s1>files</span>[<span class=pl-s1>ind_test</span>], <span class=pl-s>&#39;as testing set&#39;</span></td>
       </tr>
 </table>
 
@@ -266,15 +266,15 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
 <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="file-language_detect-py-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-language_detect-py-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> pickle</td>
+        <td id="file-language_detect-py-LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>pickle</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-language_detect-py-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> collections <span class="pl-k">import</span> defaultdict</td>
+        <td id="file-language_detect-py-LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>collections</span> <span class=pl-k>import</span> <span class=pl-s1>defaultdict</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-language_detect-py-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> math <span class="pl-k">import</span> log10</td>
+        <td id="file-language_detect-py-LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>math</span> <span class=pl-k>import</span> <span class=pl-s1>log10</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L4" class="blob-num js-line-number" data-line-number="4"></td>
@@ -288,31 +288,31 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-language_detect-py-LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">ngramize</span>(<span class="pl-smi">word</span>, <span class="pl-smi">n</span><span class="pl-k">=</span><span class="pl-c1">1</span>):</td>
+        <td id="file-language_detect-py-LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>ngramize</span>(<span class=pl-s1>word</span>, <span class=pl-s1>n</span><span class=pl-c1>=</span><span class=pl-c1>1</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-language_detect-py-LC7" class="blob-code blob-code-inner js-file-line">    ngram_list <span class="pl-k">=</span> []</td>
+        <td id="file-language_detect-py-LC7" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>ngram_list</span> <span class=pl-c1>=</span> []</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-language_detect-py-LC8" class="blob-code blob-code-inner js-file-line">    word <span class="pl-k">=</span> word.lower()</td>
+        <td id="file-language_detect-py-LC8" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>word</span> <span class=pl-c1>=</span> <span class=pl-s1>word</span>.<span class=pl-en>lower</span>()</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-language_detect-py-LC9" class="blob-code blob-code-inner js-file-line">    word <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>$<span class="pl-pds">&#39;</span></span><span class="pl-k">*</span>(n<span class="pl-k">-</span><span class="pl-c1">1</span>)<span class="pl-k">+</span>word<span class="pl-k">+</span><span class="pl-s"><span class="pl-pds">&#39;</span>$<span class="pl-pds">&#39;</span></span><span class="pl-k">*</span>(n<span class="pl-k">-</span><span class="pl-c1">1</span>) <span class="pl-k">if</span> n <span class="pl-k">&gt;</span> <span class="pl-c1">1</span> <span class="pl-k">else</span> word</td>
+        <td id="file-language_detect-py-LC9" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>word</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;$&#39;</span><span class=pl-c1>*</span>(<span class=pl-s1>n</span><span class=pl-c1>-</span><span class=pl-c1>1</span>)<span class=pl-c1>+</span><span class=pl-s1>word</span><span class=pl-c1>+</span><span class=pl-s>&#39;$&#39;</span><span class=pl-c1>*</span>(<span class=pl-s1>n</span><span class=pl-c1>-</span><span class=pl-c1>1</span>) <span class=pl-k>if</span> <span class=pl-s1>n</span> <span class=pl-c1>&gt;</span> <span class=pl-c1>1</span> <span class=pl-k>else</span> <span class=pl-s1>word</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-language_detect-py-LC10" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> i <span class="pl-k">in</span> <span class="pl-c1">range</span>(<span class="pl-c1">len</span>(word)<span class="pl-k">-</span>n<span class="pl-k">+</span><span class="pl-c1">1</span>):</td>
+        <td id="file-language_detect-py-LC10" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>i</span> <span class=pl-c1>in</span> <span class=pl-en>range</span>(<span class=pl-en>len</span>(<span class=pl-s1>word</span>)<span class=pl-c1>-</span><span class=pl-s1>n</span><span class=pl-c1>+</span><span class=pl-c1>1</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-language_detect-py-LC11" class="blob-code blob-code-inner js-file-line">        ngram_list.append(word[i:i<span class="pl-k">+</span>n])</td>
+        <td id="file-language_detect-py-LC11" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>ngram_list</span>.<span class=pl-en>append</span>(<span class=pl-s1>word</span>[<span class=pl-s1>i</span>:<span class=pl-s1>i</span><span class=pl-c1>+</span><span class=pl-s1>n</span>])</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="file-language_detect-py-LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> ngram_list</td>
+        <td id="file-language_detect-py-LC12" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-s1>ngram_list</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L13" class="blob-num js-line-number" data-line-number="13"></td>
@@ -326,23 +326,23 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="file-language_detect-py-LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">tokenize</span>(<span class="pl-smi">doc</span>):</td>
+        <td id="file-language_detect-py-LC15" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>tokenize</span>(<span class=pl-s1>doc</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="file-language_detect-py-LC16" class="blob-code blob-code-inner js-file-line">    tokens <span class="pl-k">=</span> doc.split()</td>
+        <td id="file-language_detect-py-LC16" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>tokens</span> <span class=pl-c1>=</span> <span class=pl-s1>doc</span>.<span class=pl-en>split</span>()</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="file-language_detect-py-LC17" class="blob-code blob-code-inner js-file-line">    tokens <span class="pl-k">=</span> [t.lower() <span class="pl-k">for</span> t <span class="pl-k">in</span> tokens]</td>
+        <td id="file-language_detect-py-LC17" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>tokens</span> <span class=pl-c1>=</span> [<span class=pl-s1>t</span>.<span class=pl-en>lower</span>() <span class=pl-k>for</span> <span class=pl-s1>t</span> <span class=pl-c1>in</span> <span class=pl-s1>tokens</span>]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="file-language_detect-py-LC18" class="blob-code blob-code-inner js-file-line">    tokens <span class="pl-k">=</span> [t <span class="pl-k">for</span> t <span class="pl-k">in</span> tokens <span class="pl-k">if</span> <span class="pl-k">not</span> t.isdigit()]</td>
+        <td id="file-language_detect-py-LC18" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>tokens</span> <span class=pl-c1>=</span> [<span class=pl-s1>t</span> <span class=pl-k>for</span> <span class=pl-s1>t</span> <span class=pl-c1>in</span> <span class=pl-s1>tokens</span> <span class=pl-k>if</span> <span class=pl-c1>not</span> <span class=pl-s1>t</span>.<span class=pl-en>isdigit</span>()]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="file-language_detect-py-LC19" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> tokens[:<span class="pl-k">-</span><span class="pl-c1">1</span>]</td>
+        <td id="file-language_detect-py-LC19" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-s1>tokens</span>[:<span class=pl-c1>-</span><span class=pl-c1>1</span>]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L20" class="blob-num js-line-number" data-line-number="20"></td>
@@ -356,47 +356,47 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="file-language_detect-py-LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">train_language_model</span>(<span class="pl-smi">docs</span>, <span class="pl-smi">n</span><span class="pl-k">=</span><span class="pl-c1">1</span>):</td>
+        <td id="file-language_detect-py-LC22" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>train_language_model</span>(<span class=pl-s1>docs</span>, <span class=pl-s1>n</span><span class=pl-c1>=</span><span class=pl-c1>1</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="file-language_detect-py-LC23" class="blob-code blob-code-inner js-file-line">    language_model, total <span class="pl-k">=</span> defaultdict(<span class="pl-c1">float</span>), <span class="pl-c1">0</span></td>
+        <td id="file-language_detect-py-LC23" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>language_model</span>, <span class=pl-s1>total</span> <span class=pl-c1>=</span> <span class=pl-en>defaultdict</span>(<span class=pl-s1>float</span>), <span class=pl-c1>0</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="file-language_detect-py-LC24" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> doc <span class="pl-k">in</span> docs:</td>
+        <td id="file-language_detect-py-LC24" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>doc</span> <span class=pl-c1>in</span> <span class=pl-s1>docs</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="file-language_detect-py-LC25" class="blob-code blob-code-inner js-file-line">        tokens <span class="pl-k">=</span> tokenize(doc)</td>
+        <td id="file-language_detect-py-LC25" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>tokens</span> <span class=pl-c1>=</span> <span class=pl-en>tokenize</span>(<span class=pl-s1>doc</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="file-language_detect-py-LC26" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">for</span> word <span class="pl-k">in</span> tokens:</td>
+        <td id="file-language_detect-py-LC26" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>word</span> <span class=pl-c1>in</span> <span class=pl-s1>tokens</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="file-language_detect-py-LC27" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">for</span> ngram <span class="pl-k">in</span> ngramize(word, n):</td>
+        <td id="file-language_detect-py-LC27" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>for</span> <span class=pl-s1>ngram</span> <span class=pl-c1>in</span> <span class=pl-en>ngramize</span>(<span class=pl-s1>word</span>, <span class=pl-s1>n</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="file-language_detect-py-LC28" class="blob-code blob-code-inner js-file-line">                language_model[ngram] <span class="pl-k">+=</span> <span class="pl-c1">1</span></td>
+        <td id="file-language_detect-py-LC28" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>language_model</span>[<span class=pl-s1>ngram</span>] <span class=pl-c1>+=</span> <span class=pl-c1>1</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="file-language_detect-py-LC29" class="blob-code blob-code-inner js-file-line">                total <span class="pl-k">+=</span> <span class="pl-c1">1</span></td>
+        <td id="file-language_detect-py-LC29" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>total</span> <span class=pl-c1>+=</span> <span class=pl-c1>1</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="file-language_detect-py-LC30" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> key <span class="pl-k">in</span> language_model:</td>
+        <td id="file-language_detect-py-LC30" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>key</span> <span class=pl-c1>in</span> <span class=pl-s1>language_model</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="file-language_detect-py-LC31" class="blob-code blob-code-inner js-file-line">        language_model[key] <span class="pl-k">=</span> (language_model[key] <span class="pl-k">+</span> <span class="pl-c1">1</span>) <span class="pl-k">/</span> total</td>
+        <td id="file-language_detect-py-LC31" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>language_model</span>[<span class=pl-s1>key</span>] <span class=pl-c1>=</span> (<span class=pl-s1>language_model</span>[<span class=pl-s1>key</span>] <span class=pl-c1>+</span> <span class=pl-c1>1</span>) <span class=pl-c1>/</span> <span class=pl-s1>total</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="file-language_detect-py-LC32" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> (language_model, total)</td>
+        <td id="file-language_detect-py-LC32" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> (<span class=pl-s1>language_model</span>, <span class=pl-s1>total</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L33" class="blob-num js-line-number" data-line-number="33"></td>
@@ -410,43 +410,43 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="file-language_detect-py-LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">train</span>(<span class="pl-smi">language_docs</span>, <span class="pl-smi">n</span><span class="pl-k">=</span><span class="pl-c1">1</span>):</td>
+        <td id="file-language_detect-py-LC35" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>train</span>(<span class=pl-s1>language_docs</span>, <span class=pl-s1>n</span><span class=pl-c1>=</span><span class=pl-c1>1</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="file-language_detect-py-LC36" class="blob-code blob-code-inner js-file-line">    model <span class="pl-k">=</span> {}</td>
+        <td id="file-language_detect-py-LC36" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>model</span> <span class=pl-c1>=</span> {}</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="file-language_detect-py-LC37" class="blob-code blob-code-inner js-file-line">    model[<span class="pl-s"><span class="pl-pds">&#39;</span>language<span class="pl-pds">&#39;</span></span>] <span class="pl-k">=</span> {}</td>
+        <td id="file-language_detect-py-LC37" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>model</span>[<span class=pl-s>&#39;language&#39;</span>] <span class=pl-c1>=</span> {}</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="file-language_detect-py-LC38" class="blob-code blob-code-inner js-file-line">    model[<span class="pl-s"><span class="pl-pds">&#39;</span>ngram<span class="pl-pds">&#39;</span></span>] <span class="pl-k">=</span> n</td>
+        <td id="file-language_detect-py-LC38" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>model</span>[<span class=pl-s>&#39;ngram&#39;</span>] <span class=pl-c1>=</span> <span class=pl-s1>n</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="file-language_detect-py-LC39" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> l <span class="pl-k">in</span> language_docs:</td>
+        <td id="file-language_detect-py-LC39" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>l</span> <span class=pl-c1>in</span> <span class=pl-s1>language_docs</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="file-language_detect-py-LC40" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span>learning<span class="pl-pds">&#39;</span></span>, l, <span class="pl-s"><span class="pl-pds">&#39;</span>model:<span class="pl-pds">&#39;</span></span>,</td>
+        <td id="file-language_detect-py-LC40" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>print</span> <span class=pl-s>&#39;learning&#39;</span>, <span class=pl-s1>l</span>, <span class=pl-s>&#39;model:&#39;</span>,</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="file-language_detect-py-LC41" class="blob-code blob-code-inner js-file-line">        docs <span class="pl-k">=</span> language_docs[l]</td>
+        <td id="file-language_detect-py-LC41" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>docs</span> <span class=pl-c1>=</span> <span class=pl-s1>language_docs</span>[<span class=pl-s1>l</span>]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="file-language_detect-py-LC42" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">print</span> <span class="pl-c1">len</span>(docs), <span class="pl-s"><span class="pl-pds">&#39;</span>docs<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">sum</span>([<span class="pl-c1">len</span>(d.split()) <span class="pl-k">for</span> d <span class="pl-k">in</span> docs]), <span class="pl-s"><span class="pl-pds">&#39;</span>tokens<span class="pl-pds">&#39;</span></span></td>
+        <td id="file-language_detect-py-LC42" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>print</span> <span class=pl-en>len</span>(<span class=pl-s1>docs</span>), <span class=pl-s>&#39;docs&#39;</span>, <span class=pl-en>sum</span>([<span class=pl-en>len</span>(<span class=pl-s1>d</span>.<span class=pl-en>split</span>()) <span class=pl-k>for</span> <span class=pl-s1>d</span> <span class=pl-c1>in</span> <span class=pl-s1>docs</span>]), <span class=pl-s>&#39;tokens&#39;</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="file-language_detect-py-LC43" class="blob-code blob-code-inner js-file-line">        model[<span class="pl-s"><span class="pl-pds">&#39;</span>language<span class="pl-pds">&#39;</span></span>][l] <span class="pl-k">=</span> train_language_model(docs, n)</td>
+        <td id="file-language_detect-py-LC43" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>model</span>[<span class=pl-s>&#39;language&#39;</span>][<span class=pl-s1>l</span>] <span class=pl-c1>=</span> <span class=pl-en>train_language_model</span>(<span class=pl-s1>docs</span>, <span class=pl-s1>n</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="file-language_detect-py-LC44" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> model</td>
+        <td id="file-language_detect-py-LC44" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-s1>model</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L45" class="blob-num js-line-number" data-line-number="45"></td>
@@ -460,75 +460,75 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="file-language_detect-py-LC47" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">predict</span>(<span class="pl-smi">doc</span>, <span class="pl-smi">model</span>):</td>
+        <td id="file-language_detect-py-LC47" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>predict</span>(<span class=pl-s1>doc</span>, <span class=pl-s1>model</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="file-language_detect-py-LC48" class="blob-code blob-code-inner js-file-line">    n <span class="pl-k">=</span> model[<span class="pl-s"><span class="pl-pds">&#39;</span>ngram<span class="pl-pds">&#39;</span></span>]</td>
+        <td id="file-language_detect-py-LC48" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>n</span> <span class=pl-c1>=</span> <span class=pl-s1>model</span>[<span class=pl-s>&#39;ngram&#39;</span>]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="file-language_detect-py-LC49" class="blob-code blob-code-inner js-file-line">    languages <span class="pl-k">=</span> model[<span class="pl-s"><span class="pl-pds">&#39;</span>language<span class="pl-pds">&#39;</span></span>].keys()</td>
+        <td id="file-language_detect-py-LC49" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>languages</span> <span class=pl-c1>=</span> <span class=pl-s1>model</span>[<span class=pl-s>&#39;language&#39;</span>].<span class=pl-en>keys</span>()</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="file-language_detect-py-LC50" class="blob-code blob-code-inner js-file-line">    preds <span class="pl-k">=</span> []</td>
+        <td id="file-language_detect-py-LC50" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>preds</span> <span class=pl-c1>=</span> []</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="file-language_detect-py-LC51" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> l <span class="pl-k">in</span> languages:</td>
+        <td id="file-language_detect-py-LC51" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>l</span> <span class=pl-c1>in</span> <span class=pl-s1>languages</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="file-language_detect-py-LC52" class="blob-code blob-code-inner js-file-line">        language_model, total <span class="pl-k">=</span> model[<span class="pl-s"><span class="pl-pds">&#39;</span>language<span class="pl-pds">&#39;</span></span>][l]</td>
+        <td id="file-language_detect-py-LC52" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>language_model</span>, <span class=pl-s1>total</span> <span class=pl-c1>=</span> <span class=pl-s1>model</span>[<span class=pl-s>&#39;language&#39;</span>][<span class=pl-s1>l</span>]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="file-language_detect-py-LC53" class="blob-code blob-code-inner js-file-line">        pred <span class="pl-k">=</span> <span class="pl-c1">0</span>.</td>
+        <td id="file-language_detect-py-LC53" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>pred</span> <span class=pl-c1>=</span> <span class=pl-c1>0.</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="file-language_detect-py-LC54" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">for</span> word <span class="pl-k">in</span> tokenize(doc):</td>
+        <td id="file-language_detect-py-LC54" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>word</span> <span class=pl-c1>in</span> <span class=pl-en>tokenize</span>(<span class=pl-s1>doc</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="file-language_detect-py-LC55" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">for</span> ngram <span class="pl-k">in</span> ngramize(word, n):</td>
+        <td id="file-language_detect-py-LC55" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>for</span> <span class=pl-s1>ngram</span> <span class=pl-c1>in</span> <span class=pl-en>ngramize</span>(<span class=pl-s1>word</span>, <span class=pl-s1>n</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="file-language_detect-py-LC56" class="blob-code blob-code-inner js-file-line">                weight <span class="pl-k">=</span> <span class="pl-c1">1</span>.</td>
+        <td id="file-language_detect-py-LC56" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>weight</span> <span class=pl-c1>=</span> <span class=pl-c1>1.</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="file-language_detect-py-LC57" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> ngram <span class="pl-k">in</span> language_model:</td>
+        <td id="file-language_detect-py-LC57" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>if</span> <span class=pl-s1>ngram</span> <span class=pl-c1>in</span> <span class=pl-s1>language_model</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="file-language_detect-py-LC58" class="blob-code blob-code-inner js-file-line">                    weight <span class="pl-k">*=</span> language_model[ngram]</td>
+        <td id="file-language_detect-py-LC58" class="blob-code blob-code-inner js-file-line">                    <span class=pl-s1>weight</span> <span class=pl-c1>*=</span> <span class=pl-s1>language_model</span>[<span class=pl-s1>ngram</span>]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="file-language_detect-py-LC59" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">else</span>:</td>
+        <td id="file-language_detect-py-LC59" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>else</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="file-language_detect-py-LC60" class="blob-code blob-code-inner js-file-line">                    weight <span class="pl-k">=</span> <span class="pl-c1">1</span>. <span class="pl-k">/</span> total</td>
+        <td id="file-language_detect-py-LC60" class="blob-code blob-code-inner js-file-line">                    <span class=pl-s1>weight</span> <span class=pl-c1>=</span> <span class=pl-c1>1.</span> <span class=pl-c1>/</span> <span class=pl-s1>total</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="file-language_detect-py-LC61" class="blob-code blob-code-inner js-file-line">                pred <span class="pl-k">+=</span> log10(weight)</td>
+        <td id="file-language_detect-py-LC61" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>pred</span> <span class=pl-c1>+=</span> <span class=pl-en>log10</span>(<span class=pl-s1>weight</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="file-language_detect-py-LC62" class="blob-code blob-code-inner js-file-line">        preds.append(pred)</td>
+        <td id="file-language_detect-py-LC62" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>preds</span>.<span class=pl-en>append</span>(<span class=pl-s1>pred</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="file-language_detect-py-LC63" class="blob-code blob-code-inner js-file-line">    max_ind <span class="pl-k">=</span> preds.index(<span class="pl-c1">max</span>(preds))</td>
+        <td id="file-language_detect-py-LC63" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>max_ind</span> <span class=pl-c1>=</span> <span class=pl-s1>preds</span>.<span class=pl-en>index</span>(<span class=pl-en>max</span>(<span class=pl-s1>preds</span>))</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="file-language_detect-py-LC64" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> languages[max_ind]</td>
+        <td id="file-language_detect-py-LC64" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-s1>languages</span>[<span class=pl-s1>max_ind</span>]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L65" class="blob-num js-line-number" data-line-number="65"></td>
@@ -542,47 +542,47 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="file-language_detect-py-LC67" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">test</span>(<span class="pl-smi">language_docs</span>, <span class="pl-smi">model</span>):</td>
+        <td id="file-language_detect-py-LC67" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>test</span>(<span class=pl-s1>language_docs</span>, <span class=pl-s1>model</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="file-language_detect-py-LC68" class="blob-code blob-code-inner js-file-line">    error, length <span class="pl-k">=</span> <span class="pl-c1">0</span>, <span class="pl-c1">0</span></td>
+        <td id="file-language_detect-py-LC68" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>error</span>, <span class=pl-s1>length</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span>, <span class=pl-c1>0</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="file-language_detect-py-LC69" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> l <span class="pl-k">in</span> language_docs:</td>
+        <td id="file-language_detect-py-LC69" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>l</span> <span class=pl-c1>in</span> <span class=pl-s1>language_docs</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="file-language_detect-py-LC70" class="blob-code blob-code-inner js-file-line">        docs <span class="pl-k">=</span> language_docs[l]</td>
+        <td id="file-language_detect-py-LC70" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>docs</span> <span class=pl-c1>=</span> <span class=pl-s1>language_docs</span>[<span class=pl-s1>l</span>]</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="file-language_detect-py-LC71" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">for</span> doc <span class="pl-k">in</span> docs:</td>
+        <td id="file-language_detect-py-LC71" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>doc</span> <span class=pl-c1>in</span> <span class=pl-s1>docs</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="file-language_detect-py-LC72" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">print</span> predict(doc, model), l</td>
+        <td id="file-language_detect-py-LC72" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>print</span> <span class=pl-en>predict</span>(<span class=pl-s1>doc</span>, <span class=pl-s1>model</span>), <span class=pl-s1>l</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="file-language_detect-py-LC73" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> predict(doc, model) <span class="pl-k">!=</span> l:</td>
+        <td id="file-language_detect-py-LC73" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-en>predict</span>(<span class=pl-s1>doc</span>, <span class=pl-s1>model</span>) <span class=pl-c1>!=</span> <span class=pl-s1>l</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="file-language_detect-py-LC74" class="blob-code blob-code-inner js-file-line">                error <span class="pl-k">+=</span> <span class="pl-c1">1</span></td>
+        <td id="file-language_detect-py-LC74" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>error</span> <span class=pl-c1>+=</span> <span class=pl-c1>1</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="file-language_detect-py-LC75" class="blob-code blob-code-inner js-file-line">            length <span class="pl-k">+=</span> <span class="pl-c1">1</span></td>
+        <td id="file-language_detect-py-LC75" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>length</span> <span class=pl-c1>+=</span> <span class=pl-c1>1</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="file-language_detect-py-LC76" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Testing on <span class="pl-c1">%d</span> instances<span class="pl-cce">\n</span>Accuracy=<span class="pl-c1">%.4f</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (</td>
+        <td id="file-language_detect-py-LC76" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>print</span> <span class=pl-s>&#39;Testing on %d instances<span class=pl-cce>\n</span>Accuracy=%.4f&#39;</span> <span class=pl-c1>%</span> (</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="file-language_detect-py-LC77" class="blob-code blob-code-inner js-file-line">        length, <span class="pl-c1">1</span> <span class="pl-k">-</span> <span class="pl-c1">float</span>(error) <span class="pl-k">/</span> length)</td>
+        <td id="file-language_detect-py-LC77" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>length</span>, <span class=pl-c1>1</span> <span class=pl-c1>-</span> <span class=pl-en>float</span>(<span class=pl-s1>error</span>) <span class=pl-c1>/</span> <span class=pl-s1>length</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L78" class="blob-num js-line-number" data-line-number="78"></td>
@@ -596,15 +596,15 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="file-language_detect-py-LC80" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">testcase</span>(<span class="pl-smi">ngram_size</span>):</td>
+        <td id="file-language_detect-py-LC80" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>testcase</span>(<span class=pl-s1>ngram_size</span>):</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="file-language_detect-py-LC81" class="blob-code blob-code-inner js-file-line">    en_train <span class="pl-k">=</span> pickle.load(<span class="pl-c1">open</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>raw.en.train.pkl<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-language_detect-py-LC81" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>en_train</span> <span class=pl-c1>=</span> <span class=pl-s1>pickle</span>.<span class=pl-en>load</span>(<span class=pl-en>open</span>(<span class=pl-s>&#39;raw.en.train.pkl&#39;</span>))</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="file-language_detect-py-LC82" class="blob-code blob-code-inner js-file-line">    en_test <span class="pl-k">=</span> pickle.load(<span class="pl-c1">open</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>raw.en.test.pkl<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-language_detect-py-LC82" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>en_test</span> <span class=pl-c1>=</span> <span class=pl-s1>pickle</span>.<span class=pl-en>load</span>(<span class=pl-en>open</span>(<span class=pl-s>&#39;raw.en.test.pkl&#39;</span>))</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L83" class="blob-num js-line-number" data-line-number="83"></td>
@@ -613,11 +613,11 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="file-language_detect-py-LC84" class="blob-code blob-code-inner js-file-line">    es_train <span class="pl-k">=</span> pickle.load(<span class="pl-c1">open</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>raw.es.train.pkl<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-language_detect-py-LC84" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>es_train</span> <span class=pl-c1>=</span> <span class=pl-s1>pickle</span>.<span class=pl-en>load</span>(<span class=pl-en>open</span>(<span class=pl-s>&#39;raw.es.train.pkl&#39;</span>))</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="file-language_detect-py-LC85" class="blob-code blob-code-inner js-file-line">    es_test <span class="pl-k">=</span> pickle.load(<span class="pl-c1">open</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>raw.es.test.pkl<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-language_detect-py-LC85" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>es_test</span> <span class=pl-c1>=</span> <span class=pl-s1>pickle</span>.<span class=pl-en>load</span>(<span class=pl-en>open</span>(<span class=pl-s>&#39;raw.es.test.pkl&#39;</span>))</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L86" class="blob-num js-line-number" data-line-number="86"></td>
@@ -626,11 +626,11 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="file-language_detect-py-LC87" class="blob-code blob-code-inner js-file-line">    ca_train <span class="pl-k">=</span> pickle.load(<span class="pl-c1">open</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>raw.ca.train.pkl<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-language_detect-py-LC87" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>ca_train</span> <span class=pl-c1>=</span> <span class=pl-s1>pickle</span>.<span class=pl-en>load</span>(<span class=pl-en>open</span>(<span class=pl-s>&#39;raw.ca.train.pkl&#39;</span>))</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="file-language_detect-py-LC88" class="blob-code blob-code-inner js-file-line">    ca_test <span class="pl-k">=</span> pickle.load(<span class="pl-c1">open</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>raw.ca.test.pkl<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-language_detect-py-LC88" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>ca_test</span> <span class=pl-c1>=</span> <span class=pl-s1>pickle</span>.<span class=pl-en>load</span>(<span class=pl-en>open</span>(<span class=pl-s>&#39;raw.ca.test.pkl&#39;</span>))</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L89" class="blob-num js-line-number" data-line-number="89"></td>
@@ -639,19 +639,19 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="file-language_detect-py-LC90" class="blob-code blob-code-inner js-file-line">    training_language_docs <span class="pl-k">=</span> {</td>
+        <td id="file-language_detect-py-LC90" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>training_language_docs</span> <span class=pl-c1>=</span> {</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="file-language_detect-py-LC91" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>en<span class="pl-pds">&#39;</span></span>: en_train[:<span class="pl-c1">10</span>],</td>
+        <td id="file-language_detect-py-LC91" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&#39;en&#39;</span>: <span class=pl-s1>en_train</span>[:<span class=pl-c1>10</span>],</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="file-language_detect-py-LC92" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>es<span class="pl-pds">&#39;</span></span>: es_train[:<span class="pl-c1">10</span>],</td>
+        <td id="file-language_detect-py-LC92" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&#39;es&#39;</span>: <span class=pl-s1>es_train</span>[:<span class=pl-c1>10</span>],</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L93" class="blob-num js-line-number" data-line-number="93"></td>
-        <td id="file-language_detect-py-LC93" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>ca<span class="pl-pds">&#39;</span></span>: ca_train[:<span class="pl-c1">10</span>],</td>
+        <td id="file-language_detect-py-LC93" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&#39;ca&#39;</span>: <span class=pl-s1>ca_train</span>[:<span class=pl-c1>10</span>],</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L94" class="blob-num js-line-number" data-line-number="94"></td>
@@ -664,7 +664,7 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L96" class="blob-num js-line-number" data-line-number="96"></td>
-        <td id="file-language_detect-py-LC96" class="blob-code blob-code-inner js-file-line">    model <span class="pl-k">=</span> train(training_language_docs, ngram_size)</td>
+        <td id="file-language_detect-py-LC96" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>model</span> <span class=pl-c1>=</span> <span class=pl-en>train</span>(<span class=pl-s1>training_language_docs</span>, <span class=pl-s1>ngram_size</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L97" class="blob-num js-line-number" data-line-number="97"></td>
@@ -673,11 +673,11 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L98" class="blob-num js-line-number" data-line-number="98"></td>
-        <td id="file-language_detect-py-LC98" class="blob-code blob-code-inner js-file-line">    test_str <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>today is a good day<span class="pl-pds">&#39;</span></span></td>
+        <td id="file-language_detect-py-LC98" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>test_str</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;today is a good day&#39;</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="file-language_detect-py-LC99" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-cce">\&quot;</span><span class="pl-c1">%s</span><span class="pl-cce">\&quot;</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> test_str, <span class="pl-s"><span class="pl-pds">&#39;</span>is<span class="pl-pds">&#39;</span></span>, predict(test_str, model)</td>
+        <td id="file-language_detect-py-LC99" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>print</span> <span class=pl-s>&#39;<span class=pl-cce>\&quot;</span>%s<span class=pl-cce>\&quot;</span>&#39;</span> <span class=pl-c1>%</span> <span class=pl-s1>test_str</span>, <span class=pl-s>&#39;is&#39;</span>, <span class=pl-en>predict</span>(<span class=pl-s1>test_str</span>, <span class=pl-s1>model</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L100" class="blob-num js-line-number" data-line-number="100"></td>
@@ -686,11 +686,11 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L101" class="blob-num js-line-number" data-line-number="101"></td>
-        <td id="file-language_detect-py-LC101" class="blob-code blob-code-inner js-file-line">    test_str <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Hoy es un buen día<span class="pl-pds">&#39;</span></span></td>
+        <td id="file-language_detect-py-LC101" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>test_str</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;Hoy es un buen día&#39;</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L102" class="blob-num js-line-number" data-line-number="102"></td>
-        <td id="file-language_detect-py-LC102" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-cce">\&quot;</span><span class="pl-c1">%s</span><span class="pl-cce">\&quot;</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> test_str, <span class="pl-s"><span class="pl-pds">&#39;</span>is<span class="pl-pds">&#39;</span></span>, predict(test_str, model)</td>
+        <td id="file-language_detect-py-LC102" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>print</span> <span class=pl-s>&#39;<span class=pl-cce>\&quot;</span>%s<span class=pl-cce>\&quot;</span>&#39;</span> <span class=pl-c1>%</span> <span class=pl-s1>test_str</span>, <span class=pl-s>&#39;is&#39;</span>, <span class=pl-en>predict</span>(<span class=pl-s1>test_str</span>, <span class=pl-s1>model</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L103" class="blob-num js-line-number" data-line-number="103"></td>
@@ -699,11 +699,11 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L104" class="blob-num js-line-number" data-line-number="104"></td>
-        <td id="file-language_detect-py-LC104" class="blob-code blob-code-inner js-file-line">    test_str <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>avui és un bon dia<span class="pl-pds">&#39;</span></span></td>
+        <td id="file-language_detect-py-LC104" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>test_str</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;avui és un bon dia&#39;</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L105" class="blob-num js-line-number" data-line-number="105"></td>
-        <td id="file-language_detect-py-LC105" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-cce">\&quot;</span><span class="pl-c1">%s</span><span class="pl-cce">\&quot;</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> test_str, <span class="pl-s"><span class="pl-pds">&#39;</span>is<span class="pl-pds">&#39;</span></span>, predict(test_str, model)</td>
+        <td id="file-language_detect-py-LC105" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>print</span> <span class=pl-s>&#39;<span class=pl-cce>\&quot;</span>%s<span class=pl-cce>\&quot;</span>&#39;</span> <span class=pl-c1>%</span> <span class=pl-s1>test_str</span>, <span class=pl-s>&#39;is&#39;</span>, <span class=pl-en>predict</span>(<span class=pl-s1>test_str</span>, <span class=pl-s1>model</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L106" class="blob-num js-line-number" data-line-number="106"></td>
@@ -712,19 +712,19 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="file-language_detect-py-LC107" class="blob-code blob-code-inner js-file-line">    testing_language_docs <span class="pl-k">=</span> {</td>
+        <td id="file-language_detect-py-LC107" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>testing_language_docs</span> <span class=pl-c1>=</span> {</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="file-language_detect-py-LC108" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>en<span class="pl-pds">&#39;</span></span>: en_test,</td>
+        <td id="file-language_detect-py-LC108" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&#39;en&#39;</span>: <span class=pl-s1>en_test</span>,</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="file-language_detect-py-LC109" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>es<span class="pl-pds">&#39;</span></span>: es_test,</td>
+        <td id="file-language_detect-py-LC109" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&#39;es&#39;</span>: <span class=pl-s1>es_test</span>,</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L110" class="blob-num js-line-number" data-line-number="110"></td>
-        <td id="file-language_detect-py-LC110" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;</span>ca<span class="pl-pds">&#39;</span></span>: ca_test,</td>
+        <td id="file-language_detect-py-LC110" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&#39;ca&#39;</span>: <span class=pl-s1>ca_test</span>,</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L111" class="blob-num js-line-number" data-line-number="111"></td>
@@ -737,7 +737,7 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L113" class="blob-num js-line-number" data-line-number="113"></td>
-        <td id="file-language_detect-py-LC113" class="blob-code blob-code-inner js-file-line">    test(testing_language_docs, model)</td>
+        <td id="file-language_detect-py-LC113" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>test</span>(<span class=pl-s1>testing_language_docs</span>, <span class=pl-s1>model</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L114" class="blob-num js-line-number" data-line-number="114"></td>
@@ -746,23 +746,23 @@ hello trigram [&#39;$$h&#39;, &#39;$he&#39;, &#39;hel&#39;, &#39;ell&#39;, &#39;
       </tr>
       <tr>
         <td id="file-language_detect-py-L115" class="blob-num js-line-number" data-line-number="115"></td>
-        <td id="file-language_detect-py-LC115" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&#39;</span>__main__<span class="pl-pds">&#39;</span></span>:</td>
+        <td id="file-language_detect-py-LC115" class="blob-code blob-code-inner js-file-line"><span class=pl-k>if</span> <span class=pl-s1>__name__</span> <span class=pl-c1>==</span> <span class=pl-s>&#39;__main__&#39;</span>:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="file-language_detect-py-LC116" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> n <span class="pl-k">in</span> [<span class="pl-c1">1</span>, <span class="pl-c1">2</span>, <span class="pl-c1">3</span>]:</td>
+        <td id="file-language_detect-py-LC116" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>n</span> <span class=pl-c1>in</span> [<span class=pl-c1>1</span>, <span class=pl-c1>2</span>, <span class=pl-c1>3</span>]:</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="file-language_detect-py-LC117" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span>When ngram = <span class="pl-c1">%d</span><span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> n</td>
+        <td id="file-language_detect-py-LC117" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>print</span> <span class=pl-s>&#39;When ngram = %d&#39;</span> <span class=pl-c1>%</span> <span class=pl-s1>n</span></td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L118" class="blob-num js-line-number" data-line-number="118"></td>
-        <td id="file-language_detect-py-LC118" class="blob-code blob-code-inner js-file-line">        testcase(n)</td>
+        <td id="file-language_detect-py-LC118" class="blob-code blob-code-inner js-file-line">        <span class=pl-en>testcase</span>(<span class=pl-s1>n</span>)</td>
       </tr>
       <tr>
         <td id="file-language_detect-py-L119" class="blob-num js-line-number" data-line-number="119"></td>
-        <td id="file-language_detect-py-LC119" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">print</span> <span class="pl-s"><span class="pl-pds">&#39;</span>-<span class="pl-pds">&#39;</span></span><span class="pl-k">*</span><span class="pl-c1">20</span></td>
+        <td id="file-language_detect-py-LC119" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>print</span> <span class=pl-s>&#39;-&#39;</span><span class=pl-c1>*</span><span class=pl-c1>20</span></td>
       </tr>
 </table>
 
