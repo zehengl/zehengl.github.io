@@ -42,10 +42,7 @@ function Bio() {
             <p>
               Written by <strong>{author}</strong>
               <br />
-              <a
-                style={linkStyle}
-                href={`https://twitter.com/${social.twitter}`}
-              >
+              <a style={linkStyle} href={`https://twitter.com/${social.twitter}`}>
                 <FaTwitter />
               </a>
               {` `}
@@ -53,10 +50,7 @@ function Bio() {
                 <FaGithub />
               </a>
               {` `}
-              <a
-                style={linkStyle}
-                href={`https://linkedin.com/in/${social.linkedin}`}
-              >
+              <a style={linkStyle} href={`https://linkedin.com/in/${social.linkedin}`}>
                 <FaLinkedin />
               </a>
               {` `}
