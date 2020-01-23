@@ -55,11 +55,11 @@ Each document consists of multiple words. Intuitively we may use words as featur
 
 The **_n_** in ngram represents the sliding window of characters. When n = 1, 2, 3, ngram refers to unigram, bigram, trigram respectively. Take the word "hello" for example:
 
-```
-hello unigram ['h', 'e', 'l', 'l', 'o']
-hello bigram ['$h', 'he', 'el', 'll', 'lo', 'o$']
-hello trigram ['$$h', '$he', 'hel', 'ell', 'llo', 'lo$', 'o$$']
-```
+| token |  ngram  |                      output                       |
+| :---: | :-----: | :-----------------------------------------------: |
+| hello | unigram |             ['h', 'e', 'l', 'l', 'o']             |
+| hello | bigram  |       ['$h', 'he', 'el', 'll', 'lo', 'o$']        |
+| hello | trigram | ['$$h', '$he', 'hel', 'ell', 'llo', 'lo$', 'o$$'] |
 
 ## Implementation
 
