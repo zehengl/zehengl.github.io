@@ -2,7 +2,7 @@
 title: "Using Naive Bayes Model for Language Dectection"
 date: "2016-05-07"
 description: "How to use one of simplest supervised learning model (Naive Bayes) to perform language detection."
-tags: ["naive bayes", "python"]
+tags: ["machine learning", "naive bayes", "python"]
 ---
 
 ## Background
