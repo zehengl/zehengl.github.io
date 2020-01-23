@@ -18,11 +18,12 @@ function Bio() {
       query={bioQuery}
       render={data => {
         const { author, social, siteUrl } = data.site.siteMetadata
+        const linkStyle = { boxShadow: `none`, textDecoration: `none` }
         return (
           <div
             style={{
               display: `flex`,
-              marginBottom: rhythm(2.5),
+              marginBottom: rhythm(1 / 2),
             }}
           >
             <Image
@@ -40,32 +41,26 @@ function Bio() {
             />
             <p>
               Written by <strong>{author}</strong>
-              {` `}
+              <br />
               <a
-                style={{ boxShadow: `none`, textDecoration: `none` }}
+                style={linkStyle}
                 href={`https://twitter.com/${social.twitter}`}
               >
                 <FaTwitter />
               </a>
               {` `}
-              <a
-                style={{ boxShadow: `none`, textDecoration: `none` }}
-                href={`https://github.com/${social.github}`}
-              >
+              <a style={linkStyle} href={`https://github.com/${social.github}`}>
                 <FaGithub />
               </a>
               {` `}
               <a
-                style={{ boxShadow: `none`, textDecoration: `none` }}
+                style={linkStyle}
                 href={`https://linkedin.com/in/${social.linkedin}`}
               >
                 <FaLinkedin />
               </a>
               {` `}
-              <a
-                style={{ boxShadow: `none`, textDecoration: `none` }}
-                href={`${siteUrl}/rss.xml`}
-              >
+              <a style={linkStyle} href={`${siteUrl}/rss.xml`}>
                 <FaRss />
               </a>
             </p>
