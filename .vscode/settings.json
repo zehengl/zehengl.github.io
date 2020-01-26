@@ -4,6 +4,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Nord",
   "workbench.iconTheme": "vscode-icons"
 }

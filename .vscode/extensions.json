@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "arcticicestudio.nord-visual-studio-code",
     "CoenraadS.bracket-pair-colorizer",
     "DavidAnson.vscode-markdownlint",
     "esbenp.prettier-vscode",
