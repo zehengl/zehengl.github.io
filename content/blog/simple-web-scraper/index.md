@@ -23,7 +23,7 @@ The [corporation](http://opendatacanada.com/corporation.php) page lists many are
 With the help of "Inspect", we can conclude the structure:
 
 1. The base url is "**http://opendatacanada.com/corporation.php**"
-2. Areacodes are list items (li) that placed within `<ul class="list-inline">`. The first "ul" is a list of provinves abbr. The last "ul" is a list of random links.
+2. Areacodes are list items (li) that placed within `<ul class="list-inline">`. The first "ul" is a list of province abbrs. The last "ul" is a list of random links.
 3. For each address page, access the base url with parameter "postal=**xxx**", where **xxx** is an areacode
 4. Addresses are table rows (tr)
 

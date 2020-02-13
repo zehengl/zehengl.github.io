@@ -41,7 +41,7 @@ I have noticed the SVM's `rbf` kernel does not work with default parameters. Hen
 ## Another approach of modelling
 
 Transfer learning is a trending topic nowadays in machine learning domain. It allows us to take advantage of pre-trained models and fine tune them for another domain/task.
-This dataset may not be the best case to apply transfer learning practise because the ingreidents are not written in natural language. I did it anyway for the sake of demonstration.
+This dataset may not be the best case to apply transfer learning practice because the ingredients are not written in natural language. I did it anyway for the sake of demonstration.
 For simplicity, I choose **fast.ai**.
 
 **fast.ai**'s learning rate finding function is pretty handy. And I only use the 1cycle policy to fit the model. Checkout the [language model script](https://github.com/zehengl/ez-cuisine-classifier/blob/master/try_language_models.py).
@@ -88,7 +88,7 @@ To train a bit further, choose learning rate 2e-4.
   For example, `lm_learner.predict("green bell")` would return `"green bell pepper"`.
 
 - Accuracy being about 65% after fitting for classification means that the classifier is able to predict the correct cuisine based on input ingredients 3 out of 5 times.
-  For example, `clf.predict("warp avacado beef")` would return `"southern_us"`.
+  For example, `clf.predict("warp avocado beef")` would return `"southern_us"`.
 
 ## Demo
 

@@ -16,7 +16,7 @@ For example, we have a **hex** number 0A0B0C0D
 
 Note that endianness talks about the order of **bytes**
 
-_0A0B0C0D_ should be seperated into chunks with size of 8 bits
+_0A0B0C0D_ should be separated into chunks with size of 8 bits
 
 that is, 0A \| 0B \| 0C \| 0D
 
@@ -26,7 +26,7 @@ In little endianness, it shall be written as 0D0C0B0A
 
 ## Python
 
-Python provides a handy library (**struct**) to handle such conversion. See [here](https://docs.python.org/3/library/struct.html) for deatil.
+Python provides a handy library (**struct**) to handle such conversion. See [here](https://docs.python.org/3/library/struct.html) for detail.
 
 `gist:zehengl/1c592f9e3f3cc5797f03c02e8e953b28`
 
@@ -45,7 +45,7 @@ Using struct, we can _pack_ these numbers with a formatted string ">hhh" or ">3h
 - **>** means big endian
 - **h** means short int, which is 2 byte or 16 bit
 
-Similarily, we can _pack_ those numbers with a formatted string "<hhh" or "<3h"
+Similarly, we can _pack_ those numbers with a formatted string "<hhh" or "<3h"
 
 - **<** means little endian
 
@@ -58,7 +58,7 @@ In order to extract the numbers, we use _unpack_ with the corresponding formatte
 
 ## Bit Masking
 
-Bit level and/or/xor manipualtions
+Bit level and/or/xor manipulations
 
 and, take certain bits
 
