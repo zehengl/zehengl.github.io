@@ -6,12 +6,12 @@
 </ul>
 <p>For example, we have a <strong>hex</strong> number 0A0B0C0D</p>
 <p>Note that endianness talks about the order of <strong>bytes</strong></p>
-<p><em>0A0B0C0D</em> should be seperated into chunks with size of 8 bits</p>
+<p><em>0A0B0C0D</em> should be separated into chunks with size of 8 bits</p>
 <p>that is, 0A | 0B | 0C | 0D</p>
 <p>In big endianness, it shall be written as 0A0B0C0D</p>
 <p>In little endianness, it shall be written as 0D0C0B0A</p>
 <h2>Python</h2>
-<p>Python provides a handy library (<strong>struct</strong>) to handle such conversion. See <a href="https://docs.python.org/3/library/struct.html">here</a> for deatil.</p>
+<p>Python provides a handy library (<strong>struct</strong>) to handle such conversion. See <a href="https://docs.python.org/3/library/struct.html">here</a> for detail.</p>
 <p><div id="gist41274836" class="gist">
     <div class="gist-file">
       <div class="gist-data">
@@ -120,7 +120,7 @@
 <li><strong>></strong> means big endian</li>
 <li><strong>h</strong> means short int, which is 2 byte or 16 bit</li>
 </ul>
-<p>Similarily, we can <em>pack</em> those numbers with a formatted string “&#x3C;hhh” or “&#x3C;3h”</p>
+<p>Similarly, we can <em>pack</em> those numbers with a formatted string “&#x3C;hhh” or “&#x3C;3h”</p>
 <ul>
 <li><strong>&#x3C;</strong> means little endian</li>
 </ul>
@@ -131,7 +131,7 @@
 </ul>
 <p>In order to extract the numbers, we use <em>unpack</em> with the corresponding formatted string</p>
 <h2>Bit Masking</h2>
-<p>Bit level and/or/xor manipualtions</p>
+<p>Bit level and/or/xor manipulations</p>
 <p>and, take certain bits</p>
 <p>or, set certain bits</p>
 <p>xor, toggle certain bits</p>
