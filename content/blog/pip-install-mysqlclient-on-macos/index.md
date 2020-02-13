@@ -7,7 +7,7 @@ tags: ["pip"]
 
 ## Background
 
-Some projects require MYSQL-python or mysqlclient to access a mysql database. And let's say that mysql db is not local or runnning on a docker container or a virtual machine. And you don't definitely need to have a running mysql instance on your local/host environment.
+Some projects require MYSQL-python or mysqlclient to access a mysql database. And let's say that mysql db is not local or running on a docker container or a virtual machine. And you don't definitely need to have a running mysql instance on your local/host environment.
 
 When you pip install the dependencies, it's likely that you will encounter these two errors:
 
