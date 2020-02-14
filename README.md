@@ -4,3 +4,8 @@
 [![time tracker](https://wakatime.com/badge/github/zehengl/zehengl.github.io.svg)](https://wakatime.com/badge/github/zehengl/zehengl.github.io)
 
 My GitHub page
+
+## Get Started
+
+    npm install
+    npm start
