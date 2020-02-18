@@ -36,7 +36,9 @@ class UsesPage extends React.Component {
         <IconContext.Provider
           value={{ color: "green", className: "global-class-name" }}
         >
-          <h2>Laptop</h2>
+          <h2>Gears</h2>
+
+          <h3>Laptop</h3>
           <ul>
             <Used name="神舟承运 B740G" />
             <Used name="Compaq Presario CQ35" />
@@ -45,7 +47,8 @@ class UsesPage extends React.Component {
             <Using name="Lenovo Ideapad 120s (11)" />
             <Using name="Dell Inspiron 5480" />
           </ul>
-          <h2>Phone</h2>
+
+          <h3>Phone</h3>
           <ul>
             <Used name="Apple iPhone 3GS" />
             <Used name="Apple iPhone 5" />
@@ -55,7 +58,12 @@ class UsesPage extends React.Component {
           </ul>
 
           <h2>Software</h2>
-          <p>TBD...</p>
+
+          <h3>Color Palettes</h3>
+          <ul>
+            <Using name="Dracula (terminals)" />
+            <Using name="Nord (code editors)" />
+          </ul>
         </IconContext.Provider>
       </Layout>
     )
