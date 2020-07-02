@@ -2,6 +2,7 @@ import { rhythm, scale } from "../utils/typography"
 
 import { Link } from "gatsby"
 import React from "react"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 class Layout extends React.Component {
   render() {
@@ -58,8 +59,32 @@ class Layout extends React.Component {
           marginRight: `auto`,
           maxWidth: rhythm(32),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          backgroundColor: "var(--bg)",
+          color: "var(--textNormal)",
+          transition: "color 0.2s ease-out, background 0.2s ease-out",
         }}
       >
+        <div
+          style={{
+            position: "fixed",
+            right: "8px",
+            top: "8px",
+          }}
+        >
+          <ThemeToggler>
+            {({ theme, toggleTheme }) => (
+              <label>
+                <input
+                  aria-label="Dark mode"
+                  type="checkbox"
+                  onChange={(e) => toggleTheme(e.target.checked ? "dark" : "light")}
+                  checked={theme === "dark"}
+                />{" "}
+                Dark mode
+              </label>
+            )}
+          </ThemeToggler>
+        </div>
         <header>{header}</header>
         <main>{children}</main>
         <footer>
