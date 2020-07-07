@@ -49,13 +49,11 @@ void function() {
 <p>You would need the mysql connector</p>
 <p><code class="language-text">brew install mysql-connector-c</code></p>
 </li>
-<li>
-<p>Modify mysql<em>config in /usr/local/bin/mysql</em>config</p>
-<h1>Create options</h1>
-<p>libs=“-L<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mi>k</mi><mi>g</mi><mi>l</mi><mi>i</mi><mi>b</mi><mi>d</mi><mi>i</mi><mi>r</mi><mi mathvariant="normal">&quot;</mi><mi>l</mi><mi>i</mi><mi>b</mi><mi>s</mi><mo>=</mo><mi mathvariant="normal">&quot;</mi></mrow><annotation encoding="application/x-tex">pkglibdir&quot;
-libs=&quot;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">i</span><span class="mord mathdefault">b</span><span class="mord mathdefault">d</span><span class="mord mathdefault">i</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord">&quot;</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">i</span><span class="mord mathdefault">b</span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">&quot;</span></span></span></span>libs -l ”</p>
-</li>
+<li>Modify mysql<em>config in /usr/local/bin/mysql</em>config</li>
 </ul>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># Create options
+libs=&quot;-L$pkglibdir&quot;
+libs=&quot;$libs -l &quot;</code></pre></div>
 <p>should become:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># Create options
 libs=&quot;-L$pkglibdir&quot;
