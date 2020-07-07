@@ -28,16 +28,19 @@ see [mysqlclient-python issue #169](https://github.com/PyMySQL/mysqlclient-pytho
 
 - Modify mysql_config in /usr/local/bin/mysql_config
 
-
-    # Create options
-    libs="-L$pkglibdir"
-    libs="$libs -l "
+```
+# Create options
+libs="-L$pkglibdir"
+libs="$libs -l "
+```
 
 should become:
 
-    # Create options
-    libs="-L$pkglibdir"
-    libs="$libs -lmysqlclient -lssl -lcrypto"
+```
+# Create options
+libs="-L$pkglibdir"
+libs="$libs -lmysqlclient -lssl -lcrypto"
+```
 
 - Set environment variables
 
