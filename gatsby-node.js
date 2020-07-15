@@ -2,7 +2,7 @@ const path = require("path")
 const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = async ({ actions, graphql, reporter }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPostTemplate = path.resolve("src/templates/blog-post.js")
@@ -36,8 +36,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // handle errors
   if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`)
-    return
+    throw result.errors
   }
 
   const posts = result.data.postsRemark.edges
@@ -62,7 +61,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const tags = result.data.tagsGroup.group
 
   // Make tag pages
-  tags.forEach(tag => {
+  tags.forEach((tag) => {
     createPage({
       path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
       component: tagTemplate,
