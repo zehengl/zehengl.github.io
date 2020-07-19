@@ -48,6 +48,18 @@ class UsesPage extends React.Component {
             <Using name="Dell Inspiron 5480" />
           </ul>
 
+          <h3>Mechanical Keyboard</h3>
+          <ul>
+            <Using name="Keychron K1" />
+            <Using name="Keychron K2" />
+          </ul>
+          <h3>Monitor</h3>
+          <ul>
+            <Used name="Apple 27-inch LED Cinema Display" />
+            <Used name="Apple 27-inch Thunderbolt Display" />
+            <Using name="BenQ PD2500Q 25-inch QHD Designer Monitor" />
+          </ul>
+
           <h3>Phone</h3>
           <ul>
             <Used name="Apple iPhone 3GS" />
