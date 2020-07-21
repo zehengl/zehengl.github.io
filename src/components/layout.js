@@ -1,3 +1,4 @@
+import { FaToggleOff, FaToggleOn } from "react-icons/fa"
 import { rhythm, scale } from "../utils/typography"
 
 import { Link } from "gatsby"
@@ -64,11 +65,11 @@ class Layout extends React.Component {
           transition: "color 0.2s ease-out, background 0.2s ease-out",
         }}
       >
+        <header>{header}</header>
         <div
           style={{
-            position: "fixed",
-            right: "8px",
-            top: "8px",
+            float: "right",
+            paddingRight: ` ${rhythm(3 / 4)}`,
           }}
         >
           <ThemeToggler>
@@ -79,13 +80,17 @@ class Layout extends React.Component {
                   type="checkbox"
                   onChange={(e) => toggleTheme(e.target.checked ? "dark" : "light")}
                   checked={theme === "dark"}
+                  style={{ display: "none" }}
                 />{" "}
-                Dark mode
+                {theme === "dark" ? (
+                  <FaToggleOn size={rhythm(1.25)} />
+                ) : (
+                  <FaToggleOff size={rhythm(1.25)} />
+                )}
               </label>
             )}
           </ThemeToggler>
         </div>
-        <header>{header}</header>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
