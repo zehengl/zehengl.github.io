@@ -50,8 +50,8 @@ class UsesPage extends React.Component {
 
           <h3>Mechanical Keyboard</h3>
           <ul>
-            <Using name="Keychron K1" />
-            <Using name="Keychron K2" />
+            <Using name="Keychron K1 Version 1" />
+            <Using name="Keychron K2 Version 2" />
           </ul>
           <h3>Monitor</h3>
           <ul>
