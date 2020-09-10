@@ -44,7 +44,7 @@ class UsesPage extends React.Component {
             <Used name="Compaq Presario CQ35" />
             <Used name="Apple MacBook Pro (13-inch, Early 2011)" />
             <Used name="Apple MacBook Pro (Retina, 15-inch, Mid 2014)" />
-            <Using name="Lenovo Ideapad 120s (11)" />
+            <Used name="Lenovo Ideapad 120s (11)" />
             <Using name="Dell Inspiron 5480" />
           </ul>
 
