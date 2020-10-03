@@ -66,7 +66,8 @@ class UsesPage extends React.Component {
             <Used name="Apple iPhone 5" />
             <Used name="Apple iPhone 6" />
             <Used name="Apple iPhone 7" />
-            <Using name="Samsung Note 9" />
+            <Used name="Samsung Galaxy Note9" />
+            <Using name="Samsung Galaxy S10" />
           </ul>
 
           <h2>Software</h2>
