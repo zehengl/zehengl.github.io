@@ -2,7 +2,7 @@
   "name": "zehengl",
   "private": true,
   "description": "zehengl.github.io",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Zeheng Li <imzehengl@gmail.com>",
   "dependencies": {
     "gatsby": "^2.30.1",
