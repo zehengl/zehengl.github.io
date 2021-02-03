@@ -4,6 +4,7 @@ import { rhythm, scale } from "../utils/typography"
 import { Link } from "gatsby"
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import { version } from "../../package.json"
 
 class Layout extends React.Component {
   render() {
@@ -93,9 +94,10 @@ class Layout extends React.Component {
         </div>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, 🔧 with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          {` `}, 🧮 v{version}
         </footer>
       </div>
     )
