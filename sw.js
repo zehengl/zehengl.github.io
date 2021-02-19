@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-b3998d1badfc9a162abf.js"
+    "url": "webpack-runtime-fa2c9c2c8f9d19413c56.js"
   },
   {
     "url": "styles.34105eaf57877bf75052.css"
@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "framework-fc1db31f678bd7aa66d8.js"
   },
   {
-    "url": "app-7b3c6a80ff3531c98d82.js"
+    "url": "app-53d48732f1c0fb11d25f.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "11b33df46b3b4d2afa36d78aded61c06"
+    "revision": "eb057a9c063c81370c9903826ae2677a"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-fd4fb51a6fac1c18bdde.js"
@@ -60,7 +60,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|avif|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
@@ -145,7 +145,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-7b3c6a80ff3531c98d82.js`))) {
+  if (!resources || !(await caches.match(`/app-53d48732f1c0fb11d25f.js`))) {
     return await fetch(event.request)
   }
 
