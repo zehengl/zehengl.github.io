@@ -4,6 +4,7 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "workbench.colorTheme": "Nord",
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "material-product-icons"
 }
