@@ -58,8 +58,8 @@ The **_n_** in ngram represents the sliding window of characters. When n = 1, 2,
 | token |  ngram  |                      output                       |
 | :---: | :-----: | :-----------------------------------------------: |
 | hello | unigram |             ['h', 'e', 'l', 'l', 'o']             |
-| hello | bigram  |       ['$h', 'he', 'el', 'll', 'lo', 'o$']        |
-| hello | trigram | ['$$h', '$he', 'hel', 'ell', 'llo', 'lo$', 'o$$'] |
+| hello | bigram  |       ['^h', 'he', 'el', 'll', 'lo', 'o^']        |
+| hello | trigram | ['^^h', '^he', 'hel', 'ell', 'llo', 'lo^', 'o^^'] |
 
 ## Implementation
 
