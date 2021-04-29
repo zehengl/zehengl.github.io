@@ -25,7 +25,7 @@
     "gatsby-remark-reading-time": "^1.1.0",
     "gatsby-remark-responsive-iframe": "^3.2.0",
     "gatsby-remark-smartypants": "^3.2.0",
-    "gatsby-source-filesystem": "^3.3.0",
+    "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.4.0",
     "katex": "^0.13.3",
