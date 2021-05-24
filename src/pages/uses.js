@@ -38,7 +38,7 @@ class UsesPage extends React.Component {
         >
           <h2>Gears</h2>
 
-          <h3>Laptop</h3>
+          <h3>Computer</h3>
           <ul>
             <Used name="神舟承运 B740G" />
             <Used name="Compaq Presario CQ35" />
@@ -46,6 +46,7 @@ class UsesPage extends React.Component {
             <Used name="Apple MacBook Pro (Retina, 15-inch, Mid 2014)" />
             <Used name="Lenovo Ideapad 120s (11)" />
             <Using name="Dell Inspiron 5480" />
+            <Using name="Apple Mac mini (M1, 2020)" />
           </ul>
 
           <h3>Mechanical Keyboard</h3>
@@ -53,6 +54,7 @@ class UsesPage extends React.Component {
             <Using name="Keychron K1 Version 1" />
             <Using name="Keychron K2 Version 2" />
           </ul>
+
           <h3>Monitor</h3>
           <ul>
             <Used name="Apple 27-inch LED Cinema Display" />
@@ -66,8 +68,8 @@ class UsesPage extends React.Component {
             <Used name="Apple iPhone 5" />
             <Used name="Apple iPhone 6" />
             <Used name="Apple iPhone 7" />
-            <Used name="Samsung Galaxy Note9" />
-            <Using name="Samsung Galaxy S10" />
+            <Using name="Samsung Galaxy Note9" />
+            <Used name="Samsung Galaxy S10" />
           </ul>
 
           <h2>Software</h2>
