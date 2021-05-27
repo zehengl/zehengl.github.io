@@ -91,7 +91,7 @@ label-studio start ez_address_annotator
 
 This is how it looks when labeling. `label-studio` provides a friendly interface.
 
-![labeling-example](https://github.com/zehengl/ez-address-parser/raw/master/labeling-example.gif)
+![labeling-example](https://github.com/zehengl/ez-address-parser/raw/main/labeling-example.gif)
 
 ## Pretrained Model
 
