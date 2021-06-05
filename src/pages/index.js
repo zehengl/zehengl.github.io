@@ -16,7 +16,7 @@ class Index extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
         <Bio />
-        <Link to="/tags">All tags</Link>
+        <Link to="/tags">tags</Link> <Link to="/uses">uses</Link>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

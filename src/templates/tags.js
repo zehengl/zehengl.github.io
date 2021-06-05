@@ -27,7 +27,7 @@ const Tags = ({ pageContext, data }) => {
           )
         })}
       </ul>
-      <Link to="/tags">All tags</Link>
+      <Link to="/tags">Return to all tags</Link>
     </Layout>
   )
 }
@@ -61,7 +61,7 @@ Tags.propTypes = {
 export default Tags
 
 export const pageQuery = graphql`
-  query($tag: String) {
+  query ($tag: String) {
     site {
       siteMetadata {
         title
