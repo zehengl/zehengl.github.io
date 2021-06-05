@@ -55,6 +55,7 @@ function UsesPage(props) {
         <ul>
           <Using name="Dell Inspiron 5480" />
           <Using name="Dell 24 Monitor - SE2419HR" />
+          <Using name="Dell Ultrasharp 2007fp 20-inch" />
           <Using name="Keychron K1 Version 1" />
           <Using name="Logitech G700s Rechargeable Gaming Mouse" />
           <Using name="Logitech StreamCam Plus HD Webcam" />
