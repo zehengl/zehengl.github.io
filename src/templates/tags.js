@@ -1,7 +1,6 @@
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import PropTypes from "prop-types"
 import React from "react"
 
 // Components
@@ -30,32 +29,6 @@ const Tags = ({ pageContext, data }) => {
       <Link to="/tags">Return to all tags</Link>
     </Layout>
   )
-}
-
-Tags.propTypes = {
-  pageContext: PropTypes.shape({
-    tag: PropTypes.string.isRequired,
-  }),
-  data: PropTypes.shape({
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({ title: PropTypes.string.isRequired }),
-    }),
-    allMarkdownRemark: PropTypes.shape({
-      totalCount: PropTypes.number.isRequired,
-      edges: PropTypes.arrayOf(
-        PropTypes.shape({
-          node: PropTypes.shape({
-            frontmatter: PropTypes.shape({
-              title: PropTypes.string.isRequired,
-            }),
-            fields: PropTypes.shape({
-              slug: PropTypes.string.isRequired,
-            }),
-          }),
-        }).isRequired
-      ),
-    }),
-  }),
 }
 
 export default Tags
