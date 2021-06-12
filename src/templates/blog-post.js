@@ -1,10 +1,7 @@
 import "katex/dist/katex.min.css"
 
-import { Link, graphql } from "gatsby"
-import { rhythm, scale } from "../utils/typography"
+import { graphql } from "gatsby"
 
-import Bio from "../components/bio"
-import Disqus from "gatsby-plugin-disqus"
 import Layout from "../components/layout"
 import React from "react"
 import SEO from "../components/seo"
@@ -12,7 +9,6 @@ import SEO from "../components/seo"
 function BlogPostTemplate(props) {
   const post = props.data.markdownRemark
   const siteTitle = props.data.site.siteMetadata.title
-  const siteUrl = props.data.site.siteMetadata.siteUrl
   const { previous, next } = props.pageContext
   const location = props.location
 
@@ -22,53 +18,32 @@ function BlogPostTemplate(props) {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <h1>{post.frontmatter.title}</h1>
-      <p
-        style={{
-          ...scale(-1 / 5),
-          display: `block`,
-          marginBottom: rhythm(1),
-          marginTop: rhythm(-1),
-        }}
-      >
-        {post.frontmatter.date} ⚉ {post.fields.readingTime.text}
-      </p>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <hr
-        style={{
-          marginBottom: rhythm(1),
-        }}
-      />
-      <Bio />
-      <Disqus
-        identifier={post.id}
-        title={post.title}
-        url={`${siteUrl}${location.pathname}`}
-      />
-      <ul
-        style={{
-          display: `flex`,
-          flexWrap: `wrap`,
-          justifyContent: `space-between`,
-          listStyle: `none`,
-          padding: 0,
-        }}
-      >
-        <li>
-          {previous && (
-            <Link to={previous.fields.slug} rel="prev">
-              ← {previous.frontmatter.title}
-            </Link>
-          )}
-        </li>
-        <li>
-          {next && (
-            <Link to={next.fields.slug} rel="next">
-              {next.frontmatter.title} →
-            </Link>
-          )}
-        </li>
-      </ul>
+      <div className="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md mt-4 divide-y divide-gray-400">
+        <div>
+          <h1 className="font-bold text-gray-700 mb-2">{post.frontmatter.title}</h1>
+          <p className="text-gray-500 mb-4"> {post.frontmatter.date}</p>
+          <div className="mb-8" dangerouslySetInnerHTML={{ __html: post.html }} />
+        </div>
+
+        <div>
+          <ul className="flex flex-nowrap items-center justify-between text-blue-500 mt-6">
+            <li>
+              {previous && (
+                <a href={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </a>
+              )}
+            </li>
+            <li>
+              {next && (
+                <a href={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </a>
+              )}
+            </li>
+          </ul>
+        </div>
+      </div>
     </Layout>
   )
 }
@@ -81,17 +56,11 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
-        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      fields {
-        readingTime {
-          text
-        }
-      }
       html
       frontmatter {
         title

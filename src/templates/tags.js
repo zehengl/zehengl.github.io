@@ -1,4 +1,4 @@
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import React from "react"
@@ -8,25 +8,33 @@ import React from "react"
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+  const tagHeader = (
+    <div>
+      <span className="text-red-500">{totalCount}</span> post
+      {totalCount === 1 ? "" : "s"} tagged with "
+      <span className="text-green-500">{tag}</span>"
+    </div>
+  )
 
   return (
     <Layout location={`/tags/${tag}`} title={data.site.siteMetadata.title}>
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
-          const { slug } = node.fields
-          const { title } = node.frontmatter
-          return (
-            <li key={slug}>
-              <Link to={slug}>{title}</Link>
-            </li>
-          )
-        })}
-      </ul>
-      <Link to="/tags">Return to all tags</Link>
+      <div className="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md mt-4">
+        <h1 className="font-bold text-gray-700">{tagHeader}</h1>
+        <ul>
+          {edges.map(({ node }) => {
+            const { slug } = node.fields
+            const { title } = node.frontmatter
+            return (
+              <li key={slug} className="mt-2">
+                <a href={slug}>{title} →</a>
+              </li>
+            )
+          })}
+        </ul>
+        <a className="text-blue-500" href="/tags">
+          Return to all tags
+        </a>
+      </div>
     </Layout>
   )
 }

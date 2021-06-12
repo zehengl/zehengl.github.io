@@ -11,6 +11,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -56,11 +57,9 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-          `gatsby-remark-reading-time`,
         ],
       },
     },
-    `gatsby-plugin-dark-mode`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -138,12 +137,6 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `zehengl`,
       },
     },
     `gatsby-plugin-sitemap`,

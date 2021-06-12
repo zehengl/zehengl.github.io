@@ -1,9 +1,9 @@
 import { Link, graphql } from "gatsby"
 
-import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import React from "react"
 import kebabCase from "lodash/kebabCase"
+import SEO from "../components/seo"
 
 // Utilities
 
@@ -18,9 +18,9 @@ const TagsPage = ({
   },
 }) => (
   <Layout location={"tags"} title={title}>
-    <Helmet title={title} />
-    <div>
-      <h1>Tags</h1>
+    <SEO title="Tags" />
+    <div className="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md mt-4">
+      <h1 className="font-bold text-gray-700">Tags</h1>
       <ul>
         {group.map((tag) => (
           <li key={tag.fieldValue}>

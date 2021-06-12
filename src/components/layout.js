@@ -1,102 +1,65 @@
-import { FaToggleOff, FaToggleOn } from "react-icons/fa"
-import { rhythm, scale } from "../utils/typography"
-
-import { Link } from "gatsby"
 import React from "react"
-import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { version } from "../../package.json"
 
 function Layout(props) {
-  const { location, title, children } = props
-  const rootPath = `${__PATH_PREFIX__}/`
-  let header
+  const { title, children } = props
 
-  if (location.pathname === rootPath) {
-    header = (
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          {title}
-        </Link>
-      </h1>
-    )
-  } else {
-    header = (
-      <h3
-        style={{
-          fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          {title}
-        </Link>
-      </h3>
-    )
-  }
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(32),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        backgroundColor: "var(--bg)",
-        color: "var(--textNormal)",
-        transition: "color 0.2s ease-out, background 0.2s ease-out",
-      }}
-    >
-      <header>{header}</header>
-      <div
-        style={{
-          float: "right",
-          paddingRight: ` ${rhythm(3 / 4)}`,
-        }}
-      >
-        <ThemeToggler>
-          {({ theme, toggleTheme }) => (
-            <label>
-              <input
-                aria-label="Dark mode"
-                type="checkbox"
-                onChange={(e) => toggleTheme(e.target.checked ? "dark" : "light")}
-                checked={theme === "dark"}
-                style={{ display: "none" }}
-              />{" "}
-              {theme === "dark" ? (
-                <FaToggleOn size={rhythm(1.25)} />
-              ) : (
-                <FaToggleOff size={rhythm(1.25)} />
-              )}
-            </label>
-          )}
-        </ThemeToggler>
-      </div>
+    <div className="overflow-x-hidden bg-gray-100">
+      <nav className="px-6 py-4 bg-white shadow">
+        <div className="container flex flex-col mx-auto md:flex-row md:items-center md:justify-between">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-xl font-bold text-gray-800 md:text-2xl">{title}</p>
+            </div>
+            <div>
+              <button
+                type="button"
+                className="block text-gray-800 hover:text-gray-600 focus:text-gray-600 focus:outline-none md:hidden"
+              >
+                <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current">
+                  <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className="flex-col hidden md:flex md:flex-row md:-mx-4">
+            <a
+              href="/"
+              className="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0"
+            >
+              Home
+            </a>
+            <a
+              href="/tags"
+              className="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0"
+            >
+              Tags
+            </a>
+            <a
+              href="/uses"
+              className="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0"
+            >
+              Uses
+            </a>
+          </div>
+        </div>
+      </nav>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, 🔧 with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-        {` `}, 🧮 v{version}
+      <footer className="mt-10 px-6 py-4 text-gray-100 bg-gray-800">
+        <div className="container flex flex-col items-center justify-between mx-auto md:flex-row">
+          <p className="text-2xl font-bold">{title}</p>
+          <p className="mt-2 md:mt-0">
+            © {new Date().getFullYear()}, 🔧 with
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          </p>
+          <p className="mt-2 md:mt-0">
+            <span role="img" aria-label="version">
+              🧮 v{version}
+            </span>
+          </p>
+        </div>
       </footer>
     </div>
   )
