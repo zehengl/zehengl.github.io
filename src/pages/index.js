@@ -29,7 +29,7 @@ function Index(props) {
                   }}
                 />
               </div>
-              <div className="mt-1">
+              <div className="mt-1 flex flex-wrap">
                 {node.frontmatter.tags.map((tag) => (
                   <a
                     href={`/tags/${kebabCase(tag)}/`}
