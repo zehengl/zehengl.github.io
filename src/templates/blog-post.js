@@ -21,7 +21,9 @@ function BlogPostTemplate(props) {
       <div className="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md mt-4 divide-y divide-gray-400">
         <div>
           <h1 className="font-bold text-gray-700 mb-2">{post.frontmatter.title}</h1>
-          <p className="text-gray-500 mb-4"> {post.frontmatter.date}</p>
+          <p className="text-gray-500 mb-4">
+            {post.frontmatter.date} &#183; {post.fields.readingTime.text}
+          </p>
           <div className="mb-8" dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
 
@@ -66,6 +68,11 @@ export const pageQuery = graphql`
         title
         date(formatString: "YYYY-MM-DD")
         description
+      }
+      fields {
+        readingTime {
+          text
+        }
       }
     }
   }

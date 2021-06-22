@@ -41,9 +41,12 @@ function Index(props) {
               </div>
 
               <div className="flex items-center justify-between mt-4">
-                <a href={node.fields.slug} className="text-blue-500">
-                  Read more
-                </a>
+                <span>
+                  <a href={node.fields.slug} className="text-blue-500">
+                    Read more
+                  </a>
+                  {` `} &#183; ({node.fields.readingTime.text})
+                </span>
                 <span className="font-light text-gray-600">
                   {node.frontmatter.date}
                 </span>
@@ -71,6 +74,9 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
+            readingTime {
+              text
+            }
           }
           frontmatter {
             date(formatString: "YYYY-MM-DD")
