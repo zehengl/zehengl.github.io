@@ -43,7 +43,7 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.2",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.3.1"
   },
   "homepage": "https://zehengl.github.io/",
