@@ -53,7 +53,7 @@ function UsesPage(props) {
             <Using name="BenQ PD2500Q 25-inch QHD Designer Monitor" />
             <Using name="Keychron K2 Version 2" />
             <Using name="Logitech MX Anywhere 3 Compact Performance Mouse" />
-            <Using name="Logitech C920S Pro 1080p HD Webcam" />
+            <Using name="Logitech StreamCam Plus HD Webcam" />
           </ul>
 
           <h3 className="px-2 mt-6">Windows</h3>
@@ -63,7 +63,7 @@ function UsesPage(props) {
             <Using name="Dell Ultrasharp 2007fp 20-inch" />
             <Using name="Keychron K1 Version 1" />
             <Using name="Logitech G700s Rechargeable Gaming Mouse" />
-            <Using name="Logitech StreamCam Plus HD Webcam" />
+            <Using name="Logitech C920S Pro 1080p HD Webcam" />
           </ul>
 
           <div className="text-gray-500">
