@@ -27,7 +27,7 @@
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-transformer-remark": "^4.10.0",
     "gatsby-transformer-sharp": "^3.13.0",
-    "katex": "^0.13.16",
+    "katex": "^0.13.17",
     "postcss": "^8.3.6",
     "prismjs": "^1.24.1",
     "react": "^17.0.2",
