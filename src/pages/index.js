@@ -33,7 +33,7 @@ function Index(props) {
                 {node.frontmatter.tags.map((tag) => (
                   <a
                     href={`/tags/${kebabCase(tag)}/`}
-                    className="text-sm mr-1 px-1 py-1 font-bold text-gray-100 bg-gray-600 rounded hover:bg-gray-500"
+                    className="text-sm mb-1 mr-1 px-1 py-1 font-bold text-gray-100 bg-gray-600 rounded hover:bg-gray-500"
                   >
                     {tag}
                   </a>
