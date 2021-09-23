@@ -13,6 +13,21 @@
     @apply text-xl mt-4 mb-4;
   }
   pre {
-    @apply bg-gray-300 mt-2 mb-2;
+    @apply mt-2 mb-2 p-5 overflow-auto;
+    background: #f5f2f0;
+  }
+  code {
+    @apply bg-gray-100 text-sm font-bold p-1 rounded-sm;
+  }
+  code:before,
+  code:after {
+    @apply font-normal text-xs;
+  }
+  pre code {
+    @apply bg-transparent font-normal p-0;
+  }
+  pre code::before,
+  pre code:after {
+    content: none;
   }
 }
