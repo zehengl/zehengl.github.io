@@ -14,7 +14,9 @@ function Layout(props) {
         <div className="container flex flex-col mx-auto md:flex-row md:items-center md:justify-between">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-xl font-bold text-gray-800 md:text-2xl">{title}</p>
+              <p className="text-xl font-bold text-gray-800 md:text-2xl">
+                <a href="/">{title}</a>
+              </p>
             </div>
             <button type="button" className="block md:hidden" onClick={handleClick}>
               <svg
@@ -39,12 +41,6 @@ function Layout(props) {
             </button>
           </div>
           <div className={`md:flex ${isOpen ? "block" : "hidden"} `}>
-            <a
-              href="/"
-              className="flex my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0"
-            >
-              Home
-            </a>
             <a
               href="/tags"
               className="flex my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0"
