@@ -38,7 +38,7 @@ function UsesPage(props) {
 
           <h3 className="px-2 mt-6">Phone</h3>
           <ul className="mt-4">
-            <Using name="Samsung Galaxy Note9" />
+            <Using name="Apple iPhone 13 Pro" />
           </ul>
 
           <h3 className="px-2 mt-6">Color Palettes</h3>
@@ -90,6 +90,7 @@ function UsesPage(props) {
               <Used name="Apple iPhone 5" />
               <Used name="Apple iPhone 6" />
               <Used name="Apple iPhone 7" />
+              <Used name="Samsung Galaxy Note9" />
               <Used name="Samsung Galaxy S10" />
             </ul>
           </div>
