@@ -9,7 +9,7 @@ function Layout(props) {
   }
 
   return (
-    <div className="overflow-x-hidden bg-gray-100">
+    <div className="min-h-screen flex flex-col overflow-x-hidden bg-gray-100">
       <nav className="px-6 py-4 bg-white shadow">
         <div className="container flex flex-col mx-auto md:flex-row md:items-center md:justify-between">
           <div className="flex items-center justify-between">
@@ -56,7 +56,7 @@ function Layout(props) {
           </div>
         </div>
       </nav>
-      <main>{children}</main>
+      <main className="flex-grow">{children}</main>
       <footer className="mt-10 px-6 py-4 text-gray-100 bg-gray-800">
         <div className="container flex flex-col items-center justify-between mx-auto md:flex-row">
           <p className="text-2xl font-bold">{title}</p>
