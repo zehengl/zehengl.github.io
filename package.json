@@ -5,7 +5,7 @@
   "version": "0.7.5",
   "author": "Zeheng Li <imzehengl@gmail.com>",
   "dependencies": {
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.1",
     "gatsby": "^4.4.0",
     "gatsby-plugin-feed": "^4.4.0",
     "gatsby-plugin-google-analytics": "^4.4.0",
@@ -36,7 +36,7 @@
     "react-icons": "^4.3.1",
     "react-typography": "^0.16.20",
     "reading-time": "^1.5.0",
-    "tailwindcss": "^3.0.7",
+    "tailwindcss": "^3.0.8",
     "typeface-merriweather": "1.1.13",
     "typeface-montserrat": "1.1.13",
     "typography": "^0.16.21",
