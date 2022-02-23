@@ -6,7 +6,7 @@
   "author": "Zeheng Li <imzehengl@gmail.com>",
   "dependencies": {
     "autoprefixer": "^10.4.2",
-    "gatsby": "^4.7.2",
+    "gatsby": "^4.8.0",
     "gatsby-plugin-feed": "^4.8.0",
     "gatsby-plugin-google-analytics": "^4.8.0",
     "gatsby-plugin-image": "^2.8.0",
