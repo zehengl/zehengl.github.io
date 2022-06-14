@@ -36,7 +36,7 @@
     "react-icons": "^4.4.0",
     "react-typography": "^0.16.20",
     "reading-time": "^1.5.0",
-    "tailwindcss": "^3.0.24",
+    "tailwindcss": "^3.1.3",
     "typeface-merriweather": "1.1.13",
     "typeface-montserrat": "1.1.13",
     "typography": "^0.16.21",
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.7.0"
   },
   "homepage": "https://zehengl.github.io/",
   "keywords": [
