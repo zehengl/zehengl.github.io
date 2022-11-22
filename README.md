@@ -6,7 +6,7 @@
 
 My GitHub page
 
-## Get Started
+## Getting Started
 
-    npm install
+    npm install --legacy-peer-deps
     npm start
