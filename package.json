@@ -7,7 +7,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.13",
     "gatsby": "^5.1.0",
-    "gatsby-plugin-feed": "^5.1.0",
+    "gatsby-plugin-feed": "^5.2.0",
     "gatsby-plugin-google-analytics": "^5.2.0",
     "gatsby-plugin-image": "^3.2.0",
     "gatsby-plugin-manifest": "^5.1.0",
