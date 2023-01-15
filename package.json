@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "prettier": "^2.8.2"
+    "prettier": "^2.8.3"
   },
   "homepage": "https://zehengl.github.io/",
   "keywords": [
