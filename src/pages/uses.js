@@ -61,7 +61,7 @@ function UsesPage(props) {
             <Using name="Dell Inspiron 5480" />
             <Using name="Dell 24 Monitor - SE2419HR" />
             <Using name="Keychron K1 Version 1" />
-            <Using name="Logitech G700s Rechargeable Gaming Mouse" />
+            <Using name="Logitech Logitech MX Master 3S" />
             <Using name="Logitech C920S Pro 1080p HD Webcam" />
           </ul>
 
@@ -82,6 +82,11 @@ function UsesPage(props) {
               <Used name="Apple 27-inch LED Cinema Display" />
               <Used name="Apple 27-inch Thunderbolt Display" />
               <Used name="Dell Ultrasharp 2007fp 20-inch" />
+            </ul>
+
+            <h3 className="px-2 mt-6">Accessory</h3>
+            <ul className="mt-4">
+              <Used name="Logitech G700s Rechargeable Gaming Mouse" />
             </ul>
 
             <h3 className="px-2 mt-6">Phone</h3>
