@@ -2,8 +2,8 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import React from "react"
-import kebabCase from "lodash/kebabCase"
 import SEO from "../components/seo"
+import kebabCase from "lodash/kebabCase"
 
 // Utilities
 
@@ -44,7 +44,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___tags) {
+      group(field: {frontmatter: {tags: SELECT}}) {
         fieldValue
         totalCount
       }

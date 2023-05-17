@@ -1,8 +1,7 @@
-import { graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import React from "react"
 import SEO from "../components/seo"
+import { graphql } from "gatsby"
 import kebabCase from "lodash/kebabCase"
 
 function Index(props) {
@@ -68,7 +67,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
       edges {
         node {
           excerpt
@@ -87,5 +86,5 @@ export const pageQuery = graphql`
         }
       }
     }
-  }
+}
 `
