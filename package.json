@@ -2,7 +2,7 @@
   "name": "zehengl",
   "private": true,
   "description": "zehengl.github.io",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "author": "Zeheng Li <imzehengl@gmail.com>",
   "dependencies": {
     "autoprefixer": "^10.4.14",
