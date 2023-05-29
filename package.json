@@ -28,7 +28,7 @@
     "gatsby-transformer-remark": "^6.10.0",
     "gatsby-transformer-sharp": "^5.10.0",
     "katex": "^0.16.7",
-    "postcss": "^8.4.23",
+    "postcss": "^8.4.24",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
