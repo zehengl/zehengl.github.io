@@ -52,16 +52,17 @@ function UsesPage(props) {
             <Using name="Apple Mac mini (M1, 2020)" />
             <Using name="BenQ PD2500Q 25-inch QHD Designer Monitor" />
             <Using name="Keychron K2 Version 2" />
-            <Using name="Logitech MX Anywhere 3 Compact Performance Mouse" />
+            <Using name="Logitech Logitech MX Master 3S Performance Wireless Mouse" />
             <Using name="Logitech StreamCam Plus HD Webcam" />
           </ul>
 
           <h3 className="px-2 mt-6">Windows</h3>
           <ul className="mt-4">
+            <Using name="ThinkPad T14 Gen 2" />
             <Using name="Dell Inspiron 5480" />
             <Using name="Dell 24 Monitor - SE2419HR" />
             <Using name="Keychron K1 Version 1" />
-            <Using name="Logitech Logitech MX Master 3S Performance Wireless Mouse" />
+            <Using name="Logitech MX Anywhere 3 Compact Performance Mouse" />
             <Using name="Logitech C920S Pro 1080p HD Webcam" />
           </ul>
 
