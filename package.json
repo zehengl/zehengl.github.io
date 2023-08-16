@@ -28,7 +28,7 @@
     "gatsby-transformer-remark": "^6.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "katex": "^0.16.8",
-    "postcss": "^8.4.27",
+    "postcss": "^8.4.28",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -43,8 +43,8 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "prettier": "^3.0.1"
+    "gh-pages": "^6.0.0",
+    "prettier": "^3.0.2"
   },
   "homepage": "https://zehengl.github.io/",
   "keywords": [
