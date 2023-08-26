@@ -17,7 +17,7 @@
     "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-plugin-typography": "^5.12.0",
-    "gatsby-remark-copy-linked-files": "^6.11.0",
+    "gatsby-remark-copy-linked-files": "^6.12.0",
     "gatsby-remark-embed-gist": "^1.2.1",
     "gatsby-remark-images": "^7.12.0",
     "gatsby-remark-katex": "^7.12.0",
