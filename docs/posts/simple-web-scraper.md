@@ -20,7 +20,7 @@ A simple web scraper to crawl address data from OpenDataCanada
 - [requests](http://docs.python-requests.org/en/latest/): Best http library
 - [beautifulsoup](http://www.crummy.com/software/BeautifulSoup/): Super easy-to-use site scraping library
 - time: Be a good netizen and use time.sleep()
-- codecs: Deal with french chracters (well, I am scraping addresses in Canada)
+- codecs: Deal with french characters (well, I am scraping addresses in Canada)
 
 ## Analysis
 

@@ -30,10 +30,10 @@ First things first, I will create a Git repo for this project. And I intend to u
 python -m cookiecutter gh:zehengl/cookiecutter-py-package
 ```
 
-Then, I can create a virtual envrionment for this project.
+Then, I can create a virtual environment for this project.
 
 ```
-python -m venv venv
+python -m venv .venv
 ```
 
 Again I prefer to use `venv` since it's already included the standard library.

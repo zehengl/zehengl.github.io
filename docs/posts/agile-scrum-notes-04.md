@@ -33,7 +33,7 @@ Details of the Scrum ceremonies
 
 ## Release
 
-The concept of a “Release” has been removed from the latest Scrum Guide. The idea being that each Sprint should be considered a mini-release.
+The concept of a _Release_ has been removed from the latest Scrum Guide. The idea being that each Sprint should be considered a mini-release.
 
 - The customer would like to know what they can expect over a period of time
 - The process of release planning helps the Product Owner to convey the plan giving logical milestones

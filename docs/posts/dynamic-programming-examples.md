@@ -20,7 +20,7 @@ Let's use Fibonacci sequence (0, 1, 1, 2, 3, 5, 8, 13, ...) as an example. We kn
 
 In other words, to solve $F(n)$ we need the value of $F(n-1)$ and $F(n-2)$, which leads to finding $F(n-2)$, $F(n-3)$, $F(n-4)$, $F(n-5)$, over and over.
 
-When it comes to $F(0)$ and $F(1),$ we have $F(0)=$0 and $F(1)=$1.
+When it comes to $F(0)$ and $F(1),$ we have $F(0)=0$ and $F(1)=1$.
 
 Hence, we can cast the problem into a "table fulfilling" tasks (memorizing the optimal values of sub-problems.)
 
@@ -28,33 +28,33 @@ Let's solve the Fibonacci number problem when n = 6.
 
 I first initialize a array (1x7 table).
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| F(n) |  0  |  1  |     |     |     |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $F(n)$ |  0  |  1  |     |     |     |     |     |
 
 Then compute n = 2
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| F(n) |  0  |  1  |  1  |     |     |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $F(n)$ |  0  |  1  |  1  |     |     |     |     |
 
 Then compute n = 3
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| F(n) |  0  |  1  |  1  |  2  |     |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $F(n)$ |  0  |  1  |  1  |  2  |     |     |     |
 
 **...**
 
 Then compute n = 6
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| F(n) |  0  |  1  |  1  |  2  |  3  |  5  |  8  |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $F(n)$ |  0  |  1  |  1  |  2  |  3  |  5  |  8  |
 
 ## The problems
 
-The Fibonacci number problem may be too simple. Let's take a look at two exmaples from [LeetCode](https://leetcode.com/).
+The Fibonacci number problem may be too simple. Let's take a look at two examples from [LeetCode](https://leetcode.com/).
 
 **1. [House Robber](https://leetcode.com/problems/house-robber/) (LeetCode 198)**: _Houses in a row_
 
@@ -72,66 +72,66 @@ Let's use [1, 2, 5, 3, 9, 3, 2] as an example to represent the values (always gr
 
 **Situation 1: Houses in a row**
 
-G(n) denotes the optimal gain after robbing house **n**.
+$G(n)$ denotes the optimal gain after robbing house **n**.
 
 First I initialize the table as follows.
 
-- G(0) means no gain if there's no house to rob.
-- G(1) means always robbing the house if there's only one.
+- $G(0)$ means no gain if there's no house to rob.
+- $G(1)$ means always robbing the house if there's only one.
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| V(n) |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
-| G(n) |  0  |  1  |     |     |     |     |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $V(n)$ |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
+| $G(n)$ |  0  |  1  |     |     |     |     |     |     |
 
 Therefore, after robbing the n _th_ house, the optimal gain is to choose the following:
 
 1. robbing the n-2 _th_ house and the current house
 2. robbing the n-1 _th_ house and but not the current house
 
-Or using the notation: G(n) = max( G(n-1), G(n-2)+V(n) )
+Or using the notation: $G(n) = max(G(n-1), G(n-2)+V(n))$
 
 Then compute n = 2
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| V(n) |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
-| G(n) |  0  |  1  |  2  |     |     |     |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $V(n)$ |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
+| $G(n)$ |  0  |  1  |  2  |     |     |     |     |     |
 
 Then compute n = 3
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| V(n) |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
-| G(n) |  0  |  1  |  2  |  6  |     |     |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $V(n)$ |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
+| $G(n)$ |  0  |  1  |  2  |  6  |     |     |     |     |
 
 Then compute n = 4
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| V(n) |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
-| G(n) |  0  |  1  |  2  |  6  |  6  |     |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $V(n)$ |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
+| $G(n)$ |  0  |  1  |  2  |  6  |  6  |     |     |     |
 
 Then compute n = 5
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| V(n) |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
-| G(n) |  0  |  1  |  2  |  6  |  6  | 15  |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $V(n)$ |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
+| $G(n)$ |  0  |  1  |  2  |  6  |  6  | 15  |     |     |
 
 Then compute n = 6
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| V(n) |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
-| G(n) |  0  |  1  |  2  |  6  |  6  | 15  |     |     |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $V(n)$ |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
+| $G(n)$ |  0  |  1  |  2  |  6  |  6  | 15  |     |     |
 
 Then compute n = 7
 
-|  n   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
-| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| V(n) |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
-| G(n) |  0  |  1  |  2  |  6  |  6  | 15  | 15  | 17  |
+|   n    |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
+| :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| $V(n)$ |  0  |  1  |  2  |  5  |  3  |  9  |  3  |  2  |
+| $G(n)$ |  0  |  1  |  2  |  6  |  6  | 15  | 15  | 17  |
 
 <br>
 
