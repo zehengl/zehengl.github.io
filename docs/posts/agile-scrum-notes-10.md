@@ -119,10 +119,10 @@ Advanced concepts in Scrum
 
 <!-- prettier-ignore -->
 - Leverage technology:
-    - Goodweb-conferencingtools
+    - Good web-conferencing tools
     - Good speaker phone to make tele-conferencing easier
     - Switch on web-cameras/use video conferences
-    - Instantmessaging
+    - Instant messaging
 - Be sensitive about timing of interaction
     - Working hours
     - Vacation times

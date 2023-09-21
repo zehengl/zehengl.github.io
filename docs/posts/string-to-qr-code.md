@@ -61,7 +61,7 @@ See [Getting Started on Heroku with Python](https://devcenter.heroku.com/article
 
 ## The Demo
 
-Demo available at [ez-qrcode-generator.herokuapp.com](https://ez-qrcode-generator.herokuapp.com/)
+Demo available at ~~[ez-qrcode-generator.herokuapp.com](https://ez-qrcode-generator.herokuapp.com/)~~
 
 Interesting use case includes:
 
