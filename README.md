@@ -6,5 +6,8 @@ My GitHub page
 
 ## Getting Started
 
-    npm install --legacy-peer-deps
-    npm start
+    python -m venv .venv
+    .\.venv\Scripts\activate
+    python -m pip install -U pip
+    pip install -r requirements.txt
+    mkdocs serve
