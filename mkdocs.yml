@@ -1,6 +1,5 @@
 site_name: zehengl.github.io
 site_author: Zeheng Li
-
 theme:
   name: material
   favicon: https://raw.githubusercontent.com/zehengl/logo/main/ZL.png
@@ -8,13 +7,19 @@ theme:
   font:
     text: Roboto
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: grey
       accent: green
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
       accent: orange
       toggle:
@@ -25,7 +30,7 @@ theme:
     - navigation.top
 repo_name: zehengl.github.io
 repo_url: https://github.com/zehengl/zehengl.github.io
-copyright: Copyright &copy; 2018 - 2023 Zeheng Li
+copyright: Copyright &copy; 2018 - 2024 Zeheng Li
 nav:
   - index.md
   - uses.md
@@ -58,11 +63,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tilde
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript:
   - javascripts/katex.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js
 extra_css:
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css
