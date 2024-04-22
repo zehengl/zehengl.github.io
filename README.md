@@ -1,6 +1,6 @@
 # zehengl.github.io
 
-[![GitHub Pages Build and Deploy](https://github.com/zehengl/zehengl.github.io/actions/workflows/gh-pages-build-deploy.yml/badge.svg)](https://github.com/zehengl/zehengl.github.io/actions/workflows/gh-pages-build-deploy.yml)
+[![GitHub Pages](https://github.com/zehengl/zehengl.github.io/actions/workflows/gh-deploy.yml/badge.svg)](https://github.com/zehengl/zehengl.github.io/actions/workflows/gh-deploy.yml)
 
 My GitHub Pages
 
