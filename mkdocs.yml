@@ -42,6 +42,9 @@ plugins:
       post_url_format: "{slug}"
   - minify:
       minify_html: true
+      minify_js: true
+      js_files:
+        - javascripts/katex.js
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
