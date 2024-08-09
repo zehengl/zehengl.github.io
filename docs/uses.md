@@ -34,8 +34,6 @@ Tech that I am using and used before
 
 :white_check_mark: Dell 24 Monitor - SE2419HR
 
-:white_check_mark: Keychron K1 Version 1
-
 :white_check_mark: Logitech MX Anywhere 3 Compact Performance Mouse
 
 :white_check_mark: Logitech C920S Pro 1080p HD Webcam
@@ -63,6 +61,8 @@ Tech that I am using and used before
 ~~Dell Ultrasharp 2007fp 20-inch~~
 
 **Accessory**
+
+~~Keychron K1 Version 1~~
 
 ~~Logitech G700s Rechargeable Gaming Mouse~~
 
