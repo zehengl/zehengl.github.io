@@ -1,22 +1,29 @@
+---
+hide:
+  - toc
+---
+
 # Uses
 
 Tech that I am using and used before
 
 ## Current Setup
 
-**Phone**
+### Phone
 
 :white_check_mark: Apple iPhone 13 Pro
 
-**Color Palettes**
+### Color Palettes
 
 :white_check_mark: Dracula (terminals)
 
 :white_check_mark: Oceanic Next (code editors)
 
-**macOS**
+### macOS
 
-:white_check_mark: Apple Mac mini (M1, 2020)
+#### main
+
+:white_check_mark: Apple Mac mini (M4, 2024)
 
 :white_check_mark: BenQ PD2500Q 25-inch QHD Designer Monitor
 
@@ -26,17 +33,23 @@ Tech that I am using and used before
 
 :white_check_mark: Logitech StreamCam Plus HD Webcam
 
-**Windows**
+#### backup
 
-:white_check_mark: ThinkPad T14 Gen 2
-
-:white_check_mark: Dell Inspiron 5480
+:white_check_mark: Apple Mac mini (M1, 2020)
 
 :white_check_mark: Dell 24 Monitor - SE2419HR
+
+:white_check_mark: Keychron K1 Version 1
 
 :white_check_mark: Logitech MX Anywhere 3 Compact Performance Mouse
 
 :white_check_mark: Logitech C920S Pro 1080p HD Webcam
+
+### Windows
+
+:white_check_mark: ThinkPad T14 Gen 2
+
+:white_check_mark: Dell Inspiron 5480
 
 ## Past Gears
 
@@ -61,8 +74,6 @@ Tech that I am using and used before
 ~~Dell Ultrasharp 2007fp 20-inch~~
 
 **Accessory**
-
-~~Keychron K1 Version 1~~
 
 ~~Logitech G700s Rechargeable Gaming Mouse~~
 
