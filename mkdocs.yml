@@ -30,7 +30,7 @@ theme:
     - navigation.top
 repo_name: zehengl.github.io
 repo_url: https://github.com/zehengl/zehengl.github.io
-copyright: Copyright &copy; 2018 - 2024 Zeheng Li
+copyright: Copyright &copy; 2018 - 2025 Zeheng Li
 nav:
   - index.md
   - uses.md
