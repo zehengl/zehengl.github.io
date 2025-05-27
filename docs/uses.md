@@ -13,6 +13,22 @@ Tech that I am using and used before
 
 :white_check_mark: Apple iPhone 13 Pro
 
+### Camera and Lens
+
+:white_check_mark: Canon EOS R8
+
+:white_check_mark: Canon RF 35mm F1.8 Macro IS STM
+
+:white_check_mark: Canon RF 85mm F2 Marcro IS STM
+
+:white_check_mark: Canon RF 24-105mm F4 L IS USM
+
+:white_check_mark: Canon RF 70-200mm F4 L IS USM
+
+:white_check_mark: Canon RF 100-400mm F5.6-8 IS USM
+
+:white_check_mark: Fujifilm Instax Mini 12
+
 ### Color Palettes
 
 :white_check_mark: Dracula (terminals)
@@ -39,7 +55,7 @@ Tech that I am using and used before
 
 :white_check_mark: Dell 24 Monitor - SE2419HR
 
-:white_check_mark: Keychron K1 Version 1
+:white_check_mark: Logitech MX Keys Mini
 
 :white_check_mark: Logitech MX Anywhere 3 Compact Performance Mouse
 
@@ -79,6 +95,8 @@ Tech that I am using and used before
 
 ~~Logitech M535 Bluetooth Mouse~~
 
+~~Keychron K1 Version 1~~
+
 **Phone**
 
 ~~Apple iPhone 3GS~~
@@ -92,3 +110,15 @@ Tech that I am using and used before
 ~~Samsung Galaxy Note9~~
 
 ~~Samsung Galaxy S10~~
+
+**Camera**
+
+~~Canon PowerShot A2100 IS~~
+
+~~Canon PowerShot SX200 IS~~
+
+~~Canon EOS R100~~
+
+~~Canon RF-S 18-45mm F4.5-6.3 IS STM~~
+
+~~Canon RF 24-105mm F4-7.1 IS STM~~
