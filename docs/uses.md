@@ -111,7 +111,7 @@ Tech that I am using and used before
 
 ~~Samsung Galaxy S10~~
 
-**Camera**
+**Camera and Lens**
 
 ~~Canon PowerShot A2100 IS~~
 
