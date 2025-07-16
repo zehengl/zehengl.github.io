@@ -51,8 +51,6 @@ Tech that I am using and used before
 
 #### backup
 
-:white_check_mark: Apple Mac mini (M1, 2020)
-
 :white_check_mark: Dell 24 Monitor - SE2419HR
 
 :white_check_mark: Logitech MX Keys Mini
@@ -80,6 +78,8 @@ Tech that I am using and used before
 ~~Apple MacBook Pro (Retina, 15-inch, Mid 2014)~~
 
 ~~Lenovo Ideapad 120s (11)~~
+
+~~Apple Mac mini (M1, 2020)~~
 
 **Monitor**
 
