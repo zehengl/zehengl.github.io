@@ -61,9 +61,7 @@ Tech that I am using and used before
 
 :white_check_mark: Logitech C920S Pro 1080p HD Webcam
 
-### Windows
-
-:white_check_mark: ThinkPad T14 Gen 2
+### Ubuntu
 
 :white_check_mark: Dell Inspiron 5480
 
@@ -82,6 +80,8 @@ Tech that I am using and used before
 ~~Lenovo Ideapad 120s (11)~~
 
 ~~Apple Mac mini (M1, 2020)~~
+
+~~ThinkPad T14 Gen 2~~
 
 **Monitor**
 
