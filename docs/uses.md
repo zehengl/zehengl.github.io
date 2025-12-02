@@ -11,7 +11,7 @@ Tech that I am using and used before
 
 ### Phone
 
-:white_check_mark: Apple iPhone 13 Pro
+:white_check_mark: Apple iPhone 17 Pro
 
 ### Camera and Lens
 
@@ -110,6 +110,8 @@ Tech that I am using and used before
 ~~Samsung Galaxy Note9~~
 
 ~~Samsung Galaxy S10~~
+
+~~Apple iPhone 13 Pro~~
 
 **Camera and Lens**
 
