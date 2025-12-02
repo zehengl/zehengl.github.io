@@ -41,6 +41,8 @@ Tech that I am using and used before
 
 :white_check_mark: Apple Mac mini (M4, 2024)
 
+:white_check_mark: Dell 27 Plus 4K Monitor - S2725QS
+
 :white_check_mark: BenQ PD2500Q 25-inch QHD Designer Monitor
 
 :white_check_mark: Keychron K2 Version 2
