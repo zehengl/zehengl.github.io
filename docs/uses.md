@@ -29,6 +29,8 @@ Tech that I am using and used before
 
 :white_check_mark: Fujifilm Instax Mini 12
 
+:white_check_mark: Insta360 GO Ultra
+
 ### Color Palettes
 
 :white_check_mark: Dracula (terminals)
