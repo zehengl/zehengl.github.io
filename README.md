@@ -10,4 +10,4 @@ My GitHub Pages
     .\.venv\Scripts\activate
     python -m pip install -U pip
     pip install -r requirements.txt
-    mkdocs serve
+    zensical serve
