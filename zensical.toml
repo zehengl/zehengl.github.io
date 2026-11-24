@@ -3,7 +3,7 @@ site_name = "zehengl.github.io"
 site_author = "Zeheng Li"
 repo_name = "zehengl.github.io"
 repo_url = "https://github.com/zehengl/zehengl.github.io"
-copyright = "Copyright &copy; 2018 - 2025 Zeheng Li"
+copyright = "Copyright &copy; 2018 - 2026 Zeheng Li"
 nav = ["index.md", "uses.md"]
 extra_javascript = [
   "javascripts/katex.js",
@@ -17,7 +17,9 @@ plugins = [
   "search",
   "tags",
   { blog = { blog_dir = ".", post_url_format = "{slug}" } },
-  { minify = { minify_html = true, minify_js = true, js_files = ["javascripts/katex.js"] } },
+  { minify = { minify_html = true, minify_js = true, js_files = [
+    "javascripts/katex.js",
+  ] } },
   { "git-revision-date-localized" = { type = "timeago", enable_creation_date = true } },
 ]
 
