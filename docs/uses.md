@@ -31,6 +31,8 @@ Tech that I am using and used before
 
 :white_check_mark: Insta360 GO Ultra
 
+:white_check_mark: Camp Snap CS-Pro
+
 ### Color Palettes
 
 :white_check_mark: Dracula (terminals)
